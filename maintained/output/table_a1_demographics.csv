@@ -1,0 +1,20 @@
+demographic,category,unweighted_pct,weighted_pct
+Gender,Male,48.7,47.9
+Gender,Female,49.4,49.9
+Age,18-24,5.5,12.3
+Age,25-34,10.1,17.2
+Age,35-44,12.9,16.4
+Age,45-54,16.8,15.8
+Age,55-64,21.2,16.8
+Age,65+,33.5,21.5
+Race and ethnicity,"White, non-Hispanic",69,64.8
+Race and ethnicity,"Black, non-Hispanic",11.6,12.9
+Race and ethnicity,Hispanic,12,15.8
+Race and ethnicity,"Asian, non-Hispanic",2.5,4.9
+Race and ethnicity,"Other, non-Hispanic",4.9,1.6
+Educational attainment,High school or less,17.8,38.4
+Educational attainment,Some college/associate's,31,30.5
+Educational attainment,Bachelor's,28.4,19.4
+Educational attainment,Graduate degree,22.8,11.7
+Biden approval,Approve,44.2,41.4
+Biden approval,Disapprove,55.1,57.7

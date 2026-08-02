@@ -1,0 +1,7 @@
+script,panel_index,group,panel_letter
+figure_1.R,1,Neither,a
+figure_1.R,2,Democratic,b
+figure_1.R,3,Republican,c
+figure_A1.R,1,Independent,a
+figure_A1.R,2,Democrat,b
+figure_A1.R,3,Republican,c

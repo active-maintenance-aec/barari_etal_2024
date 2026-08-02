@@ -1,0 +1,7 @@
+script,exit_status_as_deposited,completes_as_deposited,completes_stripped,message_as_deposited,message_stripped
+prep_data.R,0,TRUE,TRUE,,
+figure_1.R,1,FALSE,FALSE,"Error in ggsave(""C:/Users/tuq69844/Dropbox/indictment_counterfactual/submissions/POQ_final/Barari-23-0292.R1 Figure1a.eps"", :","Error in readRDS(con, refhook = refhook) : cannot open the connection"
+figure_A1.R,1,FALSE,FALSE,"Error in ggsave(""C:/Users/tuq69844/Dropbox/indictment_counterfactual/submissions/POQ_final/Barari-23-0292.R1 FigureA1a.eps"", :","Error in readRDS(con, refhook = refhook) : cannot open the connection"
+table_2.R,0,TRUE,FALSE,,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+table_A2.R,0,TRUE,FALSE,,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+table_A3.R,0,TRUE,FALSE,,"Error in readRDS(con, refhook = refhook) : cannot open the connection"

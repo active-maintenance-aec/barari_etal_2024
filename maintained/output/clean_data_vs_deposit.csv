@@ -1,0 +1,4 @@
+object,rows_rebuilt,rows_deposited,identical_to_deposit
+dat_clean.rds,4838,4838,TRUE
+dat_long_clean.rds,72570,72570,TRUE
+long_topic_clean.rds,14514,14514,TRUE

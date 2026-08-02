@@ -1,0 +1,12 @@
+quantity,value
+n_respondents_deposited,4838
+n_primary_republican,2028
+n_primary_democratic,1921
+n_primary_neither,889
+n_party_id_republican,2026
+n_party_id_democrat,1953
+n_party_id_independent,754
+n_party_id_missing,105
+approve_unweighted_pct,44.171145101281525
+approve_weighted_pct,41.368891889276235
+disapprove_weighted_pct,57.73367065708764

@@ -1,0 +1,29 @@
+panel,effect,format,Republican,Democratic,Neither
+Beliefs,Positive,Change,16.1543,75.9679,37.3689
+Beliefs,Positive,Counterfactual,33.2556,36.4612,29.5477
+Beliefs,Positive,1-5%,13.0736,9.727,11.2523
+Beliefs,Positive,6-10%,6.0947,4.9428,4.8046
+Beliefs,Positive,11-20%,6.5796,8.417,6.1744
+Beliefs,Positive,20% or more,7.5077,13.3743,7.3164
+Beliefs,Negative,Change,39.5739,4.985,15.7474
+Beliefs,Negative,Counterfactual,14.9625,11.9254,20.4501
+Beliefs,Negative,1-5%,7.8852,6.5205,9.2406
+Beliefs,Negative,6-10%,2.5904,3.0928,4.8102
+Beliefs,Negative,11-20%,1.4638,1.2885,2.1016
+Beliefs,Negative,20% or more,3.0231,1.0236,4.2977
+Beliefs,No effect,Change,44.2719,19.0471,46.8837
+Beliefs,No effect,Counterfactual,51.7819,51.6134,50.0022
+Vote choice,Positive,Change,43.03,8.0041,20.3305
+Vote choice,Positive,Counterfactual,13.0466,13.3362,22.6483
+Vote choice,Positive,1-5%,7.8371,7.4128,11.1155
+Vote choice,Positive,6-10%,1.4456,1.5316,2.7385
+Vote choice,Positive,11-20%,2.2273,0.9875,4.1476
+Vote choice,Positive,20% or more,1.5366,3.4042,4.6467
+Vote choice,Negative,Change,16.2822,60.1521,30.8221
+Vote choice,Negative,Counterfactual,17.6602,14.1355,19.8945
+Vote choice,Negative,1-5%,9.3595,8.8406,8.3433
+Vote choice,Negative,6-10%,2.1777,1.1637,4.1231
+Vote choice,Negative,11-20%,2.046,3.265,3.5023
+Vote choice,Negative,20% or more,4.077,0.8662,3.9259
+Vote choice,No effect,Change,40.6879,31.8438,48.8474
+Vote choice,No effect,Counterfactual,69.2932,72.5283,57.4572

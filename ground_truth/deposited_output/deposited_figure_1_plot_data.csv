@@ -1,0 +1,2279 @@
+"topic","topic2","Topic","primary_party","sign","N","P","measure","threshold","label_Y_position","Label"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.01,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.01,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.01,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.01,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.01,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.01,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.01,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.01,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.01,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.01,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.01,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.01,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.01,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.01,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.01,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.01,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.01,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.01,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.02,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.02,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.02,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.02,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.02,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.02,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.02,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.02,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.02,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.02,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.02,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.02,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.02,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.02,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.02,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.02,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.02,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.02,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.03,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.03,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.03,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.03,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.03,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.03,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.03,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.03,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.03,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.03,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.03,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.03,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.03,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.03,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.03,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.03,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.03,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.03,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.04,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.04,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.04,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.04,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.04,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.04,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.04,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.04,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.04,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.04,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.04,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.04,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.04,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.04,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.04,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.04,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.04,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.04,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.05,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.05,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.05,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.05,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.05,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.05,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.05,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.05,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.05,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.05,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.05,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.05,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.05,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.05,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.05,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.05,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.05,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.05,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.06,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.06,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.06,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.06,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.06,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.06,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.06,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.06,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.06,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.06,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.06,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.06,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.06,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.06,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.06,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.06,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.06,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.06,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.07,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.07,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.07,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.07,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.07,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.07,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.07,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.07,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.07,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.07,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.07,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.07,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.07,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.07,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.07,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.07,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.07,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.07,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.08,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.08,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.08,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.08,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.08,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.08,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.08,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.08,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.08,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.08,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.08,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.08,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.08,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.08,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.08,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.08,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.08,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.08,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.09,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.09,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.09,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.09,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.09,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.09,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.09,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.09,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.09,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.09,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.09,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.09,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.09,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.09,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.09,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.09,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.09,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.09,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.1,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.1,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.1,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.1,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.1,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.1,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.1,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.1,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.1,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.1,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.1,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.1,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.1,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.1,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.1,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.1,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.1,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.1,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.11,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.11,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.11,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.11,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.11,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.11,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.11,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.11,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.11,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.11,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.11,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.11,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.11,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.11,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.11,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.11,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.11,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.11,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.12,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.12,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.12,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.12,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.12,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.12,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.12,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.12,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.12,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.12,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.12,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.12,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.12,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.12,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.12,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.12,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.12,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.12,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.13,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.13,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.13,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.13,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.13,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.13,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.13,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.13,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.13,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.13,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.13,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.13,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.13,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.13,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.13,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.13,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.13,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.13,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.14,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.14,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.14,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.14,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.14,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.14,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.14,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.14,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.14,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.14,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.14,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.14,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.14,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.14,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.14,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.14,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.14,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.14,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.15,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.15,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.15,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.15,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.15,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.15,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.15,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.15,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.15,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.15,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.15,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.15,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.15,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.15,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.15,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.15,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.15,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.15,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,430,0.427010923535253,"Change",-0.16,0.213505461767627,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,425,0.422045680238332,"Change",-0.16,0.638033763654419,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,152,0.150943396226415,"Change",-0.16,0.924528301886792,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,47,0.0493179433368311,"Change",-0.16,0.0246589716684155,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,148,0.155299055613851,"Change",-0.16,0.126967471143757,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,758,0.795383001049318,"Change",-0.16,0.602308499475341,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,74,0.163355408388521,"Change",-0.16,0.0816777041942605,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,197,0.434878587196468,"Change",-0.16,0.380794701986755,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,182,0.401766004415011,"Change",-0.16,0.799116997792494,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,606,0.63588667366212,"     Change",-0.16,0.31794333683106,NA
+"general","vote","Vote Choice, General Election","Democratic",0,286,0.300104931794334,"     Change",-0.16,0.785939139559286,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,61,0.0640083945435467,"     Change",-0.16,0.967995802728226,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,147,0.325942350332594,"     Change",-0.16,0.162971175166297,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,208,0.46119733924612,"     Change",-0.16,0.556541019955654,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,96,0.212860310421286,"     Change",-0.16,0.893569844789357,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,172,0.170804369414101,"     Change",-0.16,0.0854021847070506,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,424,0.421052631578947,"     Change",-0.16,0.381330685203575,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,411,0.408142999006951,"     Change",-0.16,0.795928500496524,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,136,0.145766345123258,"Counterfactual",0,0.0728831725616292,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,508,0.544480171489818,"Counterfactual",0,0.418006430868167,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,289,0.309753483386924,"Counterfactual",0,0.845123258306538,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,105,0.115131578947368,"Counterfactual",0,0.0575657894736842,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,481,0.527412280701754,"Counterfactual",0,0.378837719298246,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,326,0.357456140350877,"Counterfactual",0,0.821271929824561,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,75,0.193798449612403,"Counterfactual",0,0.0968992248062016,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,187,0.483204134366925,"Counterfactual",0,0.435400516795866,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,125,0.322997416020672,"Counterfactual",0,0.838501291989664,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,106,0.128329297820823,"Counterfactual",0,0.0641646489104116,NA
+"general","vote","Vote Choice, General Election","Democratic",0,625,0.756658595641647,"Counterfactual",0,0.506658595641647,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,95,0.11501210653753,"Counterfactual",0,0.942493946731235,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,70,0.196078431372549,"Counterfactual",0,0.0980392156862745,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,220,0.61624649859944,"Counterfactual",0,0.504201680672269,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,67,0.187675070028011,"Counterfactual",0,0.906162464985994,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,174,0.179566563467492,"Counterfactual",0,0.0897832817337461,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,678,0.69969040247678,"Counterfactual",0,0.529411764705882,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,117,0.120743034055728,"Counterfactual",0,0.939628482972136,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,132,0.141479099678457,"Counterfactual",0.01,0.0707395498392283,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,519,0.556270096463023,"Counterfactual",0.01,0.419614147909968,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,282,0.302250803858521,"Counterfactual",0.01,0.84887459807074,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,104,0.114035087719298,"Counterfactual",0.01,0.0570175438596491,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,483,0.529605263157895,"Counterfactual",0.01,0.378837719298246,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,325,0.356359649122807,"Counterfactual",0.01,0.821820175438597,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,75,0.193798449612403,"Counterfactual",0.01,0.0968992248062016,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,190,0.490956072351421,"Counterfactual",0.01,0.439276485788114,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,122,0.315245478036176,"Counterfactual",0.01,0.842377260981912,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,102,0.123486682808717,"Counterfactual",0.01,0.0617433414043584,NA
+"general","vote","Vote Choice, General Election","Democratic",0,630,0.76271186440678,"Counterfactual",0.01,0.504842615012106,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,94,0.113801452784504,"Counterfactual",0.01,0.943099273607748,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,68,0.19047619047619,"Counterfactual",0.01,0.0952380952380952,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,224,0.627450980392157,"Counterfactual",0.01,0.504201680672269,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,65,0.182072829131653,"Counterfactual",0.01,0.908963585434174,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,171,0.176470588235294,"Counterfactual",0.01,0.0882352941176471,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,685,0.706914344685243,"Counterfactual",0.01,0.529927760577915,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,113,0.116615067079463,"Counterfactual",0.01,0.941692466460268,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,97,0.103965702036442,"Counterfactual",0.02,0.0519828510182208,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,604,0.647374062165059,"Counterfactual",0.02,0.427652733118971,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,232,0.248660235798499,"Counterfactual",0.02,0.87566988210075,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,66,0.0723684210526316,"Counterfactual",0.02,0.0361842105263158,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,567,0.62171052631579,"Counterfactual",0.02,0.383223684210526,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,279,0.305921052631579,"Counterfactual",0.02,0.84703947368421,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,63,0.162790697674419,"Counterfactual",0.02,0.0813953488372093,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,222,0.573643410852713,"Counterfactual",0.02,0.449612403100775,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,102,0.263565891472868,"Counterfactual",0.02,0.868217054263566,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,63,0.076271186440678,"Counterfactual",0.02,0.038135593220339,NA
+"general","vote","Vote Choice, General Election","Democratic",0,711,0.860774818401937,"Counterfactual",0.02,0.506658595641647,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,52,0.062953995157385,"Counterfactual",0.02,0.968523002421308,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,52,0.145658263305322,"Counterfactual",0.02,0.0728291316526611,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,257,0.719887955182073,"Counterfactual",0.02,0.505602240896359,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,48,0.134453781512605,"Counterfactual",0.02,0.932773109243697,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,121,0.124871001031992,"Counterfactual",0.02,0.0624355005159959,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,763,0.787409700722394,"Counterfactual",0.02,0.518575851393189,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,85,0.087719298245614,"Counterfactual",0.02,0.956140350877193,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,84,0.090032154340836,"Counterfactual",0.03,0.045016077170418,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,641,0.687031082529475,"Counterfactual",0.03,0.433547695605573,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,208,0.222936763129689,"Counterfactual",0.03,0.888531618435155,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,57,0.0625,"Counterfactual",0.03,0.03125,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,596,0.653508771929825,"Counterfactual",0.03,0.389254385964912,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,259,0.283991228070175,"Counterfactual",0.03,0.858004385964912,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,55,0.142118863049096,"Counterfactual",0.03,0.0710594315245478,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,239,0.617571059431525,"Counterfactual",0.03,0.450904392764858,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,93,0.24031007751938,"Counterfactual",0.03,0.87984496124031,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,49,0.0593220338983051,"Counterfactual",0.03,0.0296610169491525,NA
+"general","vote","Vote Choice, General Election","Democratic",0,739,0.894673123486683,"Counterfactual",0.03,0.506658595641647,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,38,0.0460048426150121,"Counterfactual",0.03,0.976997578692494,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,40,0.112044817927171,"Counterfactual",0.03,0.0560224089635854,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,273,0.764705882352941,"Counterfactual",0.03,0.494397759103641,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,44,0.123249299719888,"Counterfactual",0.03,0.938375350140056,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,106,0.109391124871001,"Counterfactual",0.03,0.0546955624355005,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,796,0.821465428276574,"Counterfactual",0.03,0.520123839009288,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,67,0.0691434468524252,"Counterfactual",0.03,0.965428276573787,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,74,0.0793140407288317,"Counterfactual",0.04,0.0396570203644159,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,668,0.715969989281886,"Counterfactual",0.04,0.437299035369775,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,191,0.204715969989282,"Counterfactual",0.04,0.897642015005359,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,44,0.0482456140350877,"Counterfactual",0.04,0.0241228070175439,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,621,0.680921052631579,"Counterfactual",0.04,0.388706140350877,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,247,0.270833333333333,"Counterfactual",0.04,0.864583333333333,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,49,0.126614987080103,"Counterfactual",0.04,0.0633074935400517,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,253,0.65374677002584,"Counterfactual",0.04,0.453488372093023,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,85,0.219638242894057,"Counterfactual",0.04,0.890180878552972,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,35,0.0423728813559322,"Counterfactual",0.04,0.0211864406779661,NA
+"general","vote","Vote Choice, General Election","Democratic",0,756,0.915254237288136,"Counterfactual",0.04,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,35,0.0423728813559322,"Counterfactual",0.04,0.978813559322034,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,39,0.109243697478992,"Counterfactual",0.04,0.0546218487394958,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,281,0.787114845938375,"Counterfactual",0.04,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,37,0.103641456582633,"Counterfactual",0.04,0.948179271708683,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,91,0.0939112487100103,"Counterfactual",0.04,0.0469556243550052,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,826,0.852425180598555,"Counterfactual",0.04,0.520123839009288,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,52,0.0536635706914345,"Counterfactual",0.04,0.973168214654283,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,63,0.067524115755627,"Counterfactual",0.05,0.0337620578778135,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,690,0.739549839228296,"Counterfactual",0.05,0.437299035369775,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,180,0.192926045016077,"Counterfactual",0.05,0.903536977491961,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,39,0.0427631578947368,"Counterfactual",0.05,0.0213815789473684,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,639,0.700657894736842,"Counterfactual",0.05,0.393092105263158,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,234,0.256578947368421,"Counterfactual",0.05,0.87171052631579,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,42,0.108527131782946,"Counterfactual",0.05,0.0542635658914729,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,263,0.679586563307494,"Counterfactual",0.05,0.448320413436692,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,82,0.211886304909561,"Counterfactual",0.05,0.89405684754522,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,32,0.0387409200968523,"Counterfactual",0.05,0.0193704600484262,NA
+"general","vote","Vote Choice, General Election","Democratic",0,764,0.924939467312349,"Counterfactual",0.05,0.501210653753027,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,30,0.036319612590799,"Counterfactual",0.05,0.9818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,34,0.0952380952380952,"Counterfactual",0.05,0.0476190476190476,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,291,0.815126050420168,"Counterfactual",0.05,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,32,0.0896358543417367,"Counterfactual",0.05,0.955182072829132,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,78,0.0804953560371517,"Counterfactual",0.05,0.0402476780185759,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,847,0.874097007223942,"Counterfactual",0.05,0.517543859649123,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,44,0.0454076367389061,"Counterfactual",0.05,0.977296181630547,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,55,0.0589496248660236,"Counterfactual",0.06,0.0294748124330118,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,707,0.757770632368703,"Counterfactual",0.06,0.437834941050375,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,171,0.183279742765273,"Counterfactual",0.06,0.908360128617363,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,35,0.0383771929824561,"Counterfactual",0.06,0.0191885964912281,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,653,0.716008771929825,"Counterfactual",0.06,0.396381578947368,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,224,0.245614035087719,"Counterfactual",0.06,0.87719298245614,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,40,0.103359173126615,"Counterfactual",0.06,0.0516795865633075,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,274,0.708010335917313,"Counterfactual",0.06,0.457364341085271,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,73,0.188630490956072,"Counterfactual",0.06,0.905684754521964,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,28,0.0338983050847458,"Counterfactual",0.06,0.0169491525423729,NA
+"general","vote","Vote Choice, General Election","Democratic",0,772,0.934624697336562,"Counterfactual",0.06,0.501210653753027,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,26,0.0314769975786925,"Counterfactual",0.06,0.984261501210654,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,32,0.0896358543417367,"Counterfactual",0.06,0.0448179271708683,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,295,0.826330532212885,"Counterfactual",0.06,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,30,0.0840336134453782,"Counterfactual",0.06,0.957983193277311,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,70,0.0722394220846233,"Counterfactual",0.06,0.0361197110423117,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,859,0.886480908152735,"Counterfactual",0.06,0.515479876160991,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,40,0.0412796697626419,"Counterfactual",0.06,0.979360165118679,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,47,0.0503751339764201,"Counterfactual",0.07,0.0251875669882101,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,725,0.777063236870311,"Counterfactual",0.07,0.438906752411576,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,161,0.172561629153269,"Counterfactual",0.07,0.913719185423365,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,27,0.0296052631578947,"Counterfactual",0.07,0.0148026315789474,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,666,0.730263157894737,"Counterfactual",0.07,0.394736842105263,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,219,0.240131578947368,"Counterfactual",0.07,0.879934210526316,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,34,0.0878552971576227,"Counterfactual",0.07,0.0439276485788114,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,285,0.736434108527132,"Counterfactual",0.07,0.456072351421189,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,68,0.175710594315245,"Counterfactual",0.07,0.912144702842377,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,22,0.026634382566586,"Counterfactual",0.07,0.013317191283293,NA
+"general","vote","Vote Choice, General Election","Democratic",0,779,0.943099273607748,"Counterfactual",0.07,0.49818401937046,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,25,0.0302663438256659,"Counterfactual",0.07,0.984866828087167,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,28,0.0784313725490196,"Counterfactual",0.07,0.0392156862745098,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,301,0.843137254901961,"Counterfactual",0.07,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,28,0.0784313725490196,"Counterfactual",0.07,0.96078431372549,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,67,0.0691434468524252,"Counterfactual",0.07,0.0345717234262126,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,867,0.894736842105263,"Counterfactual",0.07,0.516511867905057,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,35,0.0361197110423117,"Counterfactual",0.07,0.981940144478844,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,42,0.045016077170418,"Counterfactual",0.08,0.022508038585209,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,742,0.795284030010718,"Counterfactual",0.08,0.442658092175777,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,149,0.159699892818864,"Counterfactual",0.08,0.920150053590568,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,26,0.0285087719298246,"Counterfactual",0.08,0.0142543859649123,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,671,0.735745614035088,"Counterfactual",0.08,0.396381578947368,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,215,0.235745614035088,"Counterfactual",0.08,0.882127192982456,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,32,0.082687338501292,"Counterfactual",0.08,0.041343669250646,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,289,0.746770025839793,"Counterfactual",0.08,0.456072351421189,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,66,0.170542635658915,"Counterfactual",0.08,0.914728682170542,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,21,0.0254237288135593,"Counterfactual",0.08,0.0127118644067797,NA
+"general","vote","Vote Choice, General Election","Democratic",0,782,0.946731234866828,"Counterfactual",0.08,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,23,0.0278450363196126,"Counterfactual",0.08,0.986077481840194,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,28,0.0784313725490196,"Counterfactual",0.08,0.0392156862745098,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,302,0.84593837535014,"Counterfactual",0.08,0.50140056022409,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,27,0.0756302521008403,"Counterfactual",0.08,0.96218487394958,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,60,0.0619195046439628,"Counterfactual",0.08,0.0309597523219814,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,876,0.904024767801858,"Counterfactual",0.08,0.513931888544892,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,33,0.0340557275541796,"Counterfactual",0.08,0.98297213622291,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,39,0.0418006430868167,"Counterfactual",0.09,0.0209003215434084,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,750,0.803858520900322,"Counterfactual",0.09,0.443729903536977,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,144,0.154340836012862,"Counterfactual",0.09,0.922829581993569,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,24,0.0263157894736842,"Counterfactual",0.09,0.0131578947368421,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,681,0.74671052631579,"Counterfactual",0.09,0.399671052631579,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,207,0.226973684210526,"Counterfactual",0.09,0.886513157894737,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,31,0.0801033591731266,"Counterfactual",0.09,0.0400516795865633,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,290,0.749354005167959,"Counterfactual",0.09,0.454780361757106,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,66,0.170542635658915,"Counterfactual",0.09,0.914728682170543,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,20,0.0242130750605327,"Counterfactual",0.09,0.0121065375302663,NA
+"general","vote","Vote Choice, General Election","Democratic",0,786,0.951573849878935,"Counterfactual",0.09,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,20,0.0242130750605327,"Counterfactual",0.09,0.987893462469734,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,26,0.0728291316526611,"Counterfactual",0.09,0.0364145658263305,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,305,0.854341736694678,"Counterfactual",0.09,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,26,0.0728291316526611,"Counterfactual",0.09,0.963585434173669,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,57,0.0588235294117647,"Counterfactual",0.09,0.0294117647058824,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,880,0.908152734778122,"Counterfactual",0.09,0.512899896800826,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,32,0.0330237358101135,"Counterfactual",0.09,0.983488132094943,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,37,0.0396570203644159,"Counterfactual",0.1,0.0198285101822079,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,763,0.817792068595927,"Counterfactual",0.1,0.448553054662379,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,133,0.142550911039657,"Counterfactual",0.1,0.928724544480171,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,20,0.0219298245614035,"Counterfactual",0.1,0.0109649122807018,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,704,0.771929824561403,"Counterfactual",0.1,0.407894736842105,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,188,0.206140350877193,"Counterfactual",0.1,0.896929824561403,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,26,0.0671834625322997,"Counterfactual",0.1,0.0335917312661499,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,300,0.775193798449612,"Counterfactual",0.1,0.454780361757106,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,61,0.157622739018088,"Counterfactual",0.1,0.921188630490956,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,20,0.0242130750605327,"Counterfactual",0.1,0.0121065375302663,NA
+"general","vote","Vote Choice, General Election","Democratic",0,788,0.953995157384988,"Counterfactual",0.1,0.501210653753027,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,18,0.0217917675544794,"Counterfactual",0.1,0.98910411622276,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,25,0.0700280112044818,"Counterfactual",0.1,0.0350140056022409,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,309,0.865546218487395,"Counterfactual",0.1,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,23,0.0644257703081232,"Counterfactual",0.1,0.967787114845938,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,52,0.0536635706914345,"Counterfactual",0.1,0.0268317853457172,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,887,0.915376676986584,"Counterfactual",0.1,0.511351909184727,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,30,0.0309597523219814,"Counterfactual",0.1,0.984520123839009,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,37,0.0396570203644159,"Counterfactual",0.11,0.0198285101822079,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,774,0.829581993569132,"Counterfactual",0.11,0.454448017148982,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,122,0.130760986066452,"Counterfactual",0.11,0.934619506966774,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,19,0.0208333333333333,"Counterfactual",0.11,0.0104166666666667,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,709,0.777412280701754,"Counterfactual",0.11,0.409539473684211,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,184,0.201754385964912,"Counterfactual",0.11,0.899122807017544,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,24,0.062015503875969,"Counterfactual",0.11,0.0310077519379845,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,303,0.782945736434108,"Counterfactual",0.11,0.453488372093023,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,60,0.155038759689922,"Counterfactual",0.11,0.922480620155039,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,18,0.0217917675544794,"Counterfactual",0.11,0.0108958837772397,NA
+"general","vote","Vote Choice, General Election","Democratic",0,790,0.956416464891041,"Counterfactual",0.11,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,18,0.0217917675544794,"Counterfactual",0.11,0.98910411622276,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,22,0.061624649859944,"Counterfactual",0.11,0.030812324929972,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,313,0.876750700280112,"Counterfactual",0.11,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,22,0.061624649859944,"Counterfactual",0.11,0.969187675070028,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,48,0.0495356037151703,"Counterfactual",0.11,0.0247678018575851,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,892,0.920536635706914,"Counterfactual",0.11,0.509803921568627,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,29,0.0299277605779154,"Counterfactual",0.11,0.985036119711042,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,36,0.0385852090032154,"Counterfactual",0.12,0.0192926045016077,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,782,0.838156484458735,"Counterfactual",0.12,0.457663451232583,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,115,0.123258306538049,"Counterfactual",0.12,0.938370846730975,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,18,0.0197368421052632,"Counterfactual",0.12,0.00986842105263158,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,717,0.786184210526316,"Counterfactual",0.12,0.412828947368421,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,177,0.194078947368421,"Counterfactual",0.12,0.90296052631579,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,23,0.0594315245478036,"Counterfactual",0.12,0.0297157622739018,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,307,0.79328165374677,"Counterfactual",0.12,0.456072351421189,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,57,0.147286821705426,"Counterfactual",0.12,0.926356589147287,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,17,0.0205811138014528,"Counterfactual",0.12,0.0102905569007264,NA
+"general","vote","Vote Choice, General Election","Democratic",0,791,0.957627118644068,"Counterfactual",0.12,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,18,0.0217917675544794,"Counterfactual",0.12,0.98910411622276,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,21,0.0588235294117647,"Counterfactual",0.12,0.0294117647058824,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,314,0.879551820728291,"Counterfactual",0.12,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,22,0.061624649859944,"Counterfactual",0.12,0.969187675070028,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,47,0.0485036119711042,"Counterfactual",0.12,0.0242518059855521,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,895,0.923632610939113,"Counterfactual",0.12,0.51031991744066,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,27,0.0278637770897833,"Counterfactual",0.12,0.986068111455108,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,32,0.0342979635584137,"Counterfactual",0.13,0.0171489817792069,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,789,0.845659163987138,"Counterfactual",0.13,0.457127545551983,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,112,0.120042872454448,"Counterfactual",0.13,0.939978563772776,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,17,0.018640350877193,"Counterfactual",0.13,0.00932017543859649,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,721,0.790570175438597,"Counterfactual",0.13,0.413925438596491,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,174,0.190789473684211,"Counterfactual",0.13,0.904605263157895,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,20,0.0516795865633075,"Counterfactual",0.13,0.0258397932816537,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,312,0.806201550387597,"Counterfactual",0.13,0.454780361757106,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,55,0.142118863049096,"Counterfactual",0.13,0.928940568475452,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,17,0.0205811138014528,"Counterfactual",0.13,0.0102905569007264,NA
+"general","vote","Vote Choice, General Election","Democratic",0,792,0.958837772397094,"Counterfactual",0.13,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,17,0.0205811138014528,"Counterfactual",0.13,0.989709443099274,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,21,0.0588235294117647,"Counterfactual",0.13,0.0294117647058824,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,315,0.88235294117647,"Counterfactual",0.13,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,21,0.0588235294117647,"Counterfactual",0.13,0.970588235294118,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,46,0.0474716202270382,"Counterfactual",0.13,0.0237358101135191,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,896,0.924664602683179,"Counterfactual",0.13,0.509803921568627,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,27,0.0278637770897833,"Counterfactual",0.13,0.986068111455108,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,31,0.0332261521972133,"Counterfactual",0.14,0.0166130760986066,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,792,0.84887459807074,"Counterfactual",0.14,0.457663451232583,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,110,0.117899249732047,"Counterfactual",0.14,0.941050375133976,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,14,0.0153508771929825,"Counterfactual",0.14,0.00767543859649123,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,732,0.802631578947368,"Counterfactual",0.14,0.416666666666667,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,166,0.182017543859649,"Counterfactual",0.14,0.908991228070175,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,20,0.0516795865633075,"Counterfactual",0.14,0.0258397932816537,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,318,0.821705426356589,"Counterfactual",0.14,0.462532299741602,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,49,0.126614987080103,"Counterfactual",0.14,0.936692506459948,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,15,0.0181598062953995,"Counterfactual",0.14,0.00907990314769976,NA
+"general","vote","Vote Choice, General Election","Democratic",0,794,0.961259079903148,"Counterfactual",0.14,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,17,0.0205811138014528,"Counterfactual",0.14,0.989709443099274,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,21,0.0588235294117647,"Counterfactual",0.14,0.0294117647058824,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,316,0.88515406162465,"Counterfactual",0.14,0.50140056022409,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,20,0.0560224089635854,"Counterfactual",0.14,0.971988795518207,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,46,0.0474716202270382,"Counterfactual",0.14,0.0237358101135191,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,901,0.929824561403509,"Counterfactual",0.14,0.512383900928793,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,22,0.022703818369453,"Counterfactual",0.14,0.988648090815273,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,30,0.0321543408360129,"Counterfactual",0.15,0.0160771704180064,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,799,0.856377277599143,"Counterfactual",0.15,0.460342979635584,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,104,0.111468381564845,"Counterfactual",0.15,0.944265809217578,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,11,0.0120614035087719,"Counterfactual",0.15,0.00603070175438596,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,739,0.81030701754386,"Counterfactual",0.15,0.417214912280702,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,162,0.177631578947368,"Counterfactual",0.15,0.911184210526316,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,20,0.0516795865633075,"Counterfactual",0.15,0.0258397932816537,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,318,0.821705426356589,"Counterfactual",0.15,0.462532299741602,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,49,0.126614987080103,"Counterfactual",0.15,0.936692506459948,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,13,0.0157384987893462,"Counterfactual",0.15,0.00786924939467312,NA
+"general","vote","Vote Choice, General Election","Democratic",0,796,0.963680387409201,"Counterfactual",0.15,0.497578692493947,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,17,0.0205811138014528,"Counterfactual",0.15,0.989709443099274,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,21,0.0588235294117647,"Counterfactual",0.15,0.0294117647058824,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,317,0.887955182072829,"Counterfactual",0.15,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,19,0.0532212885154062,"Counterfactual",0.15,0.973389355742297,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,45,0.0464396284829721,"Counterfactual",0.15,0.0232198142414861,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,902,0.930856553147575,"Counterfactual",0.15,0.51186790505676,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,22,0.022703818369453,"Counterfactual",0.15,0.988648090815273,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,29,0.0310825294748124,"Counterfactual",0.16,0.0155412647374062,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,814,0.872454448017149,"Counterfactual",0.16,0.467309753483387,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,90,0.0964630225080386,"Counterfactual",0.16,0.951768488745981,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,10,0.0109649122807018,"Counterfactual",0.16,0.00548245614035088,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,751,0.823464912280702,"Counterfactual",0.16,0.422697368421053,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,151,0.165570175438596,"Counterfactual",0.16,0.917214912280702,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,19,0.0490956072351421,"Counterfactual",0.16,0.0245478036175711,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,324,0.837209302325581,"Counterfactual",0.16,0.467700258397933,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,44,0.113695090439276,"Counterfactual",0.16,0.943152454780362,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,12,0.0145278450363196,"Counterfactual",0.16,0.00726392251815981,NA
+"general","vote","Vote Choice, General Election","Democratic",0,798,0.966101694915254,"Counterfactual",0.16,0.497578692493947,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,16,0.0193704600484262,"Counterfactual",0.16,0.990314769975787,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,18,0.0504201680672269,"Counterfactual",0.16,0.0252100840336134,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,321,0.899159663865546,"Counterfactual",0.16,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,18,0.0504201680672269,"Counterfactual",0.16,0.974789915966387,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,41,0.0423116615067079,"Counterfactual",0.16,0.021155830753354,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,908,0.937048503611971,"Counterfactual",0.16,0.510835913312694,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,20,0.020639834881321,"Counterfactual",0.16,0.98968008255934,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,28,0.030010718113612,"Counterfactual",0.17,0.015005359056806,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,820,0.878885316184352,"Counterfactual",0.17,0.469453376205788,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,85,0.0911039657020364,"Counterfactual",0.17,0.954448017148982,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,10,0.0109649122807018,"Counterfactual",0.17,0.00548245614035088,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,760,0.833333333333333,"Counterfactual",0.17,0.427631578947368,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,142,0.155701754385965,"Counterfactual",0.17,0.922149122807018,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,17,0.0439276485788114,"Counterfactual",0.17,0.0219638242894057,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,326,0.842377260981912,"Counterfactual",0.17,0.465116279069767,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,44,0.113695090439276,"Counterfactual",0.17,0.943152454780362,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,10,0.0121065375302663,"Counterfactual",0.17,0.00605326876513317,NA
+"general","vote","Vote Choice, General Election","Democratic",0,802,0.970944309927361,"Counterfactual",0.17,0.497578692493947,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,14,0.0169491525423729,"Counterfactual",0.17,0.991525423728814,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,17,0.0476190476190476,"Counterfactual",0.17,0.0238095238095238,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,323,0.904761904761905,"Counterfactual",0.17,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,17,0.0476190476190476,"Counterfactual",0.17,0.976190476190476,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,40,0.0412796697626419,"Counterfactual",0.17,0.020639834881321,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,910,0.939112487100103,"Counterfactual",0.17,0.510835913312693,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,19,0.0196078431372549,"Counterfactual",0.17,0.990196078431373,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,28,0.030010718113612,"Counterfactual",0.18,0.015005359056806,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,822,0.881028938906752,"Counterfactual",0.18,0.470525187566988,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,83,0.0889603429796356,"Counterfactual",0.18,0.955519828510182,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,10,0.0109649122807018,"Counterfactual",0.18,0.00548245614035088,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,764,0.837719298245614,"Counterfactual",0.18,0.429824561403509,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,138,0.151315789473684,"Counterfactual",0.18,0.924342105263158,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,16,0.041343669250646,"Counterfactual",0.18,0.020671834625323,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,327,0.844961240310077,"Counterfactual",0.18,0.463824289405685,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,44,0.113695090439276,"Counterfactual",0.18,0.943152454780362,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,10,0.0121065375302663,"Counterfactual",0.18,0.00605326876513317,NA
+"general","vote","Vote Choice, General Election","Democratic",0,804,0.973365617433414,"Counterfactual",0.18,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,12,0.0145278450363196,"Counterfactual",0.18,0.99273607748184,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,15,0.0420168067226891,"Counterfactual",0.18,0.0210084033613445,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,326,0.913165266106443,"Counterfactual",0.18,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,16,0.0448179271708683,"Counterfactual",0.18,0.977591036414566,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,38,0.0392156862745098,"Counterfactual",0.18,0.0196078431372549,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,913,0.942208462332301,"Counterfactual",0.18,0.51031991744066,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,18,0.0185758513931889,"Counterfactual",0.18,0.990712074303406,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,26,0.0278670953912111,"Counterfactual",0.19,0.0139335476956056,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,828,0.887459807073955,"Counterfactual",0.19,0.471596998928189,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,79,0.0846730975348339,"Counterfactual",0.19,0.957663451232583,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,10,0.0109649122807018,"Counterfactual",0.19,0.00548245614035088,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,774,0.848684210526316,"Counterfactual",0.19,0.43530701754386,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,128,0.140350877192982,"Counterfactual",0.19,0.929824561403509,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,15,0.0387596899224806,"Counterfactual",0.19,0.0193798449612403,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,331,0.855297157622739,"Counterfactual",0.19,0.46640826873385,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,41,0.10594315245478,"Counterfactual",0.19,0.94702842377261,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,9,0.0108958837772397,"Counterfactual",0.19,0.00544794188861985,NA
+"general","vote","Vote Choice, General Election","Democratic",0,805,0.974576271186441,"Counterfactual",0.19,0.49818401937046,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,12,0.0145278450363196,"Counterfactual",0.19,0.99273607748184,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,15,0.0420168067226891,"Counterfactual",0.19,0.0210084033613445,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,327,0.915966386554622,"Counterfactual",0.19,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,15,0.0420168067226891,"Counterfactual",0.19,0.978991596638655,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,37,0.0381836945304438,"Counterfactual",0.19,0.0190918472652219,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,916,0.9453044375645,"Counterfactual",0.19,0.510835913312694,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,16,0.0165118679050568,"Counterfactual",0.19,0.991744066047472,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,25,0.0267952840300107,"Counterfactual",0.2,0.0133976420150054,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,833,0.892818863879957,"Counterfactual",0.2,0.473204715969989,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,75,0.0803858520900322,"Counterfactual",0.2,0.959807073954984,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.2,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,788,0.864035087719298,"Counterfactual",0.2,0.441885964912281,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,115,0.12609649122807,"Counterfactual",0.2,0.936951754385965,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.2,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,335,0.8656330749354,"Counterfactual",0.2,0.468992248062016,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,38,0.0981912144702842,"Counterfactual",0.2,0.950904392764858,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,7,0.00847457627118644,"Counterfactual",0.2,0.00423728813559322,NA
+"general","vote","Vote Choice, General Election","Democratic",0,807,0.976997578692494,"Counterfactual",0.2,0.496973365617433,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,12,0.0145278450363196,"Counterfactual",0.2,0.99273607748184,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,15,0.0420168067226891,"Counterfactual",0.2,0.0210084033613445,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,327,0.915966386554622,"Counterfactual",0.2,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,15,0.0420168067226891,"Counterfactual",0.2,0.978991596638655,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,31,0.0319917440660475,"Counterfactual",0.2,0.0159958720330237,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,922,0.951496388028896,"Counterfactual",0.2,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,16,0.0165118679050568,"Counterfactual",0.2,0.991744066047472,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,23,0.0246516613076099,"Counterfactual",0.21,0.0123258306538049,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,843,0.903536977491961,"Counterfactual",0.21,0.476420150053591,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,67,0.0718113612004287,"Counterfactual",0.21,0.964094319399786,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.21,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,795,0.87171052631579,"Counterfactual",0.21,0.445723684210526,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,108,0.118421052631579,"Counterfactual",0.21,0.94078947368421,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.21,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,336,0.868217054263566,"Counterfactual",0.21,0.470284237726098,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,37,0.0956072351421189,"Counterfactual",0.21,0.95219638242894,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.21,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,809,0.979418886198547,"Counterfactual",0.21,0.496973365617433,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,11,0.013317191283293,"Counterfactual",0.21,0.993341404358353,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,14,0.0392156862745098,"Counterfactual",0.21,0.0196078431372549,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,328,0.918767507002801,"Counterfactual",0.21,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,15,0.0420168067226891,"Counterfactual",0.21,0.978991596638655,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,29,0.0299277605779154,"Counterfactual",0.21,0.0149638802889577,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,927,0.956656346749226,"Counterfactual",0.21,0.508255933952528,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,13,0.0134158926728586,"Counterfactual",0.21,0.993292053663571,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,22,0.0235798499464094,"Counterfactual",0.22,0.0117899249732047,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,850,0.911039657020364,"Counterfactual",0.22,0.479099678456592,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,61,0.0653804930332262,"Counterfactual",0.22,0.967309753483387,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.22,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,801,0.87828947368421,"Counterfactual",0.22,0.449013157894737,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,102,0.111842105263158,"Counterfactual",0.22,0.944078947368421,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.22,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,338,0.873385012919897,"Counterfactual",0.22,0.472868217054264,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,35,0.0904392764857881,"Counterfactual",0.22,0.954780361757106,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.22,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,809,0.979418886198547,"Counterfactual",0.22,0.496973365617433,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,11,0.013317191283293,"Counterfactual",0.22,0.993341404358353,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,13,0.0364145658263305,"Counterfactual",0.22,0.0182072829131653,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,330,0.92436974789916,"Counterfactual",0.22,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,14,0.0392156862745098,"Counterfactual",0.22,0.980392156862745,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,29,0.0299277605779154,"Counterfactual",0.22,0.0149638802889577,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,929,0.958720330237358,"Counterfactual",0.22,0.509287925696594,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,11,0.0113519091847265,"Counterfactual",0.22,0.994324045407637,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,22,0.0235798499464094,"Counterfactual",0.23,0.0117899249732047,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,851,0.912111468381565,"Counterfactual",0.23,0.479635584137192,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,60,0.0643086816720257,"Counterfactual",0.23,0.967845659163987,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.23,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,802,0.879385964912281,"Counterfactual",0.23,0.449561403508772,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,101,0.110745614035088,"Counterfactual",0.23,0.944627192982456,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.23,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,338,0.873385012919897,"Counterfactual",0.23,0.472868217054264,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,35,0.0904392764857881,"Counterfactual",0.23,0.954780361757106,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.23,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,809,0.979418886198547,"Counterfactual",0.23,0.496973365617433,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,11,0.013317191283293,"Counterfactual",0.23,0.993341404358353,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,13,0.0364145658263305,"Counterfactual",0.23,0.0182072829131653,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,330,0.92436974789916,"Counterfactual",0.23,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,14,0.0392156862745098,"Counterfactual",0.23,0.980392156862745,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,29,0.0299277605779154,"Counterfactual",0.23,0.0149638802889577,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,929,0.958720330237358,"Counterfactual",0.23,0.509287925696594,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,11,0.0113519091847265,"Counterfactual",0.23,0.994324045407637,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,22,0.0235798499464094,"Counterfactual",0.24,0.0117899249732047,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,851,0.912111468381565,"Counterfactual",0.24,0.479635584137192,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,60,0.0643086816720257,"Counterfactual",0.24,0.967845659163987,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.24,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,804,0.881578947368421,"Counterfactual",0.24,0.450657894736842,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,99,0.108552631578947,"Counterfactual",0.24,0.945723684210526,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.24,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,338,0.873385012919897,"Counterfactual",0.24,0.472868217054264,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,35,0.0904392764857881,"Counterfactual",0.24,0.954780361757106,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.24,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,809,0.979418886198547,"Counterfactual",0.24,0.496973365617433,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,11,0.013317191283293,"Counterfactual",0.24,0.993341404358353,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,13,0.0364145658263305,"Counterfactual",0.24,0.0182072829131653,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,331,0.927170868347339,"Counterfactual",0.24,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,13,0.0364145658263305,"Counterfactual",0.24,0.981792717086835,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,28,0.0288957688338493,"Counterfactual",0.24,0.0144478844169247,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,932,0.961816305469556,"Counterfactual",0.24,0.509803921568627,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,9,0.00928792569659443,"Counterfactual",0.24,0.995356037151703,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,20,0.0214362272240086,"Counterfactual",0.25,0.0107181136120043,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,857,0.918542336548767,"Counterfactual",0.25,0.480707395498392,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,56,0.060021436227224,"Counterfactual",0.25,0.969989281886388,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,9,0.00986842105263158,"Counterfactual",0.25,0.00493421052631579,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,811,0.889254385964912,"Counterfactual",0.25,0.454495614035088,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,92,0.100877192982456,"Counterfactual",0.25,0.949561403508772,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,14,0.0361757105943152,"Counterfactual",0.25,0.0180878552971576,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,341,0.881136950904393,"Counterfactual",0.25,0.476744186046512,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,32,0.082687338501292,"Counterfactual",0.25,0.958656330749354,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.25,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,810,0.980629539951574,"Counterfactual",0.25,0.497578692493947,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,10,0.0121065375302663,"Counterfactual",0.25,0.993946731234867,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,13,0.0364145658263305,"Counterfactual",0.25,0.0182072829131653,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,333,0.932773109243697,"Counterfactual",0.25,0.502801120448179,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,11,0.030812324929972,"Counterfactual",0.25,0.984593837535014,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,26,0.0268317853457172,"Counterfactual",0.25,0.0134158926728586,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,934,0.963880288957688,"Counterfactual",0.25,0.508771929824561,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,9,0.00928792569659443,"Counterfactual",0.25,0.995356037151703,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,20,0.0214362272240086,"Counterfactual",0.26,0.0107181136120043,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,862,0.92390139335477,"Counterfactual",0.26,0.483386923901393,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,51,0.0546623794212219,"Counterfactual",0.26,0.972668810289389,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.26,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,826,0.905701754385965,"Counterfactual",0.26,0.460526315789474,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,79,0.0866228070175439,"Counterfactual",0.26,0.956688596491228,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,12,0.0310077519379845,"Counterfactual",0.26,0.0155038759689922,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,352,0.909560723514212,"Counterfactual",0.26,0.48578811369509,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,23,0.0594315245478036,"Counterfactual",0.26,0.970284237726098,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.26,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.26,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.26,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,11,0.030812324929972,"Counterfactual",0.26,0.015406162464986,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,336,0.941176470588235,"Counterfactual",0.26,0.50140056022409,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,10,0.0280112044817927,"Counterfactual",0.26,0.985994397759104,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,25,0.0257997936016512,"Counterfactual",0.26,0.0128998968008256,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,936,0.96594427244582,"Counterfactual",0.26,0.508771929824561,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,8,0.00825593395252838,"Counterfactual",0.26,0.995872033023736,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,17,0.0182207931404073,"Counterfactual",0.27,0.00911039657020364,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,868,0.930332261521972,"Counterfactual",0.27,0.483386923901393,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,48,0.0514469453376206,"Counterfactual",0.27,0.97427652733119,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.27,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,828,0.907894736842105,"Counterfactual",0.27,0.461622807017544,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,77,0.0844298245614035,"Counterfactual",0.27,0.957785087719298,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,10,0.0258397932816537,"Counterfactual",0.27,0.0129198966408269,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,354,0.914728682170543,"Counterfactual",0.27,0.483204134366925,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,23,0.0594315245478036,"Counterfactual",0.27,0.970284237726098,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.27,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.27,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.27,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,8,0.0224089635854342,"Counterfactual",0.27,0.0112044817927171,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,339,0.949579831932773,"Counterfactual",0.27,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,10,0.0280112044817927,"Counterfactual",0.27,0.985994397759104,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,25,0.0257997936016512,"Counterfactual",0.27,0.0128998968008256,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,937,0.966976264189886,"Counterfactual",0.27,0.509287925696594,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,7,0.00722394220846233,"Counterfactual",0.27,0.996388028895769,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,17,0.0182207931404073,"Counterfactual",0.28,0.00911039657020364,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,869,0.931404072883173,"Counterfactual",0.28,0.483922829581994,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,47,0.0503751339764201,"Counterfactual",0.28,0.97481243301179,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.28,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,831,0.911184210526316,"Counterfactual",0.28,0.463267543859649,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,74,0.081140350877193,"Counterfactual",0.28,0.959429824561403,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,10,0.0258397932816537,"Counterfactual",0.28,0.0129198966408269,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,355,0.917312661498708,"Counterfactual",0.28,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,22,0.0568475452196382,"Counterfactual",0.28,0.971576227390181,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.28,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.28,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.28,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,8,0.0224089635854342,"Counterfactual",0.28,0.0112044817927171,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,339,0.949579831932773,"Counterfactual",0.28,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,10,0.0280112044817927,"Counterfactual",0.28,0.985994397759104,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,24,0.0247678018575851,"Counterfactual",0.28,0.0123839009287926,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,938,0.968008255933953,"Counterfactual",0.28,0.508771929824561,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,7,0.00722394220846233,"Counterfactual",0.28,0.996388028895769,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,17,0.0182207931404073,"Counterfactual",0.29,0.00911039657020364,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,871,0.933547695605573,"Counterfactual",0.29,0.484994640943194,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,45,0.0482315112540193,"Counterfactual",0.29,0.97588424437299,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.29,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,832,0.912280701754386,"Counterfactual",0.29,0.463815789473684,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,73,0.0800438596491228,"Counterfactual",0.29,0.959978070175439,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,10,0.0258397932816537,"Counterfactual",0.29,0.0129198966408269,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,355,0.917312661498708,"Counterfactual",0.29,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,22,0.0568475452196382,"Counterfactual",0.29,0.971576227390181,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.29,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.29,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.29,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,8,0.0224089635854342,"Counterfactual",0.29,0.0112044817927171,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,339,0.949579831932773,"Counterfactual",0.29,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,10,0.0280112044817927,"Counterfactual",0.29,0.985994397759104,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,24,0.0247678018575851,"Counterfactual",0.29,0.0123839009287926,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,939,0.969040247678019,"Counterfactual",0.29,0.509287925696594,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.29,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,17,0.0182207931404073,"Counterfactual",0.3,0.00911039657020364,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,874,0.936763129689175,"Counterfactual",0.3,0.486602357984995,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,42,0.045016077170418,"Counterfactual",0.3,0.977491961414791,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.3,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,835,0.915570175438597,"Counterfactual",0.3,0.46546052631579,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,70,0.0767543859649123,"Counterfactual",0.3,0.961622807017544,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.3,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,357,0.922480620155039,"Counterfactual",0.3,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,21,0.0542635658914729,"Counterfactual",0.3,0.972868217054264,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.3,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.3,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.3,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,8,0.0224089635854342,"Counterfactual",0.3,0.0112044817927171,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,339,0.949579831932773,"Counterfactual",0.3,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,10,0.0280112044817927,"Counterfactual",0.3,0.985994397759104,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,24,0.0247678018575851,"Counterfactual",0.3,0.0123839009287926,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,939,0.969040247678019,"Counterfactual",0.3,0.509287925696594,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.3,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,17,0.0182207931404073,"Counterfactual",0.31,0.00911039657020364,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,877,0.939978563772776,"Counterfactual",0.31,0.488210075026795,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,39,0.0418006430868167,"Counterfactual",0.31,0.979099678456592,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.31,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,844,0.925438596491228,"Counterfactual",0.31,0.470394736842105,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,61,0.0668859649122807,"Counterfactual",0.31,0.96655701754386,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.31,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,357,0.922480620155039,"Counterfactual",0.31,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,21,0.0542635658914729,"Counterfactual",0.31,0.972868217054264,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.31,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.31,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.31,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.31,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.31,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.31,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,21,0.021671826625387,"Counterfactual",0.31,0.0108359133126935,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,942,0.972136222910217,"Counterfactual",0.31,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.31,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,14,0.015005359056806,"Counterfactual",0.32,0.007502679528403,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,884,0.947481243301179,"Counterfactual",0.32,0.488745980707395,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,35,0.037513397642015,"Counterfactual",0.32,0.981243301178992,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.32,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,847,0.928728070175439,"Counterfactual",0.32,0.47203947368421,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,58,0.0635964912280702,"Counterfactual",0.32,0.968201754385965,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.32,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,357,0.922480620155039,"Counterfactual",0.32,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,21,0.0542635658914729,"Counterfactual",0.32,0.972868217054264,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,6,0.00726392251815981,"Counterfactual",0.32,0.0036319612590799,NA
+"general","vote","Vote Choice, General Election","Democratic",0,813,0.984261501210654,"Counterfactual",0.32,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.32,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.32,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.32,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.32,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,21,0.021671826625387,"Counterfactual",0.32,0.0108359133126935,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,942,0.972136222910217,"Counterfactual",0.32,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.32,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,13,0.0139335476956056,"Counterfactual",0.33,0.00696677384780279,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,885,0.948553054662379,"Counterfactual",0.33,0.488210075026795,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,35,0.037513397642015,"Counterfactual",0.33,0.981243301178992,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.33,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,849,0.930921052631579,"Counterfactual",0.33,0.473135964912281,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,56,0.0614035087719298,"Counterfactual",0.33,0.969298245614035,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.33,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,357,0.922480620155039,"Counterfactual",0.33,0.484496124031008,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,21,0.0542635658914729,"Counterfactual",0.33,0.972868217054264,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.33,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,814,0.98547215496368,"Counterfactual",0.33,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.33,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.33,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.33,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.33,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,21,0.021671826625387,"Counterfactual",0.33,0.0108359133126935,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,942,0.972136222910217,"Counterfactual",0.33,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.33,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,13,0.0139335476956056,"Counterfactual",0.34,0.00696677384780279,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,886,0.94962486602358,"Counterfactual",0.34,0.488745980707396,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,34,0.0364415862808146,"Counterfactual",0.34,0.981779206859593,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.34,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,849,0.930921052631579,"Counterfactual",0.34,0.473135964912281,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,56,0.0614035087719298,"Counterfactual",0.34,0.969298245614035,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.34,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,358,0.925064599483204,"Counterfactual",0.34,0.48578811369509,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,20,0.0516795865633075,"Counterfactual",0.34,0.974160206718346,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.34,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,814,0.98547215496368,"Counterfactual",0.34,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.34,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.34,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.34,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.34,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,21,0.021671826625387,"Counterfactual",0.34,0.0108359133126935,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,942,0.972136222910217,"Counterfactual",0.34,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,6,0.00619195046439629,"Counterfactual",0.34,0.996904024767802,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.35,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,890,0.953912111468382,"Counterfactual",0.35,0.489817792068596,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,31,0.0332261521972133,"Counterfactual",0.35,0.983386923901393,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.35,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,850,0.932017543859649,"Counterfactual",0.35,0.473684210526316,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,55,0.0603070175438596,"Counterfactual",0.35,0.96984649122807,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.35,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,360,0.930232558139535,"Counterfactual",0.35,0.488372093023256,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,18,0.0465116279069767,"Counterfactual",0.35,0.976744186046512,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.35,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,814,0.98547215496368,"Counterfactual",0.35,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.35,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.35,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.35,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.35,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,20,0.020639834881321,"Counterfactual",0.35,0.0103199174406605,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,944,0.974200206398349,"Counterfactual",0.35,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.35,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.36,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,891,0.954983922829582,"Counterfactual",0.36,0.490353697749196,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,30,0.0321543408360129,"Counterfactual",0.36,0.983922829581994,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.36,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,850,0.932017543859649,"Counterfactual",0.36,0.473684210526316,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,55,0.0603070175438596,"Counterfactual",0.36,0.96984649122807,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,9,0.0232558139534884,"Counterfactual",0.36,0.0116279069767442,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,361,0.9328165374677,"Counterfactual",0.36,0.489664082687339,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,17,0.0439276485788114,"Counterfactual",0.36,0.978036175710594,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.36,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,814,0.98547215496368,"Counterfactual",0.36,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.36,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.36,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.36,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.36,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,20,0.020639834881321,"Counterfactual",0.36,0.0103199174406605,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,944,0.974200206398349,"Counterfactual",0.36,0.507739938080495,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.36,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.37,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,892,0.956055734190782,"Counterfactual",0.37,0.490889603429796,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,29,0.0310825294748124,"Counterfactual",0.37,0.984458735262594,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,7,0.00767543859649123,"Counterfactual",0.37,0.00383771929824561,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,852,0.93421052631579,"Counterfactual",0.37,0.474780701754386,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,53,0.0581140350877193,"Counterfactual",0.37,0.97094298245614,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.37,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,363,0.937984496124031,"Counterfactual",0.37,0.489664082687338,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,16,0.041343669250646,"Counterfactual",0.37,0.979328165374677,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.37,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,814,0.98547215496368,"Counterfactual",0.37,0.498789346246973,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,7,0.00847457627118644,"Counterfactual",0.37,0.995762711864407,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.37,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.37,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.37,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,18,0.0185758513931889,"Counterfactual",0.37,0.00928792569659443,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,946,0.976264189886481,"Counterfactual",0.37,0.506707946336429,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.37,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.38,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,892,0.956055734190782,"Counterfactual",0.38,0.490889603429796,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,29,0.0310825294748124,"Counterfactual",0.38,0.984458735262594,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,6,0.00657894736842105,"Counterfactual",0.38,0.00328947368421053,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,857,0.93969298245614,"Counterfactual",0.38,0.476425438596491,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,49,0.0537280701754386,"Counterfactual",0.38,0.973135964912281,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.38,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,363,0.937984496124031,"Counterfactual",0.38,0.489664082687338,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,16,0.041343669250646,"Counterfactual",0.38,0.979328165374677,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,5,0.00605326876513317,"Counterfactual",0.38,0.00302663438256659,NA
+"general","vote","Vote Choice, General Election","Democratic",0,815,0.986682808716707,"Counterfactual",0.38,0.499394673123487,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,6,0.00726392251815981,"Counterfactual",0.38,0.99636803874092,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.38,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,342,0.957983193277311,"Counterfactual",0.38,0.495798319327731,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,9,0.0252100840336134,"Counterfactual",0.38,0.987394957983193,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,18,0.0185758513931889,"Counterfactual",0.38,0.00928792569659443,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,946,0.976264189886481,"Counterfactual",0.38,0.506707946336429,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.38,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.39,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,894,0.958199356913183,"Counterfactual",0.39,0.491961414790997,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,27,0.0289389067524116,"Counterfactual",0.39,0.985530546623794,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,6,0.00657894736842105,"Counterfactual",0.39,0.00328947368421053,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,858,0.94078947368421,"Counterfactual",0.39,0.476973684210526,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,48,0.0526315789473684,"Counterfactual",0.39,0.973684210526316,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.39,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,363,0.937984496124031,"Counterfactual",0.39,0.489664082687338,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,16,0.041343669250646,"Counterfactual",0.39,0.979328165374677,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,4,0.00484261501210654,"Counterfactual",0.39,0.00242130750605327,NA
+"general","vote","Vote Choice, General Election","Democratic",0,819,0.991525423728814,"Counterfactual",0.39,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,3,0.0036319612590799,"Counterfactual",0.39,0.99818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.39,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,343,0.96078431372549,"Counterfactual",0.39,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,8,0.0224089635854342,"Counterfactual",0.39,0.988795518207283,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,17,0.0175438596491228,"Counterfactual",0.39,0.0087719298245614,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,947,0.977296181630547,"Counterfactual",0.39,0.506191950464396,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.39,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,12,0.0128617363344051,"Counterfactual",0.4,0.00643086816720257,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,895,0.959271168274384,"Counterfactual",0.4,0.492497320471597,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,26,0.0278670953912111,"Counterfactual",0.4,0.986066452304394,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,6,0.00657894736842105,"Counterfactual",0.4,0.00328947368421053,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,861,0.944078947368421,"Counterfactual",0.4,0.478618421052632,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,45,0.0493421052631579,"Counterfactual",0.4,0.975328947368421,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.4,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,363,0.937984496124031,"Counterfactual",0.4,0.489664082687338,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,16,0.041343669250646,"Counterfactual",0.4,0.979328165374677,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,4,0.00484261501210654,"Counterfactual",0.4,0.00242130750605327,NA
+"general","vote","Vote Choice, General Election","Democratic",0,819,0.991525423728814,"Counterfactual",0.4,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,3,0.0036319612590799,"Counterfactual",0.4,0.99818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.4,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,343,0.96078431372549,"Counterfactual",0.4,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,8,0.0224089635854342,"Counterfactual",0.4,0.988795518207283,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,17,0.0175438596491228,"Counterfactual",0.4,0.0087719298245614,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,947,0.977296181630547,"Counterfactual",0.4,0.506191950464396,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.4,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,11,0.0117899249732047,"Counterfactual",0.41,0.00589496248660236,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,896,0.960342979635584,"Counterfactual",0.41,0.491961414790997,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,26,0.0278670953912111,"Counterfactual",0.41,0.986066452304394,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,5,0.00548245614035088,"Counterfactual",0.41,0.00274122807017544,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,868,0.951754385964912,"Counterfactual",0.41,0.481359649122807,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,39,0.0427631578947368,"Counterfactual",0.41,0.978618421052632,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.41,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,365,0.943152454780362,"Counterfactual",0.41,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,14,0.0361757105943152,"Counterfactual",0.41,0.981912144702842,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.41,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,820,0.99273607748184,"Counterfactual",0.41,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,3,0.0036319612590799,"Counterfactual",0.41,0.99818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.41,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,343,0.96078431372549,"Counterfactual",0.41,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,8,0.0224089635854342,"Counterfactual",0.41,0.988795518207283,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,15,0.0154798761609907,"Counterfactual",0.41,0.00773993808049536,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,949,0.979360165118679,"Counterfactual",0.41,0.50515995872033,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.41,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,11,0.0117899249732047,"Counterfactual",0.42,0.00589496248660236,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,896,0.960342979635584,"Counterfactual",0.42,0.491961414790997,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,26,0.0278670953912111,"Counterfactual",0.42,0.986066452304394,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,5,0.00548245614035088,"Counterfactual",0.42,0.00274122807017544,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,868,0.951754385964912,"Counterfactual",0.42,0.481359649122807,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,39,0.0427631578947368,"Counterfactual",0.42,0.978618421052632,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,8,0.020671834625323,"Counterfactual",0.42,0.0103359173126615,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,365,0.943152454780362,"Counterfactual",0.42,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,14,0.0361757105943152,"Counterfactual",0.42,0.981912144702842,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.42,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,820,0.99273607748184,"Counterfactual",0.42,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,3,0.0036319612590799,"Counterfactual",0.42,0.99818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.42,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,343,0.96078431372549,"Counterfactual",0.42,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,8,0.0224089635854342,"Counterfactual",0.42,0.988795518207283,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,15,0.0154798761609907,"Counterfactual",0.42,0.00773993808049536,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,949,0.979360165118679,"Counterfactual",0.42,0.50515995872033,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.42,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,11,0.0117899249732047,"Counterfactual",0.43,0.00589496248660236,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,897,0.961414790996785,"Counterfactual",0.43,0.492497320471597,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,25,0.0267952840300107,"Counterfactual",0.43,0.986602357984995,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,4,0.0043859649122807,"Counterfactual",0.43,0.00219298245614035,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,872,0.956140350877193,"Counterfactual",0.43,0.482456140350877,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,36,0.0394736842105263,"Counterfactual",0.43,0.980263157894737,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,7,0.0180878552971576,"Counterfactual",0.43,0.00904392764857881,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,367,0.948320413436692,"Counterfactual",0.43,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,13,0.0335917312661499,"Counterfactual",0.43,0.983204134366925,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.43,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,820,0.99273607748184,"Counterfactual",0.43,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,3,0.0036319612590799,"Counterfactual",0.43,0.99818401937046,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.43,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,343,0.96078431372549,"Counterfactual",0.43,0.497198879551821,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,8,0.0224089635854342,"Counterfactual",0.43,0.988795518207283,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,14,0.0144478844169247,"Counterfactual",0.43,0.00722394220846233,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,950,0.980392156862745,"Counterfactual",0.43,0.504643962848297,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.43,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,11,0.0117899249732047,"Counterfactual",0.44,0.00589496248660236,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,897,0.961414790996785,"Counterfactual",0.44,0.492497320471597,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,25,0.0267952840300107,"Counterfactual",0.44,0.986602357984995,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,4,0.0043859649122807,"Counterfactual",0.44,0.00219298245614035,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,876,0.960526315789474,"Counterfactual",0.44,0.484649122807018,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,32,0.0350877192982456,"Counterfactual",0.44,0.982456140350877,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,7,0.0180878552971576,"Counterfactual",0.44,0.00904392764857881,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,367,0.948320413436692,"Counterfactual",0.44,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,13,0.0335917312661499,"Counterfactual",0.44,0.983204134366925,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.44,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.44,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.44,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.44,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.44,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.44,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,14,0.0144478844169247,"Counterfactual",0.44,0.00722394220846233,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,950,0.980392156862745,"Counterfactual",0.44,0.504643962848297,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,5,0.00515995872033024,"Counterfactual",0.44,0.997420020639835,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,11,0.0117899249732047,"Counterfactual",0.45,0.00589496248660236,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,898,0.962486602357985,"Counterfactual",0.45,0.493033226152197,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,24,0.0257234726688103,"Counterfactual",0.45,0.987138263665595,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,4,0.0043859649122807,"Counterfactual",0.45,0.00219298245614035,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,876,0.960526315789474,"Counterfactual",0.45,0.484649122807018,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,32,0.0350877192982456,"Counterfactual",0.45,0.982456140350877,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,7,0.0180878552971576,"Counterfactual",0.45,0.00904392764857881,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,367,0.948320413436692,"Counterfactual",0.45,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,13,0.0335917312661499,"Counterfactual",0.45,0.983204134366925,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.45,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.45,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.45,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.45,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.45,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.45,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,14,0.0144478844169247,"Counterfactual",0.45,0.00722394220846233,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,951,0.981424148606811,"Counterfactual",0.45,0.50515995872033,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.45,0.997936016511868,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,10,0.0107181136120043,"Counterfactual",0.46,0.00535905680600214,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,899,0.963558413719185,"Counterfactual",0.46,0.492497320471597,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,24,0.0257234726688103,"Counterfactual",0.46,0.987138263665595,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,4,0.0043859649122807,"Counterfactual",0.46,0.00219298245614035,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,878,0.962719298245614,"Counterfactual",0.46,0.485745614035088,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,30,0.0328947368421053,"Counterfactual",0.46,0.983552631578947,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,5,0.0129198966408269,"Counterfactual",0.46,0.00645994832041344,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,371,0.958656330749354,"Counterfactual",0.46,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,11,0.0284237726098191,"Counterfactual",0.46,0.98578811369509,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.46,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.46,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.46,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.46,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.46,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.46,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,14,0.0144478844169247,"Counterfactual",0.46,0.00722394220846233,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,951,0.981424148606811,"Counterfactual",0.46,0.50515995872033,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.46,0.997936016511868,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,10,0.0107181136120043,"Counterfactual",0.47,0.00535905680600214,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,902,0.966773847802787,"Counterfactual",0.47,0.494105037513398,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,21,0.022508038585209,"Counterfactual",0.47,0.988745980707395,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,3,0.00328947368421053,"Counterfactual",0.47,0.00164473684210526,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,880,0.964912280701754,"Counterfactual",0.47,0.485745614035088,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,29,0.0317982456140351,"Counterfactual",0.47,0.984100877192982,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,5,0.0129198966408269,"Counterfactual",0.47,0.00645994832041344,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,371,0.958656330749354,"Counterfactual",0.47,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,11,0.0284237726098191,"Counterfactual",0.47,0.98578811369509,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.47,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.47,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.47,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.47,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.47,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.47,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,13,0.0134158926728586,"Counterfactual",0.47,0.00670794633642931,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,952,0.982456140350877,"Counterfactual",0.47,0.504643962848297,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.47,0.997936016511868,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,10,0.0107181136120043,"Counterfactual",0.48,0.00535905680600214,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,902,0.966773847802787,"Counterfactual",0.48,0.494105037513398,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,21,0.022508038585209,"Counterfactual",0.48,0.988745980707395,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,3,0.00328947368421053,"Counterfactual",0.48,0.00164473684210526,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,880,0.964912280701754,"Counterfactual",0.48,0.485745614035088,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,29,0.0317982456140351,"Counterfactual",0.48,0.984100877192982,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,5,0.0129198966408269,"Counterfactual",0.48,0.00645994832041344,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,371,0.958656330749354,"Counterfactual",0.48,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,11,0.0284237726098191,"Counterfactual",0.48,0.98578811369509,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.48,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.48,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.48,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.48,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.48,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.48,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,13,0.0134158926728586,"Counterfactual",0.48,0.00670794633642931,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,952,0.982456140350877,"Counterfactual",0.48,0.504643962848297,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.48,0.997936016511868,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,9,0.00964630225080386,"Counterfactual",0.49,0.00482315112540193,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,905,0.969989281886388,"Counterfactual",0.49,0.494640943193998,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,19,0.0203644158628081,"Counterfactual",0.49,0.989817792068596,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,3,0.00328947368421053,"Counterfactual",0.49,0.00164473684210526,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,883,0.968201754385965,"Counterfactual",0.49,0.487390350877193,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,26,0.0285087719298246,"Counterfactual",0.49,0.985745614035088,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,5,0.0129198966408269,"Counterfactual",0.49,0.00645994832041344,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,371,0.958656330749354,"Counterfactual",0.49,0.492248062015504,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,11,0.0284237726098191,"Counterfactual",0.49,0.98578811369509,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.49,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.49,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.49,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.49,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,344,0.96358543417367,"Counterfactual",0.49,0.49859943977591,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,7,0.0196078431372549,"Counterfactual",0.49,0.990196078431373,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,13,0.0134158926728586,"Counterfactual",0.49,0.00670794633642931,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,952,0.982456140350877,"Counterfactual",0.49,0.504643962848297,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.49,0.997936016511868,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",-1,8,0.00857449088960343,"Counterfactual",0.5,0.00428724544480171,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Republican",0,908,0.973204715969989,"Counterfactual",0.5,0.495176848874598,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Republican",1,17,0.0182207931404073,"Counterfactual",0.5,0.990889603429796,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",-1,3,0.00328947368421053,"Counterfactual",0.5,0.00164473684210526,NA
+"docs","docs","Belief Trump Mishandled Documents","Democratic",0,886,0.971491228070175,"Counterfactual",0.5,0.489035087719298,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Democratic",1,23,0.025219298245614,"Counterfactual",0.5,0.987390350877193,"More
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",-1,4,0.0103359173126615,"Counterfactual",0.5,0.00516795865633075,"Less
+likely"
+"docs","docs","Belief Trump Mishandled Documents","Neither",0,372,0.961240310077519,"Counterfactual",0.5,0.490956072351421,"No
+change"
+"docs","docs","Belief Trump Mishandled Documents","Neither",1,11,0.0284237726098191,"Counterfactual",0.5,0.98578811369509,"More
+likely"
+"general","vote","Vote Choice, General Election","Democratic",-1,3,0.0036319612590799,"Counterfactual",0.5,0.00181598062953995,NA
+"general","vote","Vote Choice, General Election","Democratic",0,821,0.993946731234867,"Counterfactual",0.5,0.500605326876513,"No
+change"
+"general","vote","Vote Choice, General Election","Democratic",1,2,0.00242130750605327,"Counterfactual",0.5,0.998789346246973,"More
+likely"
+"general","vote","Vote Choice, General Election","Neither",-1,6,0.0168067226890756,"Counterfactual",0.5,0.00840336134453781,"Less
+likely"
+"general","vote","Vote Choice, General Election","Neither",0,345,0.966386554621849,"Counterfactual",0.5,0.5,"No
+change"
+"general","vote","Vote Choice, General Election","Neither",1,6,0.0168067226890756,"Counterfactual",0.5,0.991596638655462,"More
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",-1,12,0.0123839009287926,"Counterfactual",0.5,0.00619195046439629,"Less
+likely"
+"primary","vote","Vote Choice, Republican Primary","Republican",0,953,0.983488132094943,"Counterfactual",0.5,0.504127966976264,"No
+change"
+"primary","vote","Vote Choice, Republican Primary","Republican",1,4,0.00412796697626419,"Counterfactual",0.5,0.997936016511868,"More
+likely"
