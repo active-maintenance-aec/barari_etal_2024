@@ -33,3 +33,10 @@ source(here::here("ground_truth", "run_deposited_scripts.R"))
 # Ground truth ----
 # Rebuilt from the outputs above, so it cannot go stale.
 source(here::here("ground_truth", "build_ground_truth.R"))
+
+# Deposited archive, again ----
+# The check at the top of this file is a precondition: it says original/ was intact
+# before anything ran. Nothing above writes to original/, and this second pass is what
+# demonstrates it rather than assuming it. Nothing is downloaded; the files are already
+# present and are re-checked against the manifest on checksum, byte size and membership.
+source(here::here("download_original.R"))
