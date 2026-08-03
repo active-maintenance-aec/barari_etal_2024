@@ -1,0 +1,415 @@
+claim_id,location,claim_type,value_paper
+abstract_belief_effect,Abstract,pipeline,2.5
+abstract_primary_effect,Abstract,pipeline,-1.6
+intro_indictment_year,"Introduction, p. 1216",structural,2023
+intro_cbs_better_pct,"Introduction, p. 1216",transcribed,14
+intro_cbs_worse_pct,"Introduction, p. 1216",transcribed,7
+intro_ipsos_election_year,"Introduction, p. 1217",structural,2024
+intro_ipsos_more_pct,"Introduction, p. 1217",transcribed,31
+intro_ipsos_less_pct,"Introduction, p. 1217",transcribed,23
+intro_random_half,"Introduction, p. 1217",descriptive,
+intro_change_rep_primary_more,"Introduction, p. 1217",pipeline,43
+intro_change_rep_primary_less,"Introduction, p. 1217",pipeline,16
+intro_cf_rep_primary_actual,"Introduction, p. 1217",pipeline,64.1
+intro_cf_rep_primary_predicted,"Introduction, p. 1218",pipeline,65.7
+intro_cf_rep_primary_diff,"Introduction, p. 1218",pipeline,-1.6
+motivation_indictments_year,"Motivation, p. 1218",structural,2023
+motivation_yougov_exposure,"Motivation, p. 1218",transcribed,93
+motivation_ipsos_exposure,"Motivation, p. 1218",transcribed,92
+motivation_538_support_before,"Motivation, p. 1218",transcribed,53.8
+motivation_538_support_after,"Motivation, p. 1218",transcribed,53.5
+design_n_surveyed,"Research Design, p. 1219",pipeline,"5,011"
+design_field_dates,"Research Design, p. 1219",structural,
+design_river_pool,"Research Design, p. 1219",transcribed,two million
+design_n_began,"Research Design, p. 1219",pipeline,"6,877"
+design_n_completed,"Research Design, p. 1219",pipeline,"5,011"
+design_completion_rate,"Research Design, p. 1219",pipeline,73
+design_acs_weighting_year,"Research Design, p. 1219",structural,2019
+design_acs_comparison_year,"Research Design, p. 1219",structural,2021
+design_biden_approval_weighted,"Research Design, p. 1219",pipeline,40.4
+design_538_biden_approval,"Research Design, p. 1219",transcribed,40.3
+design_538_approval_date,"Research Design, p. 1219",structural,
+design_n_formats,"Research Design, p. 1219",definitional,2
+design_counterfactual_n_questions,"Research Design, p. 1219",definitional,2
+table_1_election_year,Table 1,structural,2024
+table_1_scale_min,Table 1,definitional,0
+table_1_scale_max,Table 1,definitional,100
+table_1_change_response_options,Table 1,definitional,3
+results_rep_change_belief_more,"Results, p. 1220",pipeline,16
+table_2_belief_republican_actual,Table 2,pipeline,27.1
+table_2_belief_republican_predicted,Table 2,pipeline,24.6
+table_2_belief_republican_cf_diff,Table 2,pipeline,2.5
+table_2_belief_republican_cf_se,Table 2,pipeline,0.6
+table_2_belief_republican_cf_p,Table 2,pipeline,<0.001
+table_2_belief_republican_more_pct,Table 2,pipeline,16.2
+table_2_belief_republican_less_pct,Table 2,pipeline,39.6
+table_2_belief_republican_change_diff,Table 2,pipeline,-23.4
+table_2_belief_republican_change_se,Table 2,pipeline,2.8
+table_2_belief_republican_change_p,Table 2,pipeline,<0.001
+table_2_belief_democratic_actual,Table 2,pipeline,85.3
+table_2_belief_democratic_predicted,Table 2,pipeline,79.5
+table_2_belief_democratic_cf_diff,Table 2,pipeline,5.8
+table_2_belief_democratic_cf_se,Table 2,pipeline,0.6
+table_2_belief_democratic_cf_p,Table 2,pipeline,<0.001
+table_2_belief_democratic_more_pct,Table 2,pipeline,76.0
+table_2_belief_democratic_less_pct,Table 2,pipeline,5.0
+table_2_belief_democratic_change_diff,Table 2,pipeline,71.0
+table_2_belief_democratic_change_se,Table 2,pipeline,2.3
+table_2_belief_democratic_change_p,Table 2,pipeline,<0.001
+table_2_belief_neither_actual,Table 2,pipeline,55.7
+table_2_belief_neither_predicted,Table 2,pipeline,54.2
+table_2_belief_neither_cf_diff,Table 2,pipeline,1.5
+table_2_belief_neither_cf_se,Table 2,pipeline,0.9
+table_2_belief_neither_cf_p,Table 2,pipeline,0.124
+table_2_belief_neither_more_pct,Table 2,pipeline,37.4
+table_2_belief_neither_less_pct,Table 2,pipeline,15.7
+table_2_belief_neither_change_diff,Table 2,pipeline,21.6
+table_2_belief_neither_change_se,Table 2,pipeline,3.9
+table_2_belief_neither_change_p,Table 2,pipeline,<0.001
+table_2_vote_general_democratic_actual,Table 2,pipeline,11.1
+table_2_vote_general_democratic_predicted,Table 2,pipeline,10.1
+table_2_vote_general_democratic_cf_diff,Table 2,pipeline,0.9
+table_2_vote_general_democratic_cf_se,Table 2,pipeline,0.8
+table_2_vote_general_democratic_cf_p,Table 2,pipeline,0.217
+table_2_vote_general_democratic_more_pct,Table 2,pipeline,8.0
+table_2_vote_general_democratic_less_pct,Table 2,pipeline,60.2
+table_2_vote_general_democratic_change_diff,Table 2,pipeline,-52.1
+table_2_vote_general_democratic_change_se,Table 2,pipeline,2.7
+table_2_vote_general_democratic_change_p,Table 2,pipeline,<0.001
+table_2_vote_general_neither_actual,Table 2,pipeline,42.2
+table_2_vote_general_neither_predicted,Table 2,pipeline,41.9
+table_2_vote_general_neither_cf_diff,Table 2,pipeline,0.3
+table_2_vote_general_neither_cf_se,Table 2,pipeline,0.9
+table_2_vote_general_neither_cf_p,Table 2,pipeline,0.752
+table_2_vote_general_neither_more_pct,Table 2,pipeline,20.3
+table_2_vote_general_neither_less_pct,Table 2,pipeline,30.8
+table_2_vote_general_neither_change_diff,Table 2,pipeline,-10.5
+table_2_vote_general_neither_change_se,Table 2,pipeline,4.0
+table_2_vote_general_neither_change_p,Table 2,pipeline,0.009
+table_2_vote_primary_republican_actual,Table 2,pipeline,64.1
+table_2_vote_primary_republican_predicted,Table 2,pipeline,65.7
+table_2_vote_primary_republican_cf_diff,Table 2,pipeline,-1.6
+table_2_vote_primary_republican_cf_se,Table 2,pipeline,0.6
+table_2_vote_primary_republican_cf_p,Table 2,pipeline,0.007
+table_2_vote_primary_republican_more_pct,Table 2,pipeline,43.0
+table_2_vote_primary_republican_less_pct,Table 2,pipeline,16.3
+table_2_vote_primary_republican_change_diff,Table 2,pipeline,26.7
+table_2_vote_primary_republican_change_se,Table 2,pipeline,2.9
+table_2_vote_primary_republican_change_p,Table 2,pipeline,<0.001
+table_2_note_scale_points,Table 2 note,definitional,101
+table_2_note_change_scale_points,Table 2 note,definitional,3
+results_rep_change_belief_less,"Results, p. 1222",pipeline,40
+results_rep_change_primary_more,"Results, p. 1222",pipeline,43
+results_rep_change_primary_less,"Results, p. 1222",pipeline,16
+results_rep_cf_belief_actual,"Results, p. 1222",pipeline,27.1
+results_rep_cf_belief_predicted,"Results, p. 1222",pipeline,24.6
+results_rep_cf_belief_diff,"Results, p. 1222",pipeline,2.5
+results_rep_cf_belief_se,"Results, p. 1222",pipeline,0.6
+results_rep_cf_belief_p,"Results, p. 1222",pipeline,<0.01
+results_rep_cf_primary_actual,"Results, p. 1222",pipeline,64.1
+results_rep_cf_primary_predicted,"Results, p. 1222",pipeline,65.7
+results_rep_cf_primary_diff,"Results, p. 1222",pipeline,1.6
+results_rep_cf_primary_se,"Results, p. 1222",pipeline,0.6
+results_rep_cf_primary_p,"Results, p. 1222",pipeline,0.02
+results_dem_change_belief_more,"Results, p. 1222",pipeline,76
+results_dem_change_general_less,"Results, p. 1222",pipeline,60
+results_dem_opposite_single_digits,"Results, p. 1222",descriptive,
+results_dem_cf_belief_actual,"Results, p. 1222",pipeline,85.3
+results_dem_cf_belief_predicted,"Results, p. 1222",pipeline,79.5
+results_dem_cf_belief_diff,"Results, p. 1222",pipeline,5.8
+results_dem_cf_belief_se,"Results, p. 1222",pipeline,0.6
+results_dem_cf_belief_p,"Results, p. 1222",pipeline,<0.01
+results_dem_cf_general_range,"Results, p. 1222",descriptive,10 to 11
+results_dem_cf_general_diff,"Results, p. 1222",pipeline,0.9
+results_dem_cf_general_se,"Results, p. 1222",pipeline,0.8
+results_dem_cf_general_p,"Results, p. 1222",pipeline,0.22
+results_neither_change_no_effect_range,"Results, p. 1222",descriptive,45 to 50
+results_neither_change_belief_diff,"Results, p. 1222",pipeline,21.6
+results_neither_change_belief_se,"Results, p. 1222",pipeline,3.9
+results_neither_change_belief_p,"Results, p. 1222",pipeline,<0.01
+results_neither_change_general_diff,"Results, p. 1222",pipeline,-10.5
+results_neither_change_general_se,"Results, p. 1222",pipeline,4.0
+results_neither_change_general_p,"Results, p. 1222",pipeline,<0.01
+results_neither_cf_belief_diff,"Results, p. 1222",pipeline,1.8
+results_neither_cf_belief_se,"Results, p. 1222",pipeline,0.9
+results_neither_cf_belief_p,"Results, p. 1222",pipeline,0.05
+results_neither_cf_general_diff,"Results, p. 1222",pipeline,0.1
+results_neither_cf_general_se,"Results, p. 1222",pipeline,0.9
+results_neither_cf_general_p,"Results, p. 1222",pipeline,0.89
+why_prior_scales,"Why Do the Answers Differ?, p. 1223",transcribed,
+why_scale_points,"Why Do the Answers Differ?, p. 1223",definitional,101
+why_n_categories,"Why Do the Answers Differ?, p. 1223",definitional,3
+why_threshold_example,"Why Do the Answers Differ?, p. 1223",definitional,10
+why_threshold_zero,"Why Do the Answers Differ?, p. 1223",definitional,0
+why_fig1a_group,"Why Do the Answers Differ?, p. 1223",descriptive,
+why_fig1a_formats_similar,"Why Do the Answers Differ?, p. 1223",descriptive,
+why_fig1b_group,"Why Do the Answers Differ?, p. 1223",descriptive,
+why_congenial_reduced,"Why Do the Answers Differ?, p. 1223",descriptive,
+why_fig1c_group,"Why Do the Answers Differ?, p. 1223",descriptive,
+figure_1_axis_threshold_max,Figure 1,structural,50
+figure_1_panel_a_group,Figure 1 caption,descriptive,
+figure_1_caption_n_neither,Figure 1 caption,pipeline,754
+figure_1_panel_b_group,Figure 1 caption,descriptive,
+figure_1_caption_n_republican,Figure 1 caption,pipeline,"2,026"
+figure_1_panel_c_group,Figure 1 caption,descriptive,
+figure_1_caption_n_democratic,Figure 1 caption,pipeline,"1,953"
+discussion_two_conditions,"Discussion, p. 1225",structural,2
+discussion_scale_points,"Discussion, p. 1226",definitional,101
+table_a1_gender_male_unweighted,Table A.1,pipeline,48.1
+table_a1_gender_female_unweighted,Table A.1,pipeline,49.9
+table_a1_age_18_24_unweighted,Table A.1,pipeline,5.5
+table_a1_age_25_34_unweighted,Table A.1,pipeline,10.3
+table_a1_age_35_44_unweighted,Table A.1,pipeline,13.1
+table_a1_age_45_54_unweighted,Table A.1,pipeline,17.0
+table_a1_age_55_64_unweighted,Table A.1,pipeline,21.0
+table_a1_age_65_unweighted,Table A.1,pipeline,33.0
+table_a1_race_and_ethnicity_white_non_hispanic_unweighted,Table A.1,pipeline,68.2
+table_a1_race_and_ethnicity_black_non_hispanic_unweighted,Table A.1,pipeline,11.5
+table_a1_race_and_ethnicity_hispanic_unweighted,Table A.1,pipeline,12.5
+table_a1_race_and_ethnicity_asian_non_hispanic_unweighted,Table A.1,pipeline,2.7
+table_a1_race_and_ethnicity_other_non_hispanic_unweighted,Table A.1,pipeline,5.0
+table_a1_educational_attainment_high_school_or_less_unweighted,Table A.1,pipeline,17.9
+table_a1_educational_attainment_some_college_associate_s_unweighted,Table A.1,pipeline,31.1
+table_a1_educational_attainment_bachelor_s_unweighted,Table A.1,pipeline,28.5
+table_a1_educational_attainment_graduate_degree_unweighted,Table A.1,pipeline,22.5
+table_a1_biden_approval_approve_unweighted,Table A.1,pipeline,43.3
+table_a1_biden_approval_disapprove_unweighted,Table A.1,pipeline,54.0
+table_a1_gender_male_weighted,Table A.1,pipeline,47.5
+table_a1_gender_female_weighted,Table A.1,pipeline,50.2
+table_a1_age_18_24_weighted,Table A.1,pipeline,12.1
+table_a1_age_25_34_weighted,Table A.1,pipeline,17.5
+table_a1_age_35_44_weighted,Table A.1,pipeline,16.7
+table_a1_age_45_54_weighted,Table A.1,pipeline,16.0
+table_a1_age_55_64_weighted,Table A.1,pipeline,16.6
+table_a1_age_65_weighted,Table A.1,pipeline,21.0
+table_a1_race_and_ethnicity_white_non_hispanic_weighted,Table A.1,pipeline,63.9
+table_a1_race_and_ethnicity_black_non_hispanic_weighted,Table A.1,pipeline,12.7
+table_a1_race_and_ethnicity_hispanic_weighted,Table A.1,pipeline,16.4
+table_a1_race_and_ethnicity_asian_non_hispanic_weighted,Table A.1,pipeline,5.4
+table_a1_race_and_ethnicity_other_non_hispanic_weighted,Table A.1,pipeline,1.6
+table_a1_educational_attainment_high_school_or_less_weighted,Table A.1,pipeline,38.5
+table_a1_educational_attainment_some_college_associate_s_weighted,Table A.1,pipeline,30.5
+table_a1_educational_attainment_bachelor_s_weighted,Table A.1,pipeline,19.5
+table_a1_educational_attainment_graduate_degree_weighted,Table A.1,pipeline,11.5
+table_a1_biden_approval_approve_weighted,Table A.1,pipeline,40.4
+table_a1_biden_approval_disapprove_weighted,Table A.1,pipeline,56.3
+table_a1_gender_male_acs,Table A.1,transcribed,49.0
+table_a1_gender_female_acs,Table A.1,transcribed,51.0
+table_a1_age_18_24_acs,Table A.1,transcribed,11.7
+table_a1_age_25_34_acs,Table A.1,transcribed,17.4
+table_a1_age_35_44_acs,Table A.1,transcribed,17.0
+table_a1_age_45_54_acs,Table A.1,transcribed,15.7
+table_a1_age_55_64_acs,Table A.1,transcribed,16.6
+table_a1_age_65_acs,Table A.1,transcribed,21.6
+table_a1_race_and_ethnicity_white_non_hispanic_acs,Table A.1,transcribed,63.6
+table_a1_race_and_ethnicity_black_non_hispanic_acs,Table A.1,transcribed,11.8
+table_a1_race_and_ethnicity_hispanic_acs,Table A.1,transcribed,16.9
+table_a1_race_and_ethnicity_asian_non_hispanic_acs,Table A.1,transcribed,6.0
+table_a1_race_and_ethnicity_other_non_hispanic_acs,Table A.1,transcribed,1.7
+table_a1_educational_attainment_high_school_or_less_acs,Table A.1,transcribed,38.0
+table_a1_educational_attainment_some_college_associate_s_acs,Table A.1,transcribed,29.5
+table_a1_educational_attainment_bachelor_s_acs,Table A.1,transcribed,20.2
+table_a1_educational_attainment_graduate_degree_acs,Table A.1,transcribed,12.3
+table_a1_biden_approval_approve_fivethirtyeight,Table A.1,transcribed,40.3
+table_a1_biden_approval_disapprove_fivethirtyeight,Table A.1,transcribed,55.2
+table_a1_age_bin_18_24,Table A.1,definitional,18-24
+table_a1_age_bin_25_34,Table A.1,definitional,25-34
+table_a1_age_bin_35_44,Table A.1,definitional,35-44
+table_a1_age_bin_45_54,Table A.1,definitional,45-54
+table_a1_age_bin_55_64,Table A.1,definitional,55-64
+table_a1_age_bin_65_plus,Table A.1,definitional,65+
+table_a1_note_acs_weighting_year,Table A.1 note,structural,2019
+table_a1_note_acs_year,Table A.1 note,structural,2021
+table_a1_note_acs_estimate_span,Table A.1 note,structural,1
+table_a1_note_538_date,Table A.1 note,structural,
+appendix_b_table_a2_matches_figure_1,"Appendix B, p. 1228",descriptive,
+table_a2_beliefs_positive_change_republican,Table A.2,pipeline,16.2
+table_a2_beliefs_positive_change_democratic,Table A.2,pipeline,76.0
+table_a2_beliefs_positive_change_neither,Table A.2,pipeline,37.4
+table_a2_beliefs_positive_counterfactual_republican,Table A.2,pipeline,33.3
+table_a2_beliefs_positive_counterfactual_democratic,Table A.2,pipeline,36.5
+table_a2_beliefs_positive_counterfactual_neither,Table A.2,pipeline,29.5
+table_a2_beliefs_positive_1_5_republican,Table A.2,pipeline,13.1
+table_a2_beliefs_positive_1_5_democratic,Table A.2,pipeline,9.7
+table_a2_beliefs_positive_1_5_neither,Table A.2,pipeline,11.3
+table_a2_beliefs_positive_6_10_republican,Table A.2,pipeline,6.1
+table_a2_beliefs_positive_6_10_democratic,Table A.2,pipeline,4.9
+table_a2_beliefs_positive_6_10_neither,Table A.2,pipeline,4.8
+table_a2_beliefs_positive_11_20_republican,Table A.2,pipeline,6.6
+table_a2_beliefs_positive_11_20_democratic,Table A.2,pipeline,8.4
+table_a2_beliefs_positive_11_20_neither,Table A.2,pipeline,6.2
+table_a2_beliefs_positive_20_or_more_republican,Table A.2,pipeline,7.5
+table_a2_beliefs_positive_20_or_more_democratic,Table A.2,pipeline,13.4
+table_a2_beliefs_positive_20_or_more_neither,Table A.2,pipeline,7.3
+table_a2_beliefs_negative_change_republican,Table A.2,pipeline,39.6
+table_a2_beliefs_negative_change_democratic,Table A.2,pipeline,5.0
+table_a2_beliefs_negative_change_neither,Table A.2,pipeline,15.7
+table_a2_beliefs_negative_counterfactual_republican,Table A.2,pipeline,15.0
+table_a2_beliefs_negative_counterfactual_democratic,Table A.2,pipeline,11.9
+table_a2_beliefs_negative_counterfactual_neither,Table A.2,pipeline,20.5
+table_a2_beliefs_negative_1_5_republican,Table A.2,pipeline,7.9
+table_a2_beliefs_negative_1_5_democratic,Table A.2,pipeline,6.5
+table_a2_beliefs_negative_1_5_neither,Table A.2,pipeline,9.2
+table_a2_beliefs_negative_6_10_republican,Table A.2,pipeline,2.6
+table_a2_beliefs_negative_6_10_democratic,Table A.2,pipeline,3.1
+table_a2_beliefs_negative_6_10_neither,Table A.2,pipeline,4.8
+table_a2_beliefs_negative_11_20_republican,Table A.2,pipeline,1.5
+table_a2_beliefs_negative_11_20_democratic,Table A.2,pipeline,1.3
+table_a2_beliefs_negative_11_20_neither,Table A.2,pipeline,2.1
+table_a2_beliefs_negative_20_or_more_republican,Table A.2,pipeline,3.0
+table_a2_beliefs_negative_20_or_more_democratic,Table A.2,pipeline,1.0
+table_a2_beliefs_negative_20_or_more_neither,Table A.2,pipeline,4.3
+table_a2_beliefs_no_effect_change_republican,Table A.2,pipeline,44.3
+table_a2_beliefs_no_effect_change_democratic,Table A.2,pipeline,19.0
+table_a2_beliefs_no_effect_change_neither,Table A.2,pipeline,46.9
+table_a2_beliefs_no_effect_counterfactual_republican,Table A.2,pipeline,51.8
+table_a2_beliefs_no_effect_counterfactual_democratic,Table A.2,pipeline,51.6
+table_a2_beliefs_no_effect_counterfactual_neither,Table A.2,pipeline,50.0
+table_a2_vote_choice_positive_change_republican,Table A.2,pipeline,43.0
+table_a2_vote_choice_positive_change_democratic,Table A.2,pipeline,8.0
+table_a2_vote_choice_positive_change_neither,Table A.2,pipeline,20.3
+table_a2_vote_choice_positive_counterfactual_republican,Table A.2,pipeline,13.0
+table_a2_vote_choice_positive_counterfactual_democratic,Table A.2,pipeline,13.3
+table_a2_vote_choice_positive_counterfactual_neither,Table A.2,pipeline,22.6
+table_a2_vote_choice_positive_1_5_republican,Table A.2,pipeline,7.8
+table_a2_vote_choice_positive_1_5_democratic,Table A.2,pipeline,7.4
+table_a2_vote_choice_positive_1_5_neither,Table A.2,pipeline,11.1
+table_a2_vote_choice_positive_6_10_republican,Table A.2,pipeline,1.4
+table_a2_vote_choice_positive_6_10_democratic,Table A.2,pipeline,1.5
+table_a2_vote_choice_positive_6_10_neither,Table A.2,pipeline,2.7
+table_a2_vote_choice_positive_11_20_republican,Table A.2,pipeline,2.2
+table_a2_vote_choice_positive_11_20_democratic,Table A.2,pipeline,1.0
+table_a2_vote_choice_positive_11_20_neither,Table A.2,pipeline,4.1
+table_a2_vote_choice_positive_20_or_more_republican,Table A.2,pipeline,1.5
+table_a2_vote_choice_positive_20_or_more_democratic,Table A.2,pipeline,3.4
+table_a2_vote_choice_positive_20_or_more_neither,Table A.2,pipeline,4.6
+table_a2_vote_choice_negative_change_republican,Table A.2,pipeline,16.3
+table_a2_vote_choice_negative_change_democratic,Table A.2,pipeline,60.2
+table_a2_vote_choice_negative_change_neither,Table A.2,pipeline,30.8
+table_a2_vote_choice_negative_counterfactual_republican,Table A.2,pipeline,17.7
+table_a2_vote_choice_negative_counterfactual_democratic,Table A.2,pipeline,14.1
+table_a2_vote_choice_negative_counterfactual_neither,Table A.2,pipeline,19.9
+table_a2_vote_choice_negative_1_5_republican,Table A.2,pipeline,9.4
+table_a2_vote_choice_negative_1_5_democratic,Table A.2,pipeline,8.8
+table_a2_vote_choice_negative_1_5_neither,Table A.2,pipeline,8.3
+table_a2_vote_choice_negative_6_10_republican,Table A.2,pipeline,2.2
+table_a2_vote_choice_negative_6_10_democratic,Table A.2,pipeline,1.2
+table_a2_vote_choice_negative_6_10_neither,Table A.2,pipeline,4.1
+table_a2_vote_choice_negative_11_20_republican,Table A.2,pipeline,2.0
+table_a2_vote_choice_negative_11_20_democratic,Table A.2,pipeline,3.3
+table_a2_vote_choice_negative_11_20_neither,Table A.2,pipeline,3.5
+table_a2_vote_choice_negative_20_or_more_republican,Table A.2,pipeline,4.1
+table_a2_vote_choice_negative_20_or_more_democratic,Table A.2,pipeline,0.9
+table_a2_vote_choice_negative_20_or_more_neither,Table A.2,pipeline,3.9
+table_a2_vote_choice_no_effect_change_republican,Table A.2,pipeline,40.7
+table_a2_vote_choice_no_effect_change_democratic,Table A.2,pipeline,31.8
+table_a2_vote_choice_no_effect_change_neither,Table A.2,pipeline,48.8
+table_a2_vote_choice_no_effect_counterfactual_republican,Table A.2,pipeline,69.3
+table_a2_vote_choice_no_effect_counterfactual_democratic,Table A.2,pipeline,72.5
+table_a2_vote_choice_no_effect_counterfactual_neither,Table A.2,pipeline,57.5
+table_a2_bin_1_5,Table A.2,definitional,1-5%
+table_a2_bin_6_10,Table A.2,definitional,6-10%
+table_a2_bin_11_20,Table A.2,definitional,11-20%
+table_a2_bin_20_plus,Table A.2,definitional,20% or more
+table_a3_belief_republican_actual,Table A.3,pipeline,25.0
+table_a3_belief_republican_predicted,Table A.3,pipeline,22.5
+table_a3_belief_republican_cf_diff,Table A.3,pipeline,2.5
+table_a3_belief_republican_cf_se,Table A.3,pipeline,0.6
+table_a3_belief_republican_cf_p,Table A.3,pipeline,<0.001
+table_a3_belief_republican_more_pct,Table A.3,pipeline,16.7
+table_a3_belief_republican_less_pct,Table A.3,pipeline,38.5
+table_a3_belief_republican_change_diff,Table A.3,pipeline,-21.8
+table_a3_belief_republican_change_se,Table A.3,pipeline,2.8
+table_a3_belief_republican_change_p,Table A.3,pipeline,<0.001
+table_a3_belief_democrat_actual,Table A.3,pipeline,85.4
+table_a3_belief_democrat_predicted,Table A.3,pipeline,80.3
+table_a3_belief_democrat_cf_diff,Table A.3,pipeline,5.2
+table_a3_belief_democrat_cf_se,Table A.3,pipeline,0.6
+table_a3_belief_democrat_cf_p,Table A.3,pipeline,<0.001
+table_a3_belief_democrat_more_pct,Table A.3,pipeline,73.9
+table_a3_belief_democrat_less_pct,Table A.3,pipeline,6.1
+table_a3_belief_democrat_change_diff,Table A.3,pipeline,67.8
+table_a3_belief_democrat_change_se,Table A.3,pipeline,2.5
+table_a3_belief_democrat_change_p,Table A.3,pipeline,<0.001
+table_a3_belief_independent_actual,Table A.3,pipeline,59.2
+table_a3_belief_independent_predicted,Table A.3,pipeline,56.7
+table_a3_belief_independent_cf_diff,Table A.3,pipeline,2.5
+table_a3_belief_independent_cf_se,Table A.3,pipeline,1.0
+table_a3_belief_independent_cf_p,Table A.3,pipeline,0.017
+table_a3_belief_independent_more_pct,Table A.3,pipeline,39.6
+table_a3_belief_independent_less_pct,Table A.3,pipeline,15.3
+table_a3_belief_independent_change_diff,Table A.3,pipeline,24.2
+table_a3_belief_independent_change_se,Table A.3,pipeline,4.4
+table_a3_belief_independent_change_p,Table A.3,pipeline,<0.001
+table_a3_vote_general_republican_actual,Table A.3,pipeline,64.8
+table_a3_vote_general_republican_predicted,Table A.3,pipeline,61.4
+table_a3_vote_general_republican_cf_diff,Table A.3,pipeline,3.4
+table_a3_vote_general_republican_cf_se,Table A.3,pipeline,3.1
+table_a3_vote_general_republican_cf_p,Table A.3,pipeline,0.277
+table_a3_vote_general_republican_more_pct,Table A.3,pipeline,33.8
+table_a3_vote_general_republican_less_pct,Table A.3,pipeline,15.3
+table_a3_vote_general_republican_change_diff,Table A.3,pipeline,18.5
+table_a3_vote_general_republican_change_se,Table A.3,pipeline,7.4
+table_a3_vote_general_republican_change_p,Table A.3,pipeline,0.013
+table_a3_vote_general_democrat_actual,Table A.3,pipeline,8.5
+table_a3_vote_general_democrat_predicted,Table A.3,pipeline,7.9
+table_a3_vote_general_democrat_cf_diff,Table A.3,pipeline,0.5
+table_a3_vote_general_democrat_cf_se,Table A.3,pipeline,0.7
+table_a3_vote_general_democrat_cf_p,Table A.3,pipeline,0.451
+table_a3_vote_general_democrat_more_pct,Table A.3,pipeline,7.1
+table_a3_vote_general_democrat_less_pct,Table A.3,pipeline,61.8
+table_a3_vote_general_democrat_change_diff,Table A.3,pipeline,-54.7
+table_a3_vote_general_democrat_change_se,Table A.3,pipeline,2.6
+table_a3_vote_general_democrat_change_p,Table A.3,pipeline,<0.001
+table_a3_vote_general_independent_actual,Table A.3,pipeline,37.5
+table_a3_vote_general_independent_predicted,Table A.3,pipeline,37.0
+table_a3_vote_general_independent_cf_diff,Table A.3,pipeline,0.6
+table_a3_vote_general_independent_cf_se,Table A.3,pipeline,1.0
+table_a3_vote_general_independent_cf_p,Table A.3,pipeline,0.585
+table_a3_vote_general_independent_more_pct,Table A.3,pipeline,19.0
+table_a3_vote_general_independent_less_pct,Table A.3,pipeline,32.6
+table_a3_vote_general_independent_change_diff,Table A.3,pipeline,-13.6
+table_a3_vote_general_independent_change_se,Table A.3,pipeline,4.8
+table_a3_vote_general_independent_change_p,Table A.3,pipeline,0.005
+table_a3_vote_primary_republican_actual,Table A.3,pipeline,67.4
+table_a3_vote_primary_republican_predicted,Table A.3,pipeline,69.1
+table_a3_vote_primary_republican_cf_diff,Table A.3,pipeline,-1.6
+table_a3_vote_primary_republican_cf_se,Table A.3,pipeline,0.6
+table_a3_vote_primary_republican_cf_p,Table A.3,pipeline,0.010
+table_a3_vote_primary_republican_more_pct,Table A.3,pipeline,45.8
+table_a3_vote_primary_republican_less_pct,Table A.3,pipeline,14.1
+table_a3_vote_primary_republican_change_diff,Table A.3,pipeline,31.7
+table_a3_vote_primary_republican_change_se,Table A.3,pipeline,3.0
+table_a3_vote_primary_republican_change_p,Table A.3,pipeline,<0.001
+table_a3_vote_primary_democrat_actual,Table A.3,pipeline,35.3
+table_a3_vote_primary_democrat_predicted,Table A.3,pipeline,33.7
+table_a3_vote_primary_democrat_cf_diff,Table A.3,pipeline,1.6
+table_a3_vote_primary_democrat_cf_se,Table A.3,pipeline,1.1
+table_a3_vote_primary_democrat_cf_p,Table A.3,pipeline,0.182
+table_a3_vote_primary_democrat_more_pct,Table A.3,pipeline,21.0
+table_a3_vote_primary_democrat_less_pct,Table A.3,pipeline,39.9
+table_a3_vote_primary_democrat_change_diff,Table A.3,pipeline,-18.9
+table_a3_vote_primary_democrat_change_se,Table A.3,pipeline,15.7
+table_a3_vote_primary_democrat_change_p,Table A.3,pipeline,0.235
+table_a3_vote_primary_independent_actual,Table A.3,pipeline,42.5
+table_a3_vote_primary_independent_predicted,Table A.3,pipeline,44.9
+table_a3_vote_primary_independent_cf_diff,Table A.3,pipeline,-2.3
+table_a3_vote_primary_independent_cf_se,Table A.3,pipeline,2.6
+table_a3_vote_primary_independent_cf_p,Table A.3,pipeline,0.373
+table_a3_vote_primary_independent_more_pct,Table A.3,pipeline,23.4
+table_a3_vote_primary_independent_less_pct,Table A.3,pipeline,27.4
+table_a3_vote_primary_independent_change_diff,Table A.3,pipeline,-4.0
+table_a3_vote_primary_independent_change_se,Table A.3,pipeline,12.2
+table_a3_vote_primary_independent_change_p,Table A.3,pipeline,0.742
+appendix_b_a3_within_few_pp,"Appendix B, p. 1231",descriptive,
+appendix_b_fig_a1_resembles_fig_1,"Appendix B, p. 1231",descriptive,
+appendix_b_rep_pid_primary_actual,"Appendix B, p. 1231",pipeline,67.4
+appendix_b_rep_primary_actual,"Appendix B, p. 1231",pipeline,64.1
+appendix_b_rep_pid_primary_predicted,"Appendix B, p. 1231",pipeline,69.1
+appendix_b_rep_primary_predicted,"Appendix B, p. 1231",pipeline,65.7
+appendix_b_estimates_identical,"Appendix B, p. 1231",descriptive,
+appendix_b_identical_estimate,"Appendix B, p. 1231",pipeline,-1.6
+appendix_b_identical_se,"Appendix B, p. 1231",pipeline,0.6
+appendix_b_more_rows,"Appendix B, p. 1231",descriptive,
+appendix_b_se_too_large,"Appendix B, p. 1232",descriptive,
+appendix_b_center_right_similar,"Appendix B, p. 1232",descriptive,

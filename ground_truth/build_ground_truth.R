@@ -433,6 +433,95 @@ gt <-
   select(paper_id, table_figure, claim, value_script, value_paper, match,
          value_rewrite, match_rewrite, defect_locus, notes)
 
+# Gate: the article's claims are all covered ----
+# ground_truth/published_claims.csv is the exhaustive extraction: every numeric token in
+# the article and its appendix, with its location and a hand-assigned type. Pipeline and
+# descriptive claims must be checked by maintained/in_text_claims.R, as must the
+# definitional and structural claims the pipeline can actually reach. The rest are question
+# wordings, field dates, and numbers copied out of other people's polls, which are verified
+# against those sources rather than by an entry here.
+#
+# The check runs the claims file rather than reading it. A marker comment proves an entry
+# was written, not that it runs: an entry that errors, or that prints nothing, satisfies a
+# textual check completely. So the file is sourced in its own environment, the CLAIM lines
+# it prints are counted, and both the count and the identifiers are compared with the
+# extraction.
+published_claims <- read_csv(
+  here::here("ground_truth", "published_claims.csv"),
+  col_types = cols(.default = "c")
+)
+
+stopifnot(!anyDuplicated(published_claims$claim_id))
+
+recoverable_claims <- c(
+  "design_field_dates", "design_n_formats", "design_counterfactual_n_questions",
+  "table_1_scale_min", "table_1_scale_max", "table_1_change_response_options",
+  "table_2_note_scale_points", "table_2_note_change_scale_points",
+  "why_scale_points", "why_n_categories", "why_threshold_zero", "why_threshold_example",
+  "figure_1_axis_threshold_max", "discussion_scale_points",
+  str_subset(published_claims$claim_id, "^table_a1_age_bin_"),
+  str_subset(published_claims$claim_id, "^table_a2_bin_")
+)
+
+stopifnot(all(recoverable_claims %in% published_claims$claim_id))
+
+needs_entry <-
+  published_claims |>
+  filter(claim_type %in% c("pipeline", "descriptive") | claim_id %in% recoverable_claims)
+
+claims_output <- capture.output(
+  source(here::here("maintained", "in_text_claims.R"), local = new.env())
+)
+
+printed_claims <-
+  tibble(line = str_subset(claims_output, "^CLAIM ")) |>
+  transmute(claim_id = str_match(line, "^CLAIM (\\S+) = ")[, 2])
+
+stopifnot(!anyDuplicated(printed_claims$claim_id))
+
+missing_entry <- setdiff(needs_entry$claim_id, printed_claims$claim_id)
+unclaimed <- setdiff(printed_claims$claim_id, published_claims$claim_id)
+surplus <- setdiff(printed_claims$claim_id, needs_entry$claim_id)
+
+if (length(missing_entry) + length(unclaimed) + length(surplus) > 0) {
+  stop(str_glue(
+    "maintained/in_text_claims.R does not cover ground_truth/published_claims.csv. ",
+    "Claims with no entry ({length(missing_entry)}): {str_c(head(missing_entry, 20), collapse = ', ')}. ",
+    "Entries naming a claim the article does not make ({length(unclaimed)}): {str_c(head(unclaimed, 20), collapse = ', ')}. ",
+    "Entries for claims that need none ({length(surplus)}): {str_c(head(surplus, 20), collapse = ', ')}."
+  ))
+}
+
+# The count is what the identifier comparison cannot do on its own: a file that dies part
+# way through prints a prefix of its entries, and counting the lines against the extraction
+# is what says so.
+stopifnot(nrow(printed_claims) == nrow(needs_entry))
+
+# Every entry declares the claim it covers, and the declarations must name the set the run
+# printed. A * in a marker is a wildcard, which is how one entry declares a whole table.
+markers <- str_trim(str_remove(
+  str_subset(read_lines(here::here("maintained", "in_text_claims.R")), "^#\\s*covers:"),
+  "^#\\s*covers:"
+))
+
+covered <- unique(unlist(map(markers, function(marker) {
+  str_subset(
+    published_claims$claim_id,
+    str_c("^", str_replace_all(str_escape(marker), fixed("\\*"), ".*"), "$")
+  )
+})))
+
+undeclared <- setdiff(printed_claims$claim_id, covered)
+overdeclared <- setdiff(covered, printed_claims$claim_id)
+
+if (length(undeclared) + length(overdeclared) > 0) {
+  stop(str_glue(
+    "The covers markers in maintained/in_text_claims.R do not match what it prints. ",
+    "Printed but not declared ({length(undeclared)}): {str_c(head(undeclared, 20), collapse = ', ')}. ",
+    "Declared but not printed ({length(overdeclared)}): {str_c(head(overdeclared, 20), collapse = ', ')}."
+  ))
+}
+
 write_csv(gt, here::here("ground_truth", "barari_etal_2024_ground_truth.csv"))
 
 print(gt |> select(table_figure, claim, value_script, value_paper, match, value_rewrite, match_rewrite),
@@ -444,4 +533,10 @@ print(str_glue(
   "rewrite match=1: {sum(gt$match_rewrite == 1, na.rm = TRUE)} of {sum(!is.na(gt$match_rewrite))}"
 ))
 print(count(filter(gt, !is.na(defect_locus)), defect_locus))
+print(count(published_claims, claim_type))
+print(str_glue(
+  "published claims: {nrow(published_claims)}  ",
+  "needing an entry in maintained/in_text_claims.R: {nrow(needs_entry)}  ",
+  "entries printed: {nrow(printed_claims)}"
+))
 print(status, width = 200)

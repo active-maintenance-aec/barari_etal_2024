@@ -1,0 +1,126 @@
+---
+title: "Errata"
+subtitle: "On Barari, Coppock, Graham and Padgett (2024), *Public Opinion Quarterly* 88(4)"
+format:
+  pdf:
+    output-file: barari_etal_2024_errata.pdf
+    geometry: margin=1.25in
+    fontsize: 11pt
+    include-in-header:
+      text: |
+        \usepackage{caption}
+        \captionsetup{labelformat=empty}
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \floatplacement{figure}{H}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(here)
+library(tidyverse)
+here::i_am("errata.qmd")
+
+t2 <- read_csv(here("maintained", "output", "table_2_avg_effect_by_primary.csv"),
+               show_col_types = FALSE)
+txt <- read_csv(here("maintained", "output", "text_sample_and_weighting.csv"),
+                show_col_types = FALSE)
+fig1 <- read_csv(here("maintained", "output", "figure_1_thresholds_by_primary.csv"),
+                 show_col_types = FALSE)
+
+cell <- function(topic_key, party_name, quantity) {
+  rows <- str_detect(t2$Topic, fixed(topic_key)) & t2$Party == party_name
+  stopifnot(sum(rows) == 1)
+  t2[[quantity]][which(rows)]
+}
+
+group_n <- function(quantity_name) {
+  value <- txt$value[txt$quantity == quantity_name]
+  stopifnot(length(value) == 1)
+  formatC(value, format = "d", big.mark = ",")
+}
+
+# The change-format share of a group saying more or less likely, as the panel plots it.
+panel_share <- function(group, sign_value) {
+  rows <- fig1$primary_party == group & fig1$topic == "docs" & fig1$sign == sign_value &
+    str_trim(fig1$measure) == "Change" & fig1$threshold == -0.01
+  stopifnot(sum(rows) == 1)
+  sprintf("%.1f", 100 * fig1$P[which(rows)])
+}
+
+pp <- function(x) sprintf("%.1f", x)
+pv <- function(x) sprintf("%.3f", x)
+```
+
+This note lists four errors in "Did Trump's Indictments Rally His Base? Evidence from the Counterfactual Format," published in *Public Opinion Quarterly* 88(4), doi [10.1093/poq/nfae061](https://doi.org/10.1093/poq/nfae061). **None of them changes a conclusion of the paper.** They are recorded because a reader who followed the text to a panel, or quoted one of the numbers, would be misled.
+
+Item 1 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 2 and 3 are sentences that disagree with the article's own table 2. Item 4 is a caption reporting the wrong group sizes. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
+
+## 1. Figure 1's panels are printed in the wrong order
+
+Published, figure 1 caption, p. 1224:
+
+> Figure 1a displays results for respondents who did not plan to vote in either primary (N = 754). **Figure 1b** and **1c** displays results for those who plan to vote in the Republican primary (N = 2,026) and Democratic primary (N = 1,953).
+
+The panel printed as **(b)** is the Democratic one. Its belief column shows `r panel_share("Democratic", 1)` per cent of respondents saying more likely against `r panel_share("Democratic", -1)` per cent saying less likely, and its vote column is the general election, which only respondents outside the Republican primary were asked about. The panel printed as **(c)** is the Republican one, with a belief split of `r panel_share("Republican", 1)` per cent more likely against `r panel_share("Republican", -1)` per cent less likely and a Republican primary vote column. The body text carries the same assignment as the caption and so points at the wrong panel twice, at "In figure 1b, huge fractions of Republican primary voters report that the indictment made them think it was 'less likely' Trump mishandled documents" and at "We see this same basic pattern (reversed) among Democratic primary voters in figure 1c."
+
+Corrected: figure 1 is reprinted below with its panels in the order the caption and the body text describe. Nothing plotted differs.
+
+```{r fig-1a}
+#| out-width: 100%
+#| fig-align: center
+#| fig-cap: "(a) Respondents who did not plan to vote in either primary"
+knitr::include_graphics("maintained/output/figure_1a_thresholds_neither.pdf")
+```
+
+```{r fig-1b}
+#| out-width: 100%
+#| fig-align: center
+#| fig-cap: "(b) Respondents who plan to vote in the Republican primary"
+knitr::include_graphics("maintained/output/figure_1c_thresholds_republican.pdf")
+```
+
+```{r fig-1c}
+#| out-width: 100%
+#| fig-align: center
+#| fig-cap: "(c) Respondents who plan to vote in the Democratic primary"
+knitr::include_graphics("maintained/output/figure_1b_thresholds_democratic.pdf")
+```
+
+\parbox{\linewidth}{\footnotesize\raggedright \textit{Note:} Figure 1 as published, with the panels reordered to match the caption and the body text. Every plotted proportion is unchanged. Drawn from the deposited replication archive by \texttt{maintained/figure\_1\_thresholds\_by\_primary.R}, whose file names carry the letters the article printed.}
+
+## 2. The counterfactual estimates for respondents intending neither primary
+
+Published, p. 1222:
+
+> By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents (**+1.8** pp, s.e. = 0.9, **p = 0.05**), with no substantial effect on vote choice (**+0.1** pp, s.e. = 0.9, **p = 0.89**).
+
+Corrected:
+
+> By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents (**+`r pp(cell("Believe", "Neither", "cf_diff"))`** pp, s.e. = 0.9, **p = `r pv(cell("Believe", "Neither", "cf_p"))`**), with no substantial effect on vote choice (**+`r pp(cell("general election", "Neither", "cf_diff"))`** pp, s.e. = `r pp(cell("general election", "Neither", "cf_se"))`, **p = `r pv(cell("general election", "Neither", "cf_p"))`**).
+
+Table 2 already prints all four corrected values. The two standard errors quoted in the sentence are right, so the estimates were not computed on a different sample; the four wrong figures appear only here.
+
+## 3. The p-value for the effect on Republican primary vote
+
+Published, p. 1222:
+
+> Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, **p = 0.02**).
+
+Corrected:
+
+> Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, **p = `r pv(cell("primary election", "Republican", "cf_p"))`**).
+
+Table 2 prints `r pv(cell("primary election", "Republican", "cf_p"))` for the same estimate. The estimate and its standard error are stated correctly, and the finding is significant at conventional levels on either figure.
+
+## 4. Figure 1's caption reports the wrong group sizes
+
+Published, figure 1 caption, p. 1224:
+
+> Figure 1a displays results for respondents who did not plan to vote in either primary (N = **754**). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = **2,026**) and Democratic primary (N = **1,953**).
+
+Corrected:
+
+> Figure 1a displays results for respondents who did not plan to vote in either primary (N = **`r group_n("n_primary_neither")`**). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = **`r group_n("n_primary_republican")`**) and Democratic primary (N = **`r group_n("n_primary_democratic")`**).
+
+The three published figures are the counts of respondents by partisan identity, not by intended primary: `r group_n("n_party_id_independent")` respondents identify as Independents, `r group_n("n_party_id_republican")` as Republicans and `r group_n("n_party_id_democrat")` as Democrats. They are the group sizes of figure A.1.

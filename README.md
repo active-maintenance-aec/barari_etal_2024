@@ -8,6 +8,8 @@
     paper?](#does-the-maintained-rewrite-reproduce-the-paper)
 - [Original Archive Reproducibility](#original-archive-reproducibility)
 - [Ground Truth Verification](#ground-truth-verification)
+  - [In-text claims](#in-text-claims)
+  - [Errata](#errata)
 - [Maintained Rewrite](#maintained-rewrite)
 - [Figure Verification](#figure-verification)
 - [R Environment](#r-environment)
@@ -46,12 +48,18 @@ to add to.
 script per published table or figure, writing to `output/`, which is
 committed so a reader can compare a fresh run against it without
 downloading anything. `ground_truth/` ties every published number to the
-code that produces it, and also holds `run_deposited_scripts.R`, which
-runs the archive’s own scripts in a throwaway copy and records both
-whether they finish and what they compute. `original/` is created by the
-download script and is deliberately absent from the repository. This
-README is the reproducibility report, also available as a PDF in
-`report/`.
+code that produces it, and also holds `published_claims.csv`, the list
+of every numeric token in the article and its appendix, and
+`run_deposited_scripts.R`, which runs the archive’s own scripts in a
+throwaway copy and records both whether they finish and what they
+compute. `maintained/in_text_claims.R` pairs each of those claims with
+the sentence that makes it and the number this pipeline produces.
+`errata.qmd` at the repository root builds
+`barari_etal_2024_errata.pdf`, a short note on the four places where the
+article states something its own tables and data do not support.
+`original/` is created by the download script and is deliberately absent
+from the repository. This README is the reproducibility report, also
+available as a PDF in `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this
 repository maintains, so nothing in the chain is more restrictive than
@@ -355,9 +363,11 @@ two of them, the 6,877 who began the survey and the 73 percent who
 finished it, count respondents who by construction are not in it, and
 the third is FiveThirtyEight’s Biden approval average, which is not a
 quantity the survey produces at all. Table 1 prints the two question
-wordings and no numbers, and the two figures print no numbers either,
-which is why Table A.2, the article’s own numerical version of Figure 1,
-carries the numeric check on it.
+wordings and no numbers, and the two figures print no numbers either, so
+what is checked about them is every proportion they plot. Table A.2,
+which the article calls a numerical version of Figure 1, is not one: the
+table reports weighted percentages and the figure plots unweighted
+shares of respondents, and the two differ by up to 3.6 points.
 
 | Table or figure | Claim | Paper | Rewrite | Locus |
 |:---|:---|---:|---:|:---|
@@ -416,6 +426,47 @@ deposit cannot support the claim: here, the 173 respondents it does not
 contain. `paper_internal` means the deposit and the rewrite agree with
 each other and with the printed tables, and the article’s prose does
 not.
+
+### In-text claims
+
+The ground truth is organised by published float, which leaves the
+article’s prose thinly covered, and the prose is where three of the four
+errors below live. `ground_truth/published_claims.csv` closes that gap.
+It lists every numeric token in the article and its appendix, 414 of
+them, each with its location and a hand-assigned type: 348 are
+quantities this pipeline computes or claims about their shape, 30 are
+copied from other people’s polls and from the American Community Survey,
+and the rest are question wordings, scale endpoints and dates.
+
+`maintained/in_text_claims.R` carries an entry for each claim the
+pipeline can reach, with the article’s sentence quoted verbatim above
+the code that computes the number in the article’s own units and
+rounding. It reads only `maintained/output/` and
+`maintained/clean_data/` and never the ground truth, so the two
+instruments arrive at each number by separate paths.
+`build_ground_truth.R` runs it, counts the claim lines it prints, and
+stops the build unless they account for every claim the extraction says
+needs one. Counting rather than matching comment markers is the point:
+an entry that errors part way through prints a prefix of its lines and
+satisfies a textual check completely.
+
+### Errata
+
+`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records four
+places where the article states something its own tables and data do not
+support: Figure 1’s panels are printed in an order the caption and the
+body text do not describe, page 1222 gives two estimates and two
+p-values that its own Table 2 contradicts, page 1222 gives a third
+p-value as 0.02 where Table 2 prints 0.007, and Figure 1’s caption
+reports the counts of respondents by partisan identity rather than by
+intended primary. None of the four changes a conclusion. The corrected
+values are computed when the document is rendered, so the note cannot go
+stale the way the article did.
+
+The 173 respondents the deposit does not carry are deliberately absent
+from that note. A published sentence the archive cannot check is not an
+erratum: nothing here establishes that 5,011 is the wrong number, only
+that the deposited file holds 4,838.
 
 ------------------------------------------------------------------------
 

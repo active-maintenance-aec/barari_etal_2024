@@ -30,6 +30,35 @@ t2 <- read_csv(here("maintained", "output", "table_2_avg_effect_by_primary.csv")
 a1 <- read_csv(here("maintained", "output", "table_a1_demographics.csv"), show_col_types = FALSE)
 txt <- read_csv(here("maintained", "output", "text_sample_and_weighting.csv"), show_col_types = FALSE)
 deposit_check <- read_csv(here("maintained", "output", "clean_data_vs_deposit.csv"), show_col_types = FALSE)
+published_claims <- read_csv(here("ground_truth", "published_claims.csv"), show_col_types = FALSE,
+                             col_types = cols(.default = "c"))
+
+n_claims <- nrow(published_claims)
+n_claims_checked <- sum(published_claims$claim_type %in% c("pipeline", "descriptive"))
+n_claims_external <- sum(published_claims$claim_type == "transcribed")
+
+# Table A.2 is described in the article as a numerical version of Figure 1. The table is
+# weighted and the figure is not, so the corresponding cells do not agree; the largest
+# disagreement is quoted below rather than typed.
+a2 <- read_csv(here("maintained", "output", "table_a2_magnitude_by_primary.csv"), show_col_types = FALSE)
+fig1 <- read_csv(here("maintained", "output", "figure_1_thresholds_by_primary.csv"), show_col_types = FALSE)
+
+figure_change_shares <- fig1 |>
+  filter(str_trim(measure) == "Change", threshold == -0.01) |>
+  transmute(
+    panel = if_else(topic == "docs", "Beliefs", "Vote choice"),
+    effect = recode(as.character(sign), `1` = "Positive", `-1` = "Negative", `0` = "No effect"),
+    column = as.character(primary_party),
+    figure_pct = 100 * P
+  )
+
+a2_vs_fig1 <- a2 |>
+  filter(format == "Change") |>
+  pivot_longer(c(Republican, Democratic, Neither), names_to = "column", values_to = "table_pct") |>
+  inner_join(figure_change_shares, by = c("panel", "effect", "column"))
+
+stopifnot(nrow(a2_vs_fig1) == 18)
+a2_fig1_max_gap <- max(abs(a2_vs_fig1$table_pct - a2_vs_fig1$figure_pct))
 
 txt_value <- function(q) txt$value[txt$quantity == q]
 n_deposit <- txt_value("n_respondents_deposited")
@@ -106,7 +135,7 @@ This repository holds the actively maintained replication code for Barari, Coppo
 
 **The data are not redistributed here.** The deposit lives at Harvard Dataverse and that is the only copy this repository points at. `download_original.R` fetches it and verifies every file; `original_manifest.csv` records the Dataverse file identifiers, the UNF of the one ingested data file, and two checksums per file: the MD5 of the bytes Dataverse serves, which is what this code was written against, and the MD5 Dataverse publishes. Here the two agree for all twelve files. They do not always, so the script verifies against the served bytes and reports any disagreement. Either way the exact bytes are pinned in version control even though the bytes themselves are not. Re-hosting a copy would create a second archive that can drift from the first, which is the problem this project exists to document rather than to add to.
 
-**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it, and also holds `run_deposited_scripts.R`, which runs the archive's own scripts in a throwaway copy and records both whether they finish and what they compute. `original/` is created by the download script and is deliberately absent from the repository. This README is the reproducibility report, also available as a PDF in `report/`.
+**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it, and also holds `published_claims.csv`, the list of every numeric token in the article and its appendix, and `run_deposited_scripts.R`, which runs the archive's own scripts in a throwaway copy and records both whether they finish and what they compute. `maintained/in_text_claims.R` pairs each of those claims with the sentence that makes it and the number this pipeline produces. `errata.qmd` at the repository root builds `barari_etal_2024_errata.pdf`, a short note on the four places where the article states something its own tables and data do not support. `original/` is created by the download script and is deliberately absent from the repository. This README is the reproducibility report, also available as a PDF in `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this repository maintains, so nothing in the chain is more restrictive than the archive itself. See `LICENSE`.
 
@@ -248,7 +277,7 @@ k <- gt |>
 styled(k)
 ```
 
-The rows that cannot be verified are of three kinds and each is a statement about the article rather than a gap in the check. Fourteen cells across Tables 2 and A.3 carry a p-value the article prints as `p < 0.001` rather than as a number; a single row per table records that all seven such cells in each fall below 0.001 in the rewrite, which they do. Three in-text quantities cannot be rebuilt from a respondent file: two of them, the 6,877 who began the survey and the 73 percent who finished it, count respondents who by construction are not in it, and the third is FiveThirtyEight's Biden approval average, which is not a quantity the survey produces at all. Table 1 prints the two question wordings and no numbers, and the two figures print no numbers either, which is why Table A.2, the article's own numerical version of Figure 1, carries the numeric check on it.
+The rows that cannot be verified are of three kinds and each is a statement about the article rather than a gap in the check. Fourteen cells across Tables 2 and A.3 carry a p-value the article prints as `p < 0.001` rather than as a number; a single row per table records that all seven such cells in each fall below 0.001 in the rewrite, which they do. Three in-text quantities cannot be rebuilt from a respondent file: two of them, the 6,877 who began the survey and the 73 percent who finished it, count respondents who by construction are not in it, and the third is FiveThirtyEight's Biden approval average, which is not a quantity the survey produces at all. Table 1 prints the two question wordings and no numbers, and the two figures print no numbers either, so what is checked about them is every proportion they plot. Table A.2, which the article calls a numerical version of Figure 1, is not one: the table reports weighted percentages and the figure plots unweighted shares of respondents, and the two differ by up to `r sprintf("%.1f", a2_fig1_max_gap)` points.
 
 ```{r gt-misses}
 k <- gt |>
@@ -266,6 +295,18 @@ styled(k, wide_col = 2, width = "6cm")
 ```
 
 `defect_locus` records where each failure lives. `archive` means the deposit cannot support the claim: here, the 173 respondents it does not contain. `paper_internal` means the deposit and the rewrite agree with each other and with the printed tables, and the article's prose does not.
+
+### In-text claims
+
+The ground truth is organised by published float, which leaves the article's prose thinly covered, and the prose is where three of the four errors below live. `ground_truth/published_claims.csv` closes that gap. It lists every numeric token in the article and its appendix, `r n_claims` of them, each with its location and a hand-assigned type: `r n_claims_checked` are quantities this pipeline computes or claims about their shape, `r n_claims_external` are copied from other people's polls and from the American Community Survey, and the rest are question wordings, scale endpoints and dates.
+
+`maintained/in_text_claims.R` carries an entry for each claim the pipeline can reach, with the article's sentence quoted verbatim above the code that computes the number in the article's own units and rounding. It reads only `maintained/output/` and `maintained/clean_data/` and never the ground truth, so the two instruments arrive at each number by separate paths. `build_ground_truth.R` runs it, counts the claim lines it prints, and stops the build unless they account for every claim the extraction says needs one. Counting rather than matching comment markers is the point: an entry that errors part way through prints a prefix of its lines and satisfies a textual check completely.
+
+### Errata
+
+`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records four places where the article states something its own tables and data do not support: Figure 1's panels are printed in an order the caption and the body text do not describe, page 1222 gives two estimates and two p-values that its own Table 2 contradicts, page 1222 gives a third p-value as 0.02 where Table 2 prints 0.007, and Figure 1's caption reports the counts of respondents by partisan identity rather than by intended primary. None of the four changes a conclusion. The corrected values are computed when the document is rendered, so the note cannot go stale the way the article did.
+
+The 173 respondents the deposit does not carry are deliberately absent from that note. A published sentence the archive cannot check is not an erratum: nothing here establishes that 5,011 is the wrong number, only that the deposited file holds 4,838.
 
 ---
 

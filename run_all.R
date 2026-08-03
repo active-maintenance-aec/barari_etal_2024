@@ -34,6 +34,12 @@ source(here::here("ground_truth", "run_deposited_scripts.R"))
 # Rebuilt from the outputs above, so it cannot go stale.
 source(here::here("ground_truth", "build_ground_truth.R"))
 
+# In-text claims ----
+# Prints the audit trail pairing every claim the article makes with the number this
+# pipeline produces. build_ground_truth.R has already run it as a coverage gate; this is
+# the run whose output a reader sees.
+source(here::here("maintained", "in_text_claims.R"))
+
 # Deposited archive, again ----
 # The check at the top of this file is a precondition: it says original/ was intact
 # before anything ran. Nothing above writes to original/, and this second pass is what
