@@ -33,6 +33,13 @@ deposit_check <- read_csv(here("maintained", "output", "clean_data_vs_deposit.cs
 published_claims <- read_csv(here("ground_truth", "published_claims.csv"), show_col_types = FALSE,
                              col_types = cols(.default = "c"))
 
+# The errata spine, defined once in errata.qmd and written out by it. This report reads it
+# rather than keeping its own count, so the two cannot disagree about how many entries there
+# are.
+spine <- read_csv(here("errata_entries.csv"), show_col_types = FALSE)
+n_errata_word <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+                   "ten", "eleven", "twelve")[nrow(spine)]
+
 n_claims <- nrow(published_claims)
 n_claims_checked <- sum(published_claims$claim_type %in% c("pipeline", "descriptive"))
 n_claims_external <- sum(published_claims$claim_type == "transcribed")
@@ -135,7 +142,7 @@ This repository holds the actively maintained replication code for Barari, Coppo
 
 **The data are not redistributed here.** The deposit lives at Harvard Dataverse and that is the only copy this repository points at. `download_original.R` fetches it and verifies every file; `original_manifest.csv` records the Dataverse file identifiers, the UNF of the one ingested data file, and two checksums per file: the MD5 of the bytes Dataverse serves, which is what this code was written against, and the MD5 Dataverse publishes. Here the two agree for all twelve files. They do not always, so the script verifies against the served bytes and reports any disagreement. Either way the exact bytes are pinned in version control even though the bytes themselves are not. Re-hosting a copy would create a second archive that can drift from the first, which is the problem this project exists to document rather than to add to.
 
-**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it, and also holds `published_claims.csv`, the list of every numeric token in the article and its appendix, and `run_deposited_scripts.R`, which runs the archive's own scripts in a throwaway copy and records both whether they finish and what they compute. `maintained/in_text_claims.R` pairs each of those claims with the sentence that makes it and the number this pipeline produces. `errata.qmd` at the repository root builds `barari_etal_2024_errata.pdf`, a short note on the four places where the article states something its own tables and data do not support. `original/` is created by the download script and is deliberately absent from the repository. This README is the reproducibility report, also available as a PDF in `report/`.
+**Repository layout.** `maintained/` is the maintained rewrite: one script per published table or figure, writing to `output/`, which is committed so a reader can compare a fresh run against it without downloading anything. `ground_truth/` ties every published number to the code that produces it, and also holds `published_claims.csv`, the list of every numeric token in the article and its appendix, and `run_deposited_scripts.R`, which runs the archive's own scripts in a throwaway copy and records both whether they finish and what they compute. `maintained/in_text_claims.R` pairs each of those claims with the sentence that makes it and the number this pipeline produces. `errata.qmd` at the repository root builds `barari_etal_2024_errata.pdf`, a short note on the `r n_errata_word` places where the article states something its own tables and data do not support. `original/` is created by the download script and is deliberately absent from the repository. This README is the reproducibility report, also available as a PDF in `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this repository maintains, so nothing in the chain is more restrictive than the archive itself. See `LICENSE`.
 
@@ -304,7 +311,7 @@ The ground truth is organised by published float, which leaves the article's pro
 
 ### Errata
 
-`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records four places where the article states something its own tables and data do not support: Figure 1's panels are printed in an order the caption and the body text do not describe, page 1222 gives two estimates and two p-values that its own Table 2 contradicts, page 1222 gives a third p-value as 0.02 where Table 2 prints 0.007, and Figure 1's caption reports the counts of respondents by partisan identity rather than by intended primary. None of the four changes a conclusion. The corrected values are computed when the document is rendered, so the note cannot go stale the way the article did.
+`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records `r n_errata_word` places where the article states something its own tables and data do not support: Figure 1's panels are printed in an order the caption and the body text do not describe, page 1222 gives two estimates and two p-values that its own Table 2 contradicts, page 1222 gives a third p-value as 0.02 where Table 2 prints 0.007, and Figure 1's caption reports the counts of respondents by partisan identity rather than by intended primary. None of the `r n_errata_word` changes a conclusion. The corrected values are computed when the document is rendered, so the note cannot go stale the way the article did.
 
 The 173 respondents the deposit does not carry are deliberately absent from that note. A published sentence the archive cannot check is not an erratum: nothing here establishes that 5,011 is the wrong number, only that the deposited file holds 4,838.
 
