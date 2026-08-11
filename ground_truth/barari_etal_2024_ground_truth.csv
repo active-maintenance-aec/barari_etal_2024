@@ -1,304 +1,304 @@
-paper_id,table_figure,claim,value_script,value_paper,match,value_rewrite,match_rewrite,defect_locus,notes
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, actual (%)",27.1,27.1,1,27.105441001691048,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",24.6,24.6,1,24.620037104344657,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,2.5,1,2.4854038973464125,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6263118638086163,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, counterfactual p-value",NA,NA,NA,7.794006173735811e-5,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.2,16.2,1,16.15427023866337,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, change format, less likely (%)",39.6,39.6,1,39.57386408879473,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, change format difference (pp)",-23.4,-23.4,1,-23.4195938501314,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,2.8,1,2.8012574282644422,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Republican, change format p-value",NA,NA,NA,2.0630656047211343e-16,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, actual (%)",85.3,85.3,1,85.3489075034077,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, predicted if not for indictment (%)",79.5,79.5,1,79.51247247483492,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual difference (pp)",5.8,5.8,1,5.836435028572734,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual standard error (pp)",0.6,0.6,1,0.6282111562459571,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual p-value",NA,NA,NA,1.099324767378843e-19,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, change format, more likely (%)",76,76,1,75.9678868455915,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, change format, less likely (%)",5,5,1,4.98497764544896,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, change format difference (pp)",71,71,1,70.98290920014261,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, change format standard error (pp)",2.3,2.3,1,2.258931786682295,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Democratic, change format p-value",NA,NA,NA,2.871896224734555e-149,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, actual (%)",55.7,55.7,1,55.69000819233565,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, predicted if not for indictment (%)",54.2,54.2,1,54.23630483152846,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, counterfactual difference (pp)",1.5,1.5,1,1.4537033608071608,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, counterfactual standard error (pp)",0.9,0.9,1,0.9434378194425432,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, counterfactual p-value",NA,0.124,NA,0.12417079815967708,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, change format, more likely (%)",37.4,37.4,1,37.36892447728628,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, change format, less likely (%)",15.7,15.7,1,15.747354613843449,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, change format difference (pp)",21.6,21.6,1,21.621569863442847,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, change format standard error (pp)",3.9,3.9,1,3.902346526666197,1,NA,
-barari_etal_2024,Table 2,"Believe Trump mishandled docs, Neither, change format p-value",NA,NA,NA,5.125683234192065e-8,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, actual (%)",11.1,11.1,1,11.082691133161909,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, predicted if not for indictment (%)",10.1,10.1,1,10.1344825327289,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, counterfactual difference (pp)",0.9,0.9,1,0.9482086004330096,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, counterfactual standard error (pp)",0.8,0.8,1,0.7668094636398458,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, counterfactual p-value",NA,0.217,NA,0.21660108157991337,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, change format, more likely (%)",8,8,1,8.004082731589696,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, change format, less likely (%)",60.2,60.2,1,60.15210173126495,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, change format difference (pp)",-52.1,-52.1,1,-52.148018999675195,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, change format standard error (pp)",2.7,2.7,1,2.705940565266165,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Democratic, change format p-value",NA,NA,NA,3.9251312253071386e-70,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, actual (%)",42.2,42.2,1,42.21529658782916,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, predicted if not for indictment (%)",41.9,41.9,1,41.93675344066476,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, counterfactual difference (pp)",0.3,0.3,1,0.2785431471643985,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, counterfactual standard error (pp)",0.9,0.9,1,0.8792719217946693,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, counterfactual p-value",NA,0.752,NA,0.7515898492544542,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, change format, more likely (%)",20.3,20.3,1,20.33048588289146,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, change format, less likely (%)",30.8,30.8,1,30.822131130960795,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, change format difference (pp)",-10.5,-10.5,1,-10.491645248069336,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, change format standard error (pp)",4,4,1,4.013972716647343,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (general election), Neither, change format p-value",NA,0.009,NA,0.00925477012090893,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, actual (%)",64.1,64.1,1,64.06975888899265,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",65.7,65.7,1,65.66713532403553,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,-1.6,1,-1.597376435042854,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,0.6,1,0.596092618177731,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, counterfactual p-value",NA,0.007,NA,0.00749289690852636,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, change format, more likely (%)",43,43,1,43.02995580486831,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, change format, less likely (%)",16.3,16.3,1,16.282181684735985,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, change format difference (pp)",26.7,26.7,1,26.747774120132377,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, change format standard error (pp)",2.9,2.9,1,2.868458381728846,1,NA,
-barari_etal_2024,Table 2,"Vote for Trump (primary election), Republican, change format p-value",NA,NA,NA,6.852310693597782e-20,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table 2,"Cells whose p-value the article prints as p < 0.001, reproducing below 0.001",NA,7,NA,7,1,NA,Counts the cells the article marks p < 0.001 that the rewrite also puts below 0.001
-barari_etal_2024,Table A.2,"Beliefs, Positive, Change, Republican (%)",16.2,16.2,1,16.1543,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, Change, Democratic (%)",76,76,1,75.9679,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, Change, Neither (%)",37.4,37.4,1,37.3689,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, Counterfactual, Republican (%)",33.3,33.3,1,33.2556,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, Counterfactual, Democratic (%)",36.5,36.5,1,36.4612,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, Counterfactual, Neither (%)",29.5,29.5,1,29.5477,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 1-5%, Republican (%)",13.1,13.1,1,13.0736,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 1-5%, Democratic (%)",9.7,9.7,1,9.727,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 1-5%, Neither (%)",11.3,11.3,1,11.2523,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 6-10%, Republican (%)",6.1,6.1,1,6.0947,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 6-10%, Democratic (%)",4.9,4.9,1,4.9428,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 6-10%, Neither (%)",4.8,4.8,1,4.8046,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 11-20%, Republican (%)",6.6,6.6,1,6.5796,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 11-20%, Democratic (%)",8.4,8.4,1,8.417,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 11-20%, Neither (%)",6.2,6.2,1,6.1744,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 20% or more, Republican (%)",7.5,7.5,1,7.5077,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 20% or more, Democratic (%)",13.4,13.4,1,13.3743,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Positive, 20% or more, Neither (%)",7.3,7.3,1,7.3164,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Change, Republican (%)",39.6,39.6,1,39.5739,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Change, Democratic (%)",5,5,1,4.985,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Change, Neither (%)",15.7,15.7,1,15.7474,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Counterfactual, Republican (%)",15,15,1,14.9625,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Counterfactual, Democratic (%)",11.9,11.9,1,11.9254,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, Counterfactual, Neither (%)",20.5,20.5,1,20.4501,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 1-5%, Republican (%)",7.9,7.9,1,7.8852,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 1-5%, Democratic (%)",6.5,6.5,1,6.5205,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 1-5%, Neither (%)",9.2,9.2,1,9.2406,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 6-10%, Republican (%)",2.6,2.6,1,2.5904,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 6-10%, Democratic (%)",3.1,3.1,1,3.0928,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 6-10%, Neither (%)",4.8,4.8,1,4.8102,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 11-20%, Republican (%)",1.5,1.5,1,1.4638,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 11-20%, Democratic (%)",1.3,1.3,1,1.2885,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 11-20%, Neither (%)",2.1,2.1,1,2.1016,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 20% or more, Republican (%)",3,3,1,3.0231,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 20% or more, Democratic (%)",1,1,1,1.0236,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, Negative, 20% or more, Neither (%)",4.3,4.3,1,4.2977,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Change, Republican (%)",44.3,44.3,1,44.2719,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Change, Democratic (%)",19,19,1,19.0471,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Change, Neither (%)",46.9,46.9,1,46.8837,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Counterfactual, Republican (%)",51.8,51.8,1,51.7819,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Counterfactual, Democratic (%)",51.6,51.6,1,51.6134,1,NA,
-barari_etal_2024,Table A.2,"Beliefs, No effect, Counterfactual, Neither (%)",50,50,1,50.0022,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Change, Republican (%)",43,43,1,43.03,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Change, Democratic (%)",8,8,1,8.0041,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Change, Neither (%)",20.3,20.3,1,20.3305,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Counterfactual, Republican (%)",13,13,1,13.0466,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Counterfactual, Democratic (%)",13.3,13.3,1,13.3362,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, Counterfactual, Neither (%)",22.6,22.6,1,22.6483,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 1-5%, Republican (%)",7.8,7.8,1,7.8371,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 1-5%, Democratic (%)",7.4,7.4,1,7.4128,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 1-5%, Neither (%)",11.1,11.1,1,11.1155,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 6-10%, Republican (%)",1.4,1.4,1,1.4456,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 6-10%, Democratic (%)",1.5,1.5,1,1.5316,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 6-10%, Neither (%)",2.7,2.7,1,2.7385,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 11-20%, Republican (%)",2.2,2.2,1,2.2273,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 11-20%, Democratic (%)",1,1,1,0.9875,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 11-20%, Neither (%)",4.1,4.1,1,4.1476,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 20% or more, Republican (%)",1.5,1.5,1,1.5366,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 20% or more, Democratic (%)",3.4,3.4,1,3.4042,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Positive, 20% or more, Neither (%)",4.6,4.6,1,4.6467,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Change, Republican (%)",16.3,16.3,1,16.2822,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Change, Democratic (%)",60.2,60.2,1,60.1521,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Change, Neither (%)",30.8,30.8,1,30.8221,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Counterfactual, Republican (%)",17.7,17.7,1,17.6602,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Counterfactual, Democratic (%)",14.1,14.1,1,14.1355,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, Counterfactual, Neither (%)",19.9,19.9,1,19.8945,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 1-5%, Republican (%)",9.4,9.4,1,9.3595,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 1-5%, Democratic (%)",8.8,8.8,1,8.8406,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 1-5%, Neither (%)",8.3,8.3,1,8.3433,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 6-10%, Republican (%)",2.2,2.2,1,2.1777,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 6-10%, Democratic (%)",1.2,1.2,1,1.1637,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 6-10%, Neither (%)",4.1,4.1,1,4.1231,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 11-20%, Republican (%)",2,2,1,2.046,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 11-20%, Democratic (%)",3.3,3.3,1,3.265,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 11-20%, Neither (%)",3.5,3.5,1,3.5023,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 20% or more, Republican (%)",4.1,4.1,1,4.077,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 20% or more, Democratic (%)",0.9,0.9,1,0.8662,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, Negative, 20% or more, Neither (%)",3.9,3.9,1,3.9259,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Change, Republican (%)",40.7,40.7,1,40.6879,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Change, Democratic (%)",31.8,31.8,1,31.8438,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Change, Neither (%)",48.8,48.8,1,48.8474,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Counterfactual, Republican (%)",69.3,69.3,1,69.2932,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Counterfactual, Democratic (%)",72.5,72.5,1,72.5283,1,NA,
-barari_etal_2024,Table A.2,"Vote choice, No effect, Counterfactual, Neither (%)",57.5,57.5,1,57.4572,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, actual (%)",25,25,1,25.0405677824594,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",22.5,22.5,1,22.531624644800647,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,2.5,1,2.508943137658787,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6184234089690659,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual p-value",NA,NA,NA,5.393879065029705e-5,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.7,16.7,1,16.715662132510403,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, change format, less likely (%)",38.5,38.5,1,38.544543873792406,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, change format difference (pp)",-21.8,-21.8,1,-21.82888174128205,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,2.8,1,2.826033639347707,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Republican, change format p-value",NA,NA,NA,2.7013188181068683e-14,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, actual (%)",85.4,85.4,1,85.43126126374034,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, predicted if not for indictment (%)",80.3,80.3,1,80.264962875,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual difference (pp)",5.2,5.2,1,5.166298388740334,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual standard error (pp)",0.6,0.6,1,0.634448954944699,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual p-value",NA,NA,NA,1.2382245492024433e-15,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, change format, more likely (%)",73.9,73.9,1,73.89573872639063,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, change format, less likely (%)",6.1,6.1,1,6.055999426894751,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, change format difference (pp)",67.8,67.8,1,67.83973929949593,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, change format standard error (pp)",2.5,2.5,1,2.450155964245152,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Democrat, change format p-value",NA,NA,NA,3.2901910216297237e-125,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, actual (%)",59.2,59.2,1,59.18087418521384,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, predicted if not for indictment (%)",56.7,56.7,1,56.67982512651414,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual difference (pp)",2.5,2.5,1,2.501049058699727,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual standard error (pp)",1,1,1,1.0433690228605634,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual p-value",NA,0.017,NA,0.01704665150801583,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, change format, more likely (%)",39.6,39.6,1,39.55354663887059,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, change format, less likely (%)",15.3,15.3,1,15.34930625032111,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, change format difference (pp)",24.2,24.2,1,24.20424038854951,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, change format standard error (pp)",4.4,4.4,1,4.370045486533049,1,NA,
-barari_etal_2024,Table A.3,"Believe Trump mishandled docs, Independent, change format p-value",NA,NA,NA,5.7824108971856206e-8,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, actual (%)",64.8,64.8,1,64.8481438437694,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, predicted if not for indictment (%)",61.4,61.4,1,61.44234569911459,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, counterfactual difference (pp)",3.4,3.4,1,3.4057981446548196,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, counterfactual standard error (pp)",3.1,3.1,1,3.1132861164683168,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, counterfactual p-value",NA,0.277,NA,0.27662885273245086,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, change format, more likely (%)",33.8,33.8,1,33.84902664001949,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, change format, less likely (%)",15.3,15.3,1,15.335711559790823,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, change format difference (pp)",18.5,18.5,1,18.513315080228672,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, change format standard error (pp)",7.4,7.4,1,7.358468110919541,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Republican, change format p-value",NA,0.013,NA,0.01328958609705077,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, actual (%)",8.5,8.5,1,8.456810259072379,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, predicted if not for indictment (%)",7.9,7.9,1,7.939514022537426,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, counterfactual difference (pp)",0.5,0.5,1,0.5172962365349529,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, counterfactual standard error (pp)",0.7,0.7,1,0.6852936778146651,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, counterfactual p-value",NA,0.451,NA,0.4505605245425909,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, change format, more likely (%)",7.1,7.1,1,7.096728238552806,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, change format, less likely (%)",61.8,61.8,1,61.77348596843739,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, change format difference (pp)",-54.7,-54.7,1,-54.67675772988457,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, change format standard error (pp)",2.6,2.6,1,2.607450955601064,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Democrat, change format p-value",NA,NA,NA,1.822534210107587e-80,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, actual (%)",37.5,37.5,1,37.52163742579909,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, predicted if not for indictment (%)",37,37,1,36.950370654350714,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, counterfactual difference (pp)",0.6,0.6,1,0.5712667714483919,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, counterfactual standard error (pp)",1,1,1,1.0441355679969455,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, counterfactual p-value",NA,0.585,NA,0.5847606789642348,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, change format, more likely (%)",19,19,1,19.02361161807951,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, change format, less likely (%)",32.6,32.6,1,32.58209341055361,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, change format difference (pp)",-13.6,-13.6,1,-13.558481792474108,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, change format standard error (pp)",4.8,4.8,1,4.834340035673886,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (general election), Independent, change format p-value",NA,0.005,NA,0.00535460154325721,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, actual (%)",67.4,67.4,1,67.44264037065216,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",69.1,69.1,1,69.08760116090991,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,-1.6,1,-1.6449607902577588,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6376634287988664,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, counterfactual p-value",NA,0.01,NA,0.01005461798570329,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, change format, more likely (%)",45.8,45.8,1,45.8029537209788,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, change format, less likely (%)",14.1,14.1,1,14.09370956931924,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, change format difference (pp)",31.7,31.7,1,31.70924415165964,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, change format standard error (pp)",3,3,1,2.9570448841139574,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Republican, change format p-value",NA,NA,NA,2.476979995291915e-25,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, actual (%)",35.3,35.3,1,35.28757510517165,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, predicted if not for indictment (%)",33.7,33.7,1,33.727994714804446,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual difference (pp)",1.6,1.6,1,1.5595803903672,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual standard error (pp)",1.1,1.1,1,1.148246454026404,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual p-value",NA,0.182,NA,0.1816429490778705,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, change format, more likely (%)",21,21,1,21.043521974834956,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, change format, less likely (%)",39.9,39.9,1,39.92695541858547,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, change format difference (pp)",-18.9,-18.9,1,-18.883433443750505,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, change format standard error (pp)",15.7,15.7,1,15.65271770198278,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Democrat, change format p-value",NA,0.235,NA,0.2349308157363032,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, actual (%)",42.5,42.5,1,42.52905540667084,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, predicted if not for indictment (%)",44.9,44.9,1,44.87294632149035,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, counterfactual difference (pp)",-2.3,-2.3,1,-2.343890914819525,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, counterfactual standard error (pp)",2.6,2.6,1,2.608865994548791,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, counterfactual p-value",NA,0.373,NA,0.37260679725858226,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, change format, more likely (%)",23.4,23.4,1,23.352492368628653,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, change format, less likely (%)",27.4,27.4,1,27.382595086323736,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, change format difference (pp)",-4,-4,1,-4.0301027176950885,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, change format standard error (pp)",12.2,12.2,1,12.166522816155592,1,NA,
-barari_etal_2024,Table A.3,"Vote for Trump (primary election), Independent, change format p-value",NA,0.742,NA,0.7417180573195066,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
-barari_etal_2024,Table A.3,"Cells whose p-value the article prints as p < 0.001, reproducing below 0.001",NA,7,NA,7,1,NA,Counts the cells the article marks p < 0.001 that the rewrite also puts below 0.001
-barari_etal_2024,Table A.1,"Gender, Male, unweighted (%)",NA,48.1,NA,48.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Gender, Male, weighted (%)",NA,47.5,NA,47.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Gender, Female, unweighted (%)",NA,49.9,NA,49.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Gender, Female, weighted (%)",NA,50.2,NA,49.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 18-24, unweighted (%)",NA,5.5,NA,5.5,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 18-24, weighted (%)",NA,12.1,NA,12.3,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 25-34, unweighted (%)",NA,10.3,NA,10.1,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 25-34, weighted (%)",NA,17.5,NA,17.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 35-44, unweighted (%)",NA,13.1,NA,12.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 35-44, weighted (%)",NA,16.7,NA,16.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 45-54, unweighted (%)",NA,17,NA,16.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 45-54, weighted (%)",NA,16,NA,15.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 55-64, unweighted (%)",NA,21,NA,21.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 55-64, weighted (%)",NA,16.6,NA,16.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 65+, unweighted (%)",NA,33,NA,33.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Age, 65+, weighted (%)",NA,21,NA,21.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, White, non-Hispanic, unweighted (%)",NA,68.2,NA,69,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, White, non-Hispanic, weighted (%)",NA,63.9,NA,64.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Black, non-Hispanic, unweighted (%)",NA,11.5,NA,11.6,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Black, non-Hispanic, weighted (%)",NA,12.7,NA,12.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Hispanic, unweighted (%)",NA,12.5,NA,12,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Hispanic, weighted (%)",NA,16.4,NA,15.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Asian, non-Hispanic, unweighted (%)",NA,2.7,NA,2.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Asian, non-Hispanic, weighted (%)",NA,5.4,NA,4.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Other, non-Hispanic, unweighted (%)",NA,5,NA,4.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Race and ethnicity, Other, non-Hispanic, weighted (%)",NA,1.6,NA,1.6,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, High school or less, unweighted (%)",NA,17.9,NA,17.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, High school or less, weighted (%)",NA,38.5,NA,38.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Some college/associate's, unweighted (%)",NA,31.1,NA,31,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Some college/associate's, weighted (%)",NA,30.5,NA,30.5,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Bachelor's, unweighted (%)",NA,28.5,NA,28.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Bachelor's, weighted (%)",NA,19.5,NA,19.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Graduate degree, unweighted (%)",NA,22.5,NA,22.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Educational attainment, Graduate degree, weighted (%)",NA,11.5,NA,11.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Biden approval, Approve, unweighted (%)",NA,43.3,NA,44.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Biden approval, Approve, weighted (%)",NA,40.4,NA,41.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Biden approval, Disapprove, unweighted (%)",NA,54,NA,55.1,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Table A.1,"Biden approval, Disapprove, weighted (%)",NA,56.3,NA,57.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
-barari_etal_2024,Figure 1,All plotted proportions,NA,NA,NA,NA,NA,NA,"The figure prints no numbers, so there is nothing to compare against the page. All 1206 plotted proportions agree with the values the deposited figure_1.R computes before it fails, to within 5.6e-16. Table A.2 is the article's own numerical version of this figure and is checked cell by cell above"
-barari_etal_2024,Figure A.1,All plotted proportions,NA,NA,NA,NA,NA,NA,As for Figure 1: all 1717 plotted proportions agree with the deposited figure_A1.R values to within 5.6e-16
-barari_etal_2024,Figure 1,Panel (b) shows Republican primary voters (1 = yes),0,1,0,0,0,paper_internal,"Does not hold. The caption and the body text both assign panel (b) to Republican primary voters, but the panel the article prints is the Democratic one: its belief column shows 79.5 per cent saying more likely against 4.9 per cent less likely, and its vote column is the general election. The deposited figure_1.R writes the panels in the order Neither, Democratic, Republican, which is the order the article prints them in"
-barari_etal_2024,Figure 1,Panel (c) shows Democratic primary voters (1 = yes),0,1,0,0,0,paper_internal,The other half of the same transposition: panel (c) carries the Republican primary column and a belief split of 15.1 per cent more likely against 42.7 per cent less likely
-barari_etal_2024,Table 1,Randomized question format conditions,NA,NA,NA,NA,NA,NA,"The table prints the two question wordings and no numbers, so it carries nothing to verify"
-barari_etal_2024,"Text, p. 1219",Respondents who completed the survey,NA,5011,NA,4838,0,archive,"The deposited data carry 4,838 respondents, 173 fewer than the article describes, with ids running 1 to 4838 and no gaps"
-barari_etal_2024,"Text, p. 1219",Respondents who began the survey,NA,6877,NA,NA,NA,NA,"Respondents who did not complete are not in the deposit, so the denominator cannot be rebuilt"
-barari_etal_2024,"Text, p. 1219",Completion rate (%),NA,73,NA,NA,NA,NA,Follows from the two counts above and is unverifiable for the same reason
-barari_etal_2024,"Text, p. 1219",Weighted Biden approval (%),NA,40.4,NA,41.368891889276235,0,archive,"Weighted share approving, strongly or somewhat. The gap is the same 173 missing respondents"
-barari_etal_2024,"Text, p. 1219","FiveThirtyEight Biden approval, June 26 2023 (%)",NA,40.3,NA,NA,NA,NA,"An external benchmark, not a quantity the survey produces"
-barari_etal_2024,Figure 1 caption,"N, respondents intending neither primary",NA,754,NA,889,0,paper_internal,"The caption's three Ns are the partisan identity counts, which belong to Figure A.1: 754 is the number of Independents, and the number intending neither primary is 889"
-barari_etal_2024,Figure 1 caption,"N, Republican primary voters",NA,2026,NA,2028,0,paper_internal,"2,026 is the number of Republican identifiers; 2,028 intend to vote in the Republican primary"
-barari_etal_2024,Figure 1 caption,"N, Democratic primary voters",NA,1953,NA,1921,0,paper_internal,"1,953 is the number of Democratic identifiers; 1,921 intend to vote in the Democratic primary"
-barari_etal_2024,"Text, p. 1217","Republican primary voters, chance of voting for Trump (%)",NA,64.1,NA,64.06975888899265,1,NA,
-barari_etal_2024,"Text, p. 1217","Republican primary voters, chance if not for the indictment (%)",NA,65.7,NA,65.66713532403553,1,NA,
-barari_etal_2024,"Text, p. 1222","Republican primary voters, effect on primary vote (pp)",NA,-1.6,NA,-1.597376435042854,1,NA,"The sentence prints the magnitude as 1.6 with no minus sign and gives the direction in words; Table 2, the abstract and page 1231 all print -1.6"
-barari_etal_2024,"Text, p. 1222","Republican primary voters, effect on primary vote, p-value",NA,0.02,NA,0.00749289690852636,0,paper_internal,"The text gives p = 0.02 for an estimate its own Table 2 reports at p = 0.007, which is what the data give"
-barari_etal_2024,"Text, p. 1222","Republican primary voters, effect on belief (pp)",NA,2.5,NA,2.4854038973464125,1,NA,
-barari_etal_2024,"Text, p. 1222","Democratic primary voters, effect on belief (pp)",NA,5.8,NA,5.836435028572734,1,NA,
-barari_etal_2024,"Text, p. 1222","Democratic primary voters, effect on general election vote (pp)",NA,0.9,NA,0.9482086004330096,1,NA,
-barari_etal_2024,"Text, p. 1222","Democratic primary voters, effect on general election vote, p-value",NA,0.22,NA,0.21660108157991337,1,NA,
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on belief (pp)",NA,1.8,NA,1.4537033608071608,0,paper_internal,The text reports +1.8 pp with p = 0.05 where its own Table 2 reports 1.5 pp with p = 0.124. The data give the table's value
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on belief, standard error (pp)",NA,0.9,NA,0.9434378194425432,1,NA,
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on belief, p-value",NA,0.05,NA,0.12417079815967708,0,paper_internal,See the estimate above; Table 2 prints 0.124
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on general election vote (pp)",NA,0.1,NA,0.2785431471643985,0,paper_internal,The text reports +0.1 pp with p = 0.89 where Table 2 reports 0.3 pp with p = 0.752. The data give the table's value
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on general election vote, standard error (pp)",NA,0.9,NA,0.8792719217946693,1,NA,
-barari_etal_2024,"Text, p. 1222","Neither primary, effect on general election vote, p-value",NA,0.89,NA,0.7515898492544542,0,paper_internal,See the estimate above; Table 2 prints 0.752
-barari_etal_2024,"Text, p. 1231","Republican identifiers in the Republican primary, chance of voting for Trump (%)",NA,67.4,NA,67.44264037065216,1,NA,
-barari_etal_2024,"Text, p. 1231","Republican identifiers in the Republican primary, chance if not for the indictment (%)",NA,69.1,NA,69.08760116090991,1,NA,
+paper_id,claim_id,table_figure,claim,value_script,value_paper,match,value_rewrite,match_rewrite,defect_locus,notes
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_actual_pct,Table 2,"Believe Trump mishandled docs, Republican, actual (%)",27.1,27.1,1,27.105441001691048,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_predicted_if_not_for_indictment_pct,Table 2,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",24.6,24.6,1,24.620037104344657,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_counterfactual_difference_pp,Table 2,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,2.5,1,2.4854038973464125,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_counterfactual_standard_error_pp,Table 2,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6263118638086163,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_counterfactual_p_value,Table 2,"Believe Trump mishandled docs, Republican, counterfactual p-value",NA,NA,NA,7.794006173735811e-5,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_change_format_more_likely_pct,Table 2,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.2,16.2,1,16.15427023866337,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_change_format_less_likely_pct,Table 2,"Believe Trump mishandled docs, Republican, change format, less likely (%)",39.6,39.6,1,39.57386408879473,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_change_format_difference_pp,Table 2,"Believe Trump mishandled docs, Republican, change format difference (pp)",-23.4,-23.4,1,-23.4195938501314,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_change_format_standard_error_pp,Table 2,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,2.8,1,2.8012574282644422,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_republican_change_format_p_value,Table 2,"Believe Trump mishandled docs, Republican, change format p-value",NA,NA,NA,2.0630656047211343e-16,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_actual_pct,Table 2,"Believe Trump mishandled docs, Democratic, actual (%)",85.3,85.3,1,85.3489075034077,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_predicted_if_not_for_indictment_pct,Table 2,"Believe Trump mishandled docs, Democratic, predicted if not for indictment (%)",79.5,79.5,1,79.51247247483492,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_counterfactual_difference_pp,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual difference (pp)",5.8,5.8,1,5.836435028572734,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_counterfactual_standard_error_pp,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual standard error (pp)",0.6,0.6,1,0.6282111562459571,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_counterfactual_p_value,Table 2,"Believe Trump mishandled docs, Democratic, counterfactual p-value",NA,NA,NA,1.099324767378843e-19,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_change_format_more_likely_pct,Table 2,"Believe Trump mishandled docs, Democratic, change format, more likely (%)",76,76,1,75.9678868455915,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_change_format_less_likely_pct,Table 2,"Believe Trump mishandled docs, Democratic, change format, less likely (%)",5,5,1,4.98497764544896,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_change_format_difference_pp,Table 2,"Believe Trump mishandled docs, Democratic, change format difference (pp)",71,71,1,70.98290920014261,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_change_format_standard_error_pp,Table 2,"Believe Trump mishandled docs, Democratic, change format standard error (pp)",2.3,2.3,1,2.258931786682295,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_democratic_change_format_p_value,Table 2,"Believe Trump mishandled docs, Democratic, change format p-value",NA,NA,NA,2.871896224734555e-149,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_actual_pct,Table 2,"Believe Trump mishandled docs, Neither, actual (%)",55.7,55.7,1,55.69000819233565,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_predicted_if_not_for_indictment_pct,Table 2,"Believe Trump mishandled docs, Neither, predicted if not for indictment (%)",54.2,54.2,1,54.23630483152846,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_counterfactual_difference_pp,Table 2,"Believe Trump mishandled docs, Neither, counterfactual difference (pp)",1.5,1.5,1,1.4537033608071608,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_counterfactual_standard_error_pp,Table 2,"Believe Trump mishandled docs, Neither, counterfactual standard error (pp)",0.9,0.9,1,0.9434378194425432,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_counterfactual_p_value,Table 2,"Believe Trump mishandled docs, Neither, counterfactual p-value",NA,0.124,NA,0.12417079815967708,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_change_format_more_likely_pct,Table 2,"Believe Trump mishandled docs, Neither, change format, more likely (%)",37.4,37.4,1,37.36892447728628,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_change_format_less_likely_pct,Table 2,"Believe Trump mishandled docs, Neither, change format, less likely (%)",15.7,15.7,1,15.747354613843449,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_change_format_difference_pp,Table 2,"Believe Trump mishandled docs, Neither, change format difference (pp)",21.6,21.6,1,21.621569863442847,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_change_format_standard_error_pp,Table 2,"Believe Trump mishandled docs, Neither, change format standard error (pp)",3.9,3.9,1,3.902346526666197,1,NA,
+barari_etal_2024,table_2_believe_trump_mishandled_docs_neither_change_format_p_value,Table 2,"Believe Trump mishandled docs, Neither, change format p-value",NA,NA,NA,5.125683234192065e-8,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_actual_pct,Table 2,"Vote for Trump (general election), Democratic, actual (%)",11.1,11.1,1,11.082691133161909,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_predicted_if_not_for_indictment_pct,Table 2,"Vote for Trump (general election), Democratic, predicted if not for indictment (%)",10.1,10.1,1,10.1344825327289,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_counterfactual_difference_pp,Table 2,"Vote for Trump (general election), Democratic, counterfactual difference (pp)",0.9,0.9,1,0.9482086004330096,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_counterfactual_standard_error_pp,Table 2,"Vote for Trump (general election), Democratic, counterfactual standard error (pp)",0.8,0.8,1,0.7668094636398458,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_counterfactual_p_value,Table 2,"Vote for Trump (general election), Democratic, counterfactual p-value",NA,0.217,NA,0.21660108157991337,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_change_format_more_likely_pct,Table 2,"Vote for Trump (general election), Democratic, change format, more likely (%)",8,8,1,8.004082731589696,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_change_format_less_likely_pct,Table 2,"Vote for Trump (general election), Democratic, change format, less likely (%)",60.2,60.2,1,60.15210173126495,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_change_format_difference_pp,Table 2,"Vote for Trump (general election), Democratic, change format difference (pp)",-52.1,-52.1,1,-52.148018999675195,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_change_format_standard_error_pp,Table 2,"Vote for Trump (general election), Democratic, change format standard error (pp)",2.7,2.7,1,2.705940565266165,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_democratic_change_format_p_value,Table 2,"Vote for Trump (general election), Democratic, change format p-value",NA,NA,NA,3.9251312253071386e-70,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_actual_pct,Table 2,"Vote for Trump (general election), Neither, actual (%)",42.2,42.2,1,42.21529658782916,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_predicted_if_not_for_indictment_pct,Table 2,"Vote for Trump (general election), Neither, predicted if not for indictment (%)",41.9,41.9,1,41.93675344066476,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_counterfactual_difference_pp,Table 2,"Vote for Trump (general election), Neither, counterfactual difference (pp)",0.3,0.3,1,0.2785431471643985,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_counterfactual_standard_error_pp,Table 2,"Vote for Trump (general election), Neither, counterfactual standard error (pp)",0.9,0.9,1,0.8792719217946693,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_counterfactual_p_value,Table 2,"Vote for Trump (general election), Neither, counterfactual p-value",NA,0.752,NA,0.7515898492544542,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_change_format_more_likely_pct,Table 2,"Vote for Trump (general election), Neither, change format, more likely (%)",20.3,20.3,1,20.33048588289146,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_change_format_less_likely_pct,Table 2,"Vote for Trump (general election), Neither, change format, less likely (%)",30.8,30.8,1,30.822131130960795,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_change_format_difference_pp,Table 2,"Vote for Trump (general election), Neither, change format difference (pp)",-10.5,-10.5,1,-10.491645248069336,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_change_format_standard_error_pp,Table 2,"Vote for Trump (general election), Neither, change format standard error (pp)",4,4,1,4.013972716647343,1,NA,
+barari_etal_2024,table_2_vote_for_trump_general_election_neither_change_format_p_value,Table 2,"Vote for Trump (general election), Neither, change format p-value",NA,0.009,NA,0.00925477012090893,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_actual_pct,Table 2,"Vote for Trump (primary election), Republican, actual (%)",64.1,64.1,1,64.06975888899265,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_predicted_if_not_for_indictment_pct,Table 2,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",65.7,65.7,1,65.66713532403553,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_counterfactual_difference_pp,Table 2,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,-1.6,1,-1.597376435042854,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_counterfactual_standard_error_pp,Table 2,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,0.6,1,0.596092618177731,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_counterfactual_p_value,Table 2,"Vote for Trump (primary election), Republican, counterfactual p-value",NA,0.007,NA,0.00749289690852636,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_change_format_more_likely_pct,Table 2,"Vote for Trump (primary election), Republican, change format, more likely (%)",43,43,1,43.02995580486831,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_change_format_less_likely_pct,Table 2,"Vote for Trump (primary election), Republican, change format, less likely (%)",16.3,16.3,1,16.282181684735985,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_change_format_difference_pp,Table 2,"Vote for Trump (primary election), Republican, change format difference (pp)",26.7,26.7,1,26.747774120132377,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_change_format_standard_error_pp,Table 2,"Vote for Trump (primary election), Republican, change format standard error (pp)",2.9,2.9,1,2.868458381728846,1,NA,
+barari_etal_2024,table_2_vote_for_trump_primary_election_republican_change_format_p_value,Table 2,"Vote for Trump (primary election), Republican, change format p-value",NA,NA,NA,6.852310693597782e-20,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_2_cells_whose_p_value_the_article_prints_as_p_0_001_reproducing_below_0_001,Table 2,"Cells whose p-value the article prints as p < 0.001, reproducing below 0.001",NA,7,NA,7,1,NA,Counts the cells the article marks p < 0.001 that the rewrite also puts below 0.001
+barari_etal_2024,table_a_2_beliefs_positive_change_republican_pct,Table A.2,"Beliefs, Positive, Change, Republican (%)",16.2,16.2,1,16.1543,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_change_democratic_pct,Table A.2,"Beliefs, Positive, Change, Democratic (%)",76,76,1,75.9679,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_change_neither_pct,Table A.2,"Beliefs, Positive, Change, Neither (%)",37.4,37.4,1,37.3689,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_counterfactual_republican_pct,Table A.2,"Beliefs, Positive, Counterfactual, Republican (%)",33.3,33.3,1,33.2556,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_counterfactual_democratic_pct,Table A.2,"Beliefs, Positive, Counterfactual, Democratic (%)",36.5,36.5,1,36.4612,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_counterfactual_neither_pct,Table A.2,"Beliefs, Positive, Counterfactual, Neither (%)",29.5,29.5,1,29.5477,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_1_5pct_republican_pct,Table A.2,"Beliefs, Positive, 1-5%, Republican (%)",13.1,13.1,1,13.0736,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_1_5pct_democratic_pct,Table A.2,"Beliefs, Positive, 1-5%, Democratic (%)",9.7,9.7,1,9.727,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_1_5pct_neither_pct,Table A.2,"Beliefs, Positive, 1-5%, Neither (%)",11.3,11.3,1,11.2523,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_6_10pct_republican_pct,Table A.2,"Beliefs, Positive, 6-10%, Republican (%)",6.1,6.1,1,6.0947,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_6_10pct_democratic_pct,Table A.2,"Beliefs, Positive, 6-10%, Democratic (%)",4.9,4.9,1,4.9428,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_6_10pct_neither_pct,Table A.2,"Beliefs, Positive, 6-10%, Neither (%)",4.8,4.8,1,4.8046,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_11_20pct_republican_pct,Table A.2,"Beliefs, Positive, 11-20%, Republican (%)",6.6,6.6,1,6.5796,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_11_20pct_democratic_pct,Table A.2,"Beliefs, Positive, 11-20%, Democratic (%)",8.4,8.4,1,8.417,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_11_20pct_neither_pct,Table A.2,"Beliefs, Positive, 11-20%, Neither (%)",6.2,6.2,1,6.1744,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_20pct_or_more_republican_pct,Table A.2,"Beliefs, Positive, 20% or more, Republican (%)",7.5,7.5,1,7.5077,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_20pct_or_more_democratic_pct,Table A.2,"Beliefs, Positive, 20% or more, Democratic (%)",13.4,13.4,1,13.3743,1,NA,
+barari_etal_2024,table_a_2_beliefs_positive_20pct_or_more_neither_pct,Table A.2,"Beliefs, Positive, 20% or more, Neither (%)",7.3,7.3,1,7.3164,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_change_republican_pct,Table A.2,"Beliefs, Negative, Change, Republican (%)",39.6,39.6,1,39.5739,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_change_democratic_pct,Table A.2,"Beliefs, Negative, Change, Democratic (%)",5,5,1,4.985,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_change_neither_pct,Table A.2,"Beliefs, Negative, Change, Neither (%)",15.7,15.7,1,15.7474,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_counterfactual_republican_pct,Table A.2,"Beliefs, Negative, Counterfactual, Republican (%)",15,15,1,14.9625,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_counterfactual_democratic_pct,Table A.2,"Beliefs, Negative, Counterfactual, Democratic (%)",11.9,11.9,1,11.9254,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_counterfactual_neither_pct,Table A.2,"Beliefs, Negative, Counterfactual, Neither (%)",20.5,20.5,1,20.4501,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_1_5pct_republican_pct,Table A.2,"Beliefs, Negative, 1-5%, Republican (%)",7.9,7.9,1,7.8852,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_1_5pct_democratic_pct,Table A.2,"Beliefs, Negative, 1-5%, Democratic (%)",6.5,6.5,1,6.5205,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_1_5pct_neither_pct,Table A.2,"Beliefs, Negative, 1-5%, Neither (%)",9.2,9.2,1,9.2406,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_6_10pct_republican_pct,Table A.2,"Beliefs, Negative, 6-10%, Republican (%)",2.6,2.6,1,2.5904,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_6_10pct_democratic_pct,Table A.2,"Beliefs, Negative, 6-10%, Democratic (%)",3.1,3.1,1,3.0928,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_6_10pct_neither_pct,Table A.2,"Beliefs, Negative, 6-10%, Neither (%)",4.8,4.8,1,4.8102,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_11_20pct_republican_pct,Table A.2,"Beliefs, Negative, 11-20%, Republican (%)",1.5,1.5,1,1.4638,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_11_20pct_democratic_pct,Table A.2,"Beliefs, Negative, 11-20%, Democratic (%)",1.3,1.3,1,1.2885,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_11_20pct_neither_pct,Table A.2,"Beliefs, Negative, 11-20%, Neither (%)",2.1,2.1,1,2.1016,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_20pct_or_more_republican_pct,Table A.2,"Beliefs, Negative, 20% or more, Republican (%)",3,3,1,3.0231,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_20pct_or_more_democratic_pct,Table A.2,"Beliefs, Negative, 20% or more, Democratic (%)",1,1,1,1.0236,1,NA,
+barari_etal_2024,table_a_2_beliefs_negative_20pct_or_more_neither_pct,Table A.2,"Beliefs, Negative, 20% or more, Neither (%)",4.3,4.3,1,4.2977,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_change_republican_pct,Table A.2,"Beliefs, No effect, Change, Republican (%)",44.3,44.3,1,44.2719,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_change_democratic_pct,Table A.2,"Beliefs, No effect, Change, Democratic (%)",19,19,1,19.0471,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_change_neither_pct,Table A.2,"Beliefs, No effect, Change, Neither (%)",46.9,46.9,1,46.8837,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_counterfactual_republican_pct,Table A.2,"Beliefs, No effect, Counterfactual, Republican (%)",51.8,51.8,1,51.7819,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_counterfactual_democratic_pct,Table A.2,"Beliefs, No effect, Counterfactual, Democratic (%)",51.6,51.6,1,51.6134,1,NA,
+barari_etal_2024,table_a_2_beliefs_no_effect_counterfactual_neither_pct,Table A.2,"Beliefs, No effect, Counterfactual, Neither (%)",50,50,1,50.0022,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_change_republican_pct,Table A.2,"Vote choice, Positive, Change, Republican (%)",43,43,1,43.03,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_change_democratic_pct,Table A.2,"Vote choice, Positive, Change, Democratic (%)",8,8,1,8.0041,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_change_neither_pct,Table A.2,"Vote choice, Positive, Change, Neither (%)",20.3,20.3,1,20.3305,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_counterfactual_republican_pct,Table A.2,"Vote choice, Positive, Counterfactual, Republican (%)",13,13,1,13.0466,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_counterfactual_democratic_pct,Table A.2,"Vote choice, Positive, Counterfactual, Democratic (%)",13.3,13.3,1,13.3362,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_counterfactual_neither_pct,Table A.2,"Vote choice, Positive, Counterfactual, Neither (%)",22.6,22.6,1,22.6483,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_1_5pct_republican_pct,Table A.2,"Vote choice, Positive, 1-5%, Republican (%)",7.8,7.8,1,7.8371,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_1_5pct_democratic_pct,Table A.2,"Vote choice, Positive, 1-5%, Democratic (%)",7.4,7.4,1,7.4128,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_1_5pct_neither_pct,Table A.2,"Vote choice, Positive, 1-5%, Neither (%)",11.1,11.1,1,11.1155,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_6_10pct_republican_pct,Table A.2,"Vote choice, Positive, 6-10%, Republican (%)",1.4,1.4,1,1.4456,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_6_10pct_democratic_pct,Table A.2,"Vote choice, Positive, 6-10%, Democratic (%)",1.5,1.5,1,1.5316,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_6_10pct_neither_pct,Table A.2,"Vote choice, Positive, 6-10%, Neither (%)",2.7,2.7,1,2.7385,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_11_20pct_republican_pct,Table A.2,"Vote choice, Positive, 11-20%, Republican (%)",2.2,2.2,1,2.2273,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_11_20pct_democratic_pct,Table A.2,"Vote choice, Positive, 11-20%, Democratic (%)",1,1,1,0.9875,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_11_20pct_neither_pct,Table A.2,"Vote choice, Positive, 11-20%, Neither (%)",4.1,4.1,1,4.1476,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_20pct_or_more_republican_pct,Table A.2,"Vote choice, Positive, 20% or more, Republican (%)",1.5,1.5,1,1.5366,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_20pct_or_more_democratic_pct,Table A.2,"Vote choice, Positive, 20% or more, Democratic (%)",3.4,3.4,1,3.4042,1,NA,
+barari_etal_2024,table_a_2_vote_choice_positive_20pct_or_more_neither_pct,Table A.2,"Vote choice, Positive, 20% or more, Neither (%)",4.6,4.6,1,4.6467,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_change_republican_pct,Table A.2,"Vote choice, Negative, Change, Republican (%)",16.3,16.3,1,16.2822,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_change_democratic_pct,Table A.2,"Vote choice, Negative, Change, Democratic (%)",60.2,60.2,1,60.1521,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_change_neither_pct,Table A.2,"Vote choice, Negative, Change, Neither (%)",30.8,30.8,1,30.8221,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_counterfactual_republican_pct,Table A.2,"Vote choice, Negative, Counterfactual, Republican (%)",17.7,17.7,1,17.6602,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_counterfactual_democratic_pct,Table A.2,"Vote choice, Negative, Counterfactual, Democratic (%)",14.1,14.1,1,14.1355,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_counterfactual_neither_pct,Table A.2,"Vote choice, Negative, Counterfactual, Neither (%)",19.9,19.9,1,19.8945,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_1_5pct_republican_pct,Table A.2,"Vote choice, Negative, 1-5%, Republican (%)",9.4,9.4,1,9.3595,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_1_5pct_democratic_pct,Table A.2,"Vote choice, Negative, 1-5%, Democratic (%)",8.8,8.8,1,8.8406,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_1_5pct_neither_pct,Table A.2,"Vote choice, Negative, 1-5%, Neither (%)",8.3,8.3,1,8.3433,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_6_10pct_republican_pct,Table A.2,"Vote choice, Negative, 6-10%, Republican (%)",2.2,2.2,1,2.1777,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_6_10pct_democratic_pct,Table A.2,"Vote choice, Negative, 6-10%, Democratic (%)",1.2,1.2,1,1.1637,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_6_10pct_neither_pct,Table A.2,"Vote choice, Negative, 6-10%, Neither (%)",4.1,4.1,1,4.1231,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_11_20pct_republican_pct,Table A.2,"Vote choice, Negative, 11-20%, Republican (%)",2,2,1,2.046,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_11_20pct_democratic_pct,Table A.2,"Vote choice, Negative, 11-20%, Democratic (%)",3.3,3.3,1,3.265,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_11_20pct_neither_pct,Table A.2,"Vote choice, Negative, 11-20%, Neither (%)",3.5,3.5,1,3.5023,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_20pct_or_more_republican_pct,Table A.2,"Vote choice, Negative, 20% or more, Republican (%)",4.1,4.1,1,4.077,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_20pct_or_more_democratic_pct,Table A.2,"Vote choice, Negative, 20% or more, Democratic (%)",0.9,0.9,1,0.8662,1,NA,
+barari_etal_2024,table_a_2_vote_choice_negative_20pct_or_more_neither_pct,Table A.2,"Vote choice, Negative, 20% or more, Neither (%)",3.9,3.9,1,3.9259,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_change_republican_pct,Table A.2,"Vote choice, No effect, Change, Republican (%)",40.7,40.7,1,40.6879,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_change_democratic_pct,Table A.2,"Vote choice, No effect, Change, Democratic (%)",31.8,31.8,1,31.8438,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_change_neither_pct,Table A.2,"Vote choice, No effect, Change, Neither (%)",48.8,48.8,1,48.8474,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_counterfactual_republican_pct,Table A.2,"Vote choice, No effect, Counterfactual, Republican (%)",69.3,69.3,1,69.2932,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_counterfactual_democratic_pct,Table A.2,"Vote choice, No effect, Counterfactual, Democratic (%)",72.5,72.5,1,72.5283,1,NA,
+barari_etal_2024,table_a_2_vote_choice_no_effect_counterfactual_neither_pct,Table A.2,"Vote choice, No effect, Counterfactual, Neither (%)",57.5,57.5,1,57.4572,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_actual_pct,Table A.3,"Believe Trump mishandled docs, Republican, actual (%)",25,25,1,25.0405677824594,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_predicted_if_not_for_indictment_pct,Table A.3,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",22.5,22.5,1,22.531624644800647,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_counterfactual_difference_pp,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,2.5,1,2.508943137658787,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_counterfactual_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6184234089690659,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_counterfactual_p_value,Table A.3,"Believe Trump mishandled docs, Republican, counterfactual p-value",NA,NA,NA,5.393879065029705e-5,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_change_format_more_likely_pct,Table A.3,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.7,16.7,1,16.715662132510403,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_change_format_less_likely_pct,Table A.3,"Believe Trump mishandled docs, Republican, change format, less likely (%)",38.5,38.5,1,38.544543873792406,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_change_format_difference_pp,Table A.3,"Believe Trump mishandled docs, Republican, change format difference (pp)",-21.8,-21.8,1,-21.82888174128205,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_change_format_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,2.8,1,2.826033639347707,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_republican_change_format_p_value,Table A.3,"Believe Trump mishandled docs, Republican, change format p-value",NA,NA,NA,2.7013188181068683e-14,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_actual_pct,Table A.3,"Believe Trump mishandled docs, Democrat, actual (%)",85.4,85.4,1,85.43126126374034,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_predicted_if_not_for_indictment_pct,Table A.3,"Believe Trump mishandled docs, Democrat, predicted if not for indictment (%)",80.3,80.3,1,80.264962875,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_counterfactual_difference_pp,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual difference (pp)",5.2,5.2,1,5.166298388740334,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_counterfactual_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual standard error (pp)",0.6,0.6,1,0.634448954944699,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_counterfactual_p_value,Table A.3,"Believe Trump mishandled docs, Democrat, counterfactual p-value",NA,NA,NA,1.2382245492024433e-15,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_change_format_more_likely_pct,Table A.3,"Believe Trump mishandled docs, Democrat, change format, more likely (%)",73.9,73.9,1,73.89573872639063,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_change_format_less_likely_pct,Table A.3,"Believe Trump mishandled docs, Democrat, change format, less likely (%)",6.1,6.1,1,6.055999426894751,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_change_format_difference_pp,Table A.3,"Believe Trump mishandled docs, Democrat, change format difference (pp)",67.8,67.8,1,67.83973929949593,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_change_format_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Democrat, change format standard error (pp)",2.5,2.5,1,2.450155964245152,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_democrat_change_format_p_value,Table A.3,"Believe Trump mishandled docs, Democrat, change format p-value",NA,NA,NA,3.2901910216297237e-125,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_actual_pct,Table A.3,"Believe Trump mishandled docs, Independent, actual (%)",59.2,59.2,1,59.18087418521384,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_predicted_if_not_for_indictment_pct,Table A.3,"Believe Trump mishandled docs, Independent, predicted if not for indictment (%)",56.7,56.7,1,56.67982512651414,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_counterfactual_difference_pp,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual difference (pp)",2.5,2.5,1,2.501049058699727,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_counterfactual_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual standard error (pp)",1,1,1,1.0433690228605634,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_counterfactual_p_value,Table A.3,"Believe Trump mishandled docs, Independent, counterfactual p-value",NA,0.017,NA,0.01704665150801583,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_change_format_more_likely_pct,Table A.3,"Believe Trump mishandled docs, Independent, change format, more likely (%)",39.6,39.6,1,39.55354663887059,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_change_format_less_likely_pct,Table A.3,"Believe Trump mishandled docs, Independent, change format, less likely (%)",15.3,15.3,1,15.34930625032111,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_change_format_difference_pp,Table A.3,"Believe Trump mishandled docs, Independent, change format difference (pp)",24.2,24.2,1,24.20424038854951,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_change_format_standard_error_pp,Table A.3,"Believe Trump mishandled docs, Independent, change format standard error (pp)",4.4,4.4,1,4.370045486533049,1,NA,
+barari_etal_2024,table_a_3_believe_trump_mishandled_docs_independent_change_format_p_value,Table A.3,"Believe Trump mishandled docs, Independent, change format p-value",NA,NA,NA,5.7824108971856206e-8,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_actual_pct,Table A.3,"Vote for Trump (general election), Republican, actual (%)",64.8,64.8,1,64.8481438437694,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (general election), Republican, predicted if not for indictment (%)",61.4,61.4,1,61.44234569911459,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_counterfactual_difference_pp,Table A.3,"Vote for Trump (general election), Republican, counterfactual difference (pp)",3.4,3.4,1,3.4057981446548196,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (general election), Republican, counterfactual standard error (pp)",3.1,3.1,1,3.1132861164683168,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_counterfactual_p_value,Table A.3,"Vote for Trump (general election), Republican, counterfactual p-value",NA,0.277,NA,0.27662885273245086,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_change_format_more_likely_pct,Table A.3,"Vote for Trump (general election), Republican, change format, more likely (%)",33.8,33.8,1,33.84902664001949,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_change_format_less_likely_pct,Table A.3,"Vote for Trump (general election), Republican, change format, less likely (%)",15.3,15.3,1,15.335711559790823,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_change_format_difference_pp,Table A.3,"Vote for Trump (general election), Republican, change format difference (pp)",18.5,18.5,1,18.513315080228672,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_change_format_standard_error_pp,Table A.3,"Vote for Trump (general election), Republican, change format standard error (pp)",7.4,7.4,1,7.358468110919541,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_republican_change_format_p_value,Table A.3,"Vote for Trump (general election), Republican, change format p-value",NA,0.013,NA,0.01328958609705077,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_actual_pct,Table A.3,"Vote for Trump (general election), Democrat, actual (%)",8.5,8.5,1,8.456810259072379,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (general election), Democrat, predicted if not for indictment (%)",7.9,7.9,1,7.939514022537426,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_counterfactual_difference_pp,Table A.3,"Vote for Trump (general election), Democrat, counterfactual difference (pp)",0.5,0.5,1,0.5172962365349529,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (general election), Democrat, counterfactual standard error (pp)",0.7,0.7,1,0.6852936778146651,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_counterfactual_p_value,Table A.3,"Vote for Trump (general election), Democrat, counterfactual p-value",NA,0.451,NA,0.4505605245425909,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_change_format_more_likely_pct,Table A.3,"Vote for Trump (general election), Democrat, change format, more likely (%)",7.1,7.1,1,7.096728238552806,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_change_format_less_likely_pct,Table A.3,"Vote for Trump (general election), Democrat, change format, less likely (%)",61.8,61.8,1,61.77348596843739,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_change_format_difference_pp,Table A.3,"Vote for Trump (general election), Democrat, change format difference (pp)",-54.7,-54.7,1,-54.67675772988457,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_change_format_standard_error_pp,Table A.3,"Vote for Trump (general election), Democrat, change format standard error (pp)",2.6,2.6,1,2.607450955601064,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_democrat_change_format_p_value,Table A.3,"Vote for Trump (general election), Democrat, change format p-value",NA,NA,NA,1.822534210107587e-80,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_actual_pct,Table A.3,"Vote for Trump (general election), Independent, actual (%)",37.5,37.5,1,37.52163742579909,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (general election), Independent, predicted if not for indictment (%)",37,37,1,36.950370654350714,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_counterfactual_difference_pp,Table A.3,"Vote for Trump (general election), Independent, counterfactual difference (pp)",0.6,0.6,1,0.5712667714483919,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (general election), Independent, counterfactual standard error (pp)",1,1,1,1.0441355679969455,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_counterfactual_p_value,Table A.3,"Vote for Trump (general election), Independent, counterfactual p-value",NA,0.585,NA,0.5847606789642348,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_change_format_more_likely_pct,Table A.3,"Vote for Trump (general election), Independent, change format, more likely (%)",19,19,1,19.02361161807951,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_change_format_less_likely_pct,Table A.3,"Vote for Trump (general election), Independent, change format, less likely (%)",32.6,32.6,1,32.58209341055361,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_change_format_difference_pp,Table A.3,"Vote for Trump (general election), Independent, change format difference (pp)",-13.6,-13.6,1,-13.558481792474108,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_change_format_standard_error_pp,Table A.3,"Vote for Trump (general election), Independent, change format standard error (pp)",4.8,4.8,1,4.834340035673886,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_general_election_independent_change_format_p_value,Table A.3,"Vote for Trump (general election), Independent, change format p-value",NA,0.005,NA,0.00535460154325721,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_actual_pct,Table A.3,"Vote for Trump (primary election), Republican, actual (%)",67.4,67.4,1,67.44264037065216,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",69.1,69.1,1,69.08760116090991,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_counterfactual_difference_pp,Table A.3,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,-1.6,1,-1.6449607902577588,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,0.6,1,0.6376634287988664,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_counterfactual_p_value,Table A.3,"Vote for Trump (primary election), Republican, counterfactual p-value",NA,0.01,NA,0.01005461798570329,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_change_format_more_likely_pct,Table A.3,"Vote for Trump (primary election), Republican, change format, more likely (%)",45.8,45.8,1,45.8029537209788,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_change_format_less_likely_pct,Table A.3,"Vote for Trump (primary election), Republican, change format, less likely (%)",14.1,14.1,1,14.09370956931924,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_change_format_difference_pp,Table A.3,"Vote for Trump (primary election), Republican, change format difference (pp)",31.7,31.7,1,31.70924415165964,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_change_format_standard_error_pp,Table A.3,"Vote for Trump (primary election), Republican, change format standard error (pp)",3,3,1,2.9570448841139574,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_republican_change_format_p_value,Table A.3,"Vote for Trump (primary election), Republican, change format p-value",NA,NA,NA,2.476979995291915e-25,NA,NA,The article prints this p-value as p < 0.001 rather than as a number; see the row counting those cells
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_actual_pct,Table A.3,"Vote for Trump (primary election), Democrat, actual (%)",35.3,35.3,1,35.28757510517165,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (primary election), Democrat, predicted if not for indictment (%)",33.7,33.7,1,33.727994714804446,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_counterfactual_difference_pp,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual difference (pp)",1.6,1.6,1,1.5595803903672,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual standard error (pp)",1.1,1.1,1,1.148246454026404,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_counterfactual_p_value,Table A.3,"Vote for Trump (primary election), Democrat, counterfactual p-value",NA,0.182,NA,0.1816429490778705,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_change_format_more_likely_pct,Table A.3,"Vote for Trump (primary election), Democrat, change format, more likely (%)",21,21,1,21.043521974834956,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_change_format_less_likely_pct,Table A.3,"Vote for Trump (primary election), Democrat, change format, less likely (%)",39.9,39.9,1,39.92695541858547,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_change_format_difference_pp,Table A.3,"Vote for Trump (primary election), Democrat, change format difference (pp)",-18.9,-18.9,1,-18.883433443750505,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_change_format_standard_error_pp,Table A.3,"Vote for Trump (primary election), Democrat, change format standard error (pp)",15.7,15.7,1,15.65271770198278,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_democrat_change_format_p_value,Table A.3,"Vote for Trump (primary election), Democrat, change format p-value",NA,0.235,NA,0.2349308157363032,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_actual_pct,Table A.3,"Vote for Trump (primary election), Independent, actual (%)",42.5,42.5,1,42.52905540667084,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_predicted_if_not_for_indictment_pct,Table A.3,"Vote for Trump (primary election), Independent, predicted if not for indictment (%)",44.9,44.9,1,44.87294632149035,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_counterfactual_difference_pp,Table A.3,"Vote for Trump (primary election), Independent, counterfactual difference (pp)",-2.3,-2.3,1,-2.343890914819525,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_counterfactual_standard_error_pp,Table A.3,"Vote for Trump (primary election), Independent, counterfactual standard error (pp)",2.6,2.6,1,2.608865994548791,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_counterfactual_p_value,Table A.3,"Vote for Trump (primary election), Independent, counterfactual p-value",NA,0.373,NA,0.37260679725858226,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_change_format_more_likely_pct,Table A.3,"Vote for Trump (primary election), Independent, change format, more likely (%)",23.4,23.4,1,23.352492368628653,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_change_format_less_likely_pct,Table A.3,"Vote for Trump (primary election), Independent, change format, less likely (%)",27.4,27.4,1,27.382595086323736,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_change_format_difference_pp,Table A.3,"Vote for Trump (primary election), Independent, change format difference (pp)",-4,-4,1,-4.0301027176950885,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_change_format_standard_error_pp,Table A.3,"Vote for Trump (primary election), Independent, change format standard error (pp)",12.2,12.2,1,12.166522816155592,1,NA,
+barari_etal_2024,table_a_3_vote_for_trump_primary_election_independent_change_format_p_value,Table A.3,"Vote for Trump (primary election), Independent, change format p-value",NA,0.742,NA,0.7417180573195066,1,NA,"The deposited script computes the p-value but prints only a significance star, so it has no value_script"
+barari_etal_2024,table_a_3_cells_whose_p_value_the_article_prints_as_p_0_001_reproducing_below_0_001,Table A.3,"Cells whose p-value the article prints as p < 0.001, reproducing below 0.001",NA,7,NA,7,1,NA,Counts the cells the article marks p < 0.001 that the rewrite also puts below 0.001
+barari_etal_2024,table_a_1_gender_male_unweighted_pct,Table A.1,"Gender, Male, unweighted (%)",NA,48.1,NA,48.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_gender_male_weighted_pct,Table A.1,"Gender, Male, weighted (%)",NA,47.5,NA,47.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_gender_female_unweighted_pct,Table A.1,"Gender, Female, unweighted (%)",NA,49.9,NA,49.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_gender_female_weighted_pct,Table A.1,"Gender, Female, weighted (%)",NA,50.2,NA,49.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_18_24_unweighted_pct,Table A.1,"Age, 18-24, unweighted (%)",NA,5.5,NA,5.5,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_18_24_weighted_pct,Table A.1,"Age, 18-24, weighted (%)",NA,12.1,NA,12.3,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_25_34_unweighted_pct,Table A.1,"Age, 25-34, unweighted (%)",NA,10.3,NA,10.1,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_25_34_weighted_pct,Table A.1,"Age, 25-34, weighted (%)",NA,17.5,NA,17.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_35_44_unweighted_pct,Table A.1,"Age, 35-44, unweighted (%)",NA,13.1,NA,12.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_35_44_weighted_pct,Table A.1,"Age, 35-44, weighted (%)",NA,16.7,NA,16.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_45_54_unweighted_pct,Table A.1,"Age, 45-54, unweighted (%)",NA,17,NA,16.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_45_54_weighted_pct,Table A.1,"Age, 45-54, weighted (%)",NA,16,NA,15.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_55_64_unweighted_pct,Table A.1,"Age, 55-64, unweighted (%)",NA,21,NA,21.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_55_64_weighted_pct,Table A.1,"Age, 55-64, weighted (%)",NA,16.6,NA,16.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_65_unweighted_pct,Table A.1,"Age, 65+, unweighted (%)",NA,33,NA,33.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_age_65_weighted_pct,Table A.1,"Age, 65+, weighted (%)",NA,21,NA,21.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_white_non_hispanic_unweighted_pct,Table A.1,"Race and ethnicity, White, non-Hispanic, unweighted (%)",NA,68.2,NA,69,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_white_non_hispanic_weighted_pct,Table A.1,"Race and ethnicity, White, non-Hispanic, weighted (%)",NA,63.9,NA,64.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_black_non_hispanic_unweighted_pct,Table A.1,"Race and ethnicity, Black, non-Hispanic, unweighted (%)",NA,11.5,NA,11.6,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_black_non_hispanic_weighted_pct,Table A.1,"Race and ethnicity, Black, non-Hispanic, weighted (%)",NA,12.7,NA,12.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_hispanic_unweighted_pct,Table A.1,"Race and ethnicity, Hispanic, unweighted (%)",NA,12.5,NA,12,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_hispanic_weighted_pct,Table A.1,"Race and ethnicity, Hispanic, weighted (%)",NA,16.4,NA,15.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_asian_non_hispanic_unweighted_pct,Table A.1,"Race and ethnicity, Asian, non-Hispanic, unweighted (%)",NA,2.7,NA,2.5,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_asian_non_hispanic_weighted_pct,Table A.1,"Race and ethnicity, Asian, non-Hispanic, weighted (%)",NA,5.4,NA,4.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_other_non_hispanic_unweighted_pct,Table A.1,"Race and ethnicity, Other, non-Hispanic, unweighted (%)",NA,5,NA,4.9,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_race_and_ethnicity_other_non_hispanic_weighted_pct,Table A.1,"Race and ethnicity, Other, non-Hispanic, weighted (%)",NA,1.6,NA,1.6,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_high_school_or_less_unweighted_pct,Table A.1,"Educational attainment, High school or less, unweighted (%)",NA,17.9,NA,17.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_high_school_or_less_weighted_pct,Table A.1,"Educational attainment, High school or less, weighted (%)",NA,38.5,NA,38.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_some_college_associate_s_unweighted_pct,Table A.1,"Educational attainment, Some college/associate's, unweighted (%)",NA,31.1,NA,31,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_some_college_associate_s_weighted_pct,Table A.1,"Educational attainment, Some college/associate's, weighted (%)",NA,30.5,NA,30.5,1,NA,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_bachelor_s_unweighted_pct,Table A.1,"Educational attainment, Bachelor's, unweighted (%)",NA,28.5,NA,28.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_bachelor_s_weighted_pct,Table A.1,"Educational attainment, Bachelor's, weighted (%)",NA,19.5,NA,19.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_graduate_degree_unweighted_pct,Table A.1,"Educational attainment, Graduate degree, unweighted (%)",NA,22.5,NA,22.8,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_educational_attainment_graduate_degree_weighted_pct,Table A.1,"Educational attainment, Graduate degree, weighted (%)",NA,11.5,NA,11.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_biden_approval_approve_unweighted_pct,Table A.1,"Biden approval, Approve, unweighted (%)",NA,43.3,NA,44.2,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_biden_approval_approve_weighted_pct,Table A.1,"Biden approval, Approve, weighted (%)",NA,40.4,NA,41.4,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_biden_approval_disapprove_unweighted_pct,Table A.1,"Biden approval, Disapprove, unweighted (%)",NA,54,NA,55.1,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,table_a_1_biden_approval_disapprove_weighted_pct,Table A.1,"Biden approval, Disapprove, weighted (%)",NA,56.3,NA,57.7,0,archive,No deposited script produces this table; rebuilt here from the deposited respondent data
+barari_etal_2024,figure_1_all_plotted_proportions,Figure 1,All plotted proportions,NA,NA,NA,NA,NA,NA,"The figure prints no numbers, so there is nothing to compare against the page. All 1206 plotted proportions agree with the values the deposited figure_1.R computes before it fails, to within 5.6e-16. Table A.2 is the article's own numerical version of this figure and is checked cell by cell above"
+barari_etal_2024,figure_a_1_all_plotted_proportions,Figure A.1,All plotted proportions,NA,NA,NA,NA,NA,NA,As for Figure 1: all 1717 plotted proportions agree with the deposited figure_A1.R values to within 5.6e-16
+barari_etal_2024,figure_1_panel_b_shows_republican_primary_voters_1_yes,Figure 1,Panel (b) shows Republican primary voters (1 = yes),0,1,0,0,0,paper_internal,"Does not hold. The caption and the body text both assign panel (b) to Republican primary voters, but the panel the article prints is the Democratic one: its belief column shows 79.5 per cent saying more likely against 4.9 per cent less likely, and its vote column is the general election. The deposited figure_1.R writes the panels in the order Neither, Democratic, Republican, which is the order the article prints them in"
+barari_etal_2024,figure_1_panel_c_shows_democratic_primary_voters_1_yes,Figure 1,Panel (c) shows Democratic primary voters (1 = yes),0,1,0,0,0,paper_internal,The other half of the same transposition: panel (c) carries the Republican primary column and a belief split of 15.1 per cent more likely against 42.7 per cent less likely
+barari_etal_2024,table_1_randomized_question_format_conditions,Table 1,Randomized question format conditions,NA,NA,NA,NA,NA,NA,"The table prints the two question wordings and no numbers, so it carries nothing to verify"
+barari_etal_2024,text_p_1219_respondents_who_completed_the_survey,"Text, p. 1219",Respondents who completed the survey,NA,5011,NA,4838,0,archive,"The deposited data carry 4,838 respondents, 173 fewer than the article describes, with ids running 1 to 4838 and no gaps"
+barari_etal_2024,text_p_1219_respondents_who_began_the_survey,"Text, p. 1219",Respondents who began the survey,NA,6877,NA,NA,NA,NA,"Respondents who did not complete are not in the deposit, so the denominator cannot be rebuilt"
+barari_etal_2024,text_p_1219_completion_rate_pct,"Text, p. 1219",Completion rate (%),NA,73,NA,NA,NA,NA,Follows from the two counts above and is unverifiable for the same reason
+barari_etal_2024,text_p_1219_weighted_biden_approval_pct,"Text, p. 1219",Weighted Biden approval (%),NA,40.4,NA,41.368891889276235,0,archive,"Weighted share approving, strongly or somewhat. The gap is the same 173 missing respondents"
+barari_etal_2024,text_p_1219_fivethirtyeight_biden_approval_june_26_2023_pct,"Text, p. 1219","FiveThirtyEight Biden approval, June 26 2023 (%)",NA,40.3,NA,NA,NA,NA,"An external benchmark, not a quantity the survey produces"
+barari_etal_2024,figure_1_caption_n_respondents_intending_neither_primary,Figure 1 caption,"N, respondents intending neither primary",NA,754,NA,889,0,paper_internal,"The caption's three Ns are the partisan identity counts, which belong to Figure A.1: 754 is the number of Independents, and the number intending neither primary is 889"
+barari_etal_2024,figure_1_caption_n_republican_primary_voters,Figure 1 caption,"N, Republican primary voters",NA,2026,NA,2028,0,paper_internal,"2,026 is the number of Republican identifiers; 2,028 intend to vote in the Republican primary"
+barari_etal_2024,figure_1_caption_n_democratic_primary_voters,Figure 1 caption,"N, Democratic primary voters",NA,1953,NA,1921,0,paper_internal,"1,953 is the number of Democratic identifiers; 1,921 intend to vote in the Democratic primary"
+barari_etal_2024,text_p_1217_republican_primary_voters_chance_of_voting_for_trump_pct,"Text, p. 1217","Republican primary voters, chance of voting for Trump (%)",NA,64.1,NA,64.06975888899265,1,NA,
+barari_etal_2024,text_p_1217_republican_primary_voters_chance_if_not_for_the_indictment_pct,"Text, p. 1217","Republican primary voters, chance if not for the indictment (%)",NA,65.7,NA,65.66713532403553,1,NA,
+barari_etal_2024,text_p_1222_republican_primary_voters_effect_on_primary_vote_pp,"Text, p. 1222","Republican primary voters, effect on primary vote (pp)",NA,-1.6,NA,-1.597376435042854,1,NA,"The sentence prints the magnitude as 1.6 with no minus sign and gives the direction in words; Table 2, the abstract and page 1231 all print -1.6"
+barari_etal_2024,text_p_1222_republican_primary_voters_effect_on_primary_vote_p_value,"Text, p. 1222","Republican primary voters, effect on primary vote, p-value",NA,0.02,NA,0.00749289690852636,0,paper_internal,"The text gives p = 0.02 for an estimate its own Table 2 reports at p = 0.007, which is what the data give"
+barari_etal_2024,text_p_1222_republican_primary_voters_effect_on_belief_pp,"Text, p. 1222","Republican primary voters, effect on belief (pp)",NA,2.5,NA,2.4854038973464125,1,NA,
+barari_etal_2024,text_p_1222_democratic_primary_voters_effect_on_belief_pp,"Text, p. 1222","Democratic primary voters, effect on belief (pp)",NA,5.8,NA,5.836435028572734,1,NA,
+barari_etal_2024,text_p_1222_democratic_primary_voters_effect_on_general_election_vote_pp,"Text, p. 1222","Democratic primary voters, effect on general election vote (pp)",NA,0.9,NA,0.9482086004330096,1,NA,
+barari_etal_2024,text_p_1222_democratic_primary_voters_effect_on_general_election_vote_p_value,"Text, p. 1222","Democratic primary voters, effect on general election vote, p-value",NA,0.22,NA,0.21660108157991337,1,NA,
+barari_etal_2024,text_p_1222_neither_primary_effect_on_belief_pp,"Text, p. 1222","Neither primary, effect on belief (pp)",NA,1.8,NA,1.4537033608071608,0,paper_internal,The text reports +1.8 pp with p = 0.05 where its own Table 2 reports 1.5 pp with p = 0.124. The data give the table's value
+barari_etal_2024,text_p_1222_neither_primary_effect_on_belief_standard_error_pp,"Text, p. 1222","Neither primary, effect on belief, standard error (pp)",NA,0.9,NA,0.9434378194425432,1,NA,
+barari_etal_2024,text_p_1222_neither_primary_effect_on_belief_p_value,"Text, p. 1222","Neither primary, effect on belief, p-value",NA,0.05,NA,0.12417079815967708,0,paper_internal,See the estimate above; Table 2 prints 0.124
+barari_etal_2024,text_p_1222_neither_primary_effect_on_general_election_vote_pp,"Text, p. 1222","Neither primary, effect on general election vote (pp)",NA,0.1,NA,0.2785431471643985,0,paper_internal,The text reports +0.1 pp with p = 0.89 where Table 2 reports 0.3 pp with p = 0.752. The data give the table's value
+barari_etal_2024,text_p_1222_neither_primary_effect_on_general_election_vote_standard_error_pp,"Text, p. 1222","Neither primary, effect on general election vote, standard error (pp)",NA,0.9,NA,0.8792719217946693,1,NA,
+barari_etal_2024,text_p_1222_neither_primary_effect_on_general_election_vote_p_value,"Text, p. 1222","Neither primary, effect on general election vote, p-value",NA,0.89,NA,0.7515898492544542,0,paper_internal,See the estimate above; Table 2 prints 0.752
+barari_etal_2024,text_p_1231_republican_identifiers_in_the_republican_primary_chance_of_voting_for_trump_pct,"Text, p. 1231","Republican identifiers in the Republican primary, chance of voting for Trump (%)",NA,67.4,NA,67.44264037065216,1,NA,
+barari_etal_2024,text_p_1231_republican_identifiers_in_the_republican_primary_chance_if_not_for_the_indictment_pct,"Text, p. 1231","Republican identifiers in the Republican primary, chance if not for the indictment (%)",NA,69.1,NA,69.08760116090991,1,NA,

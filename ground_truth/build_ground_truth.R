@@ -411,10 +411,25 @@ agrees <- function(value, target, decimals) {
   )
 }
 
+# A name for every row ----
+# claim_id is how anything outside this file points at a ground-truth row. The errata spine
+# names, entry by entry, the claims a published correction covers, and a row number would
+# silently repoint the moment a row moved. The id is derived from the float and the claim
+# rather than typed, so it cannot come to describe a different claim than the row it sits on,
+# and uniqueness is checked rather than assumed.
+slug <- function(x) {
+  x |>
+    str_to_lower() |>
+    str_replace_all("%", "pct") |>
+    str_replace_all("[^a-z0-9]+", "_") |>
+    str_remove_all("^_|_$")
+}
+
 gt <-
   gt |>
   mutate(
     paper_id = "barari_etal_2024",
+    claim_id = str_c(slug(table_figure), "_", slug(claim)),
     decimals = coalesce(decimals, printed_decimals(value_paper)),
     match = agrees(value_script, value_paper, decimals),
     match_rewrite = agrees(value_rewrite, value_paper, decimals),
@@ -430,8 +445,10 @@ gt <-
       notes
     )
   ) |>
-  select(paper_id, table_figure, claim, value_script, value_paper, match,
+  select(paper_id, claim_id, table_figure, claim, value_script, value_paper, match,
          value_rewrite, match_rewrite, defect_locus, notes)
+
+stopifnot(!anyDuplicated(gt$claim_id))
 
 # Gate: the article's claims are all covered ----
 # ground_truth/published_claims.csv is the exhaustive extraction: every numeric token in
@@ -523,6 +540,23 @@ if (length(undeclared) + length(overdeclared) > 0) {
 }
 
 write_csv(gt, here::here("ground_truth", "barari_etal_2024_ground_truth.csv"))
+
+# The errata spine's claim_ids ----
+# errata_entries.csv names, for every published entry, the ground-truth claims it corrects.
+# Every one of those ids has to exist here: a missing one is a typo or a claim that has since
+# been renamed, and a dangling reference inside a document whose whole purpose is correcting
+# the record is worse than a failed build.
+errata_spine <- here::here("errata_entries.csv")
+if (file.exists(errata_spine)) {
+  cited_ids <- read_csv(errata_spine, show_col_types = FALSE)$claim_ids |>
+    str_split(";") |>
+    unlist() |>
+    str_trim() |>
+    discard(\(x) is.na(x) | x == "")
+  dangling <- setdiff(cited_ids, gt$claim_id)
+  if (length(dangling) > 0) print(dangling)
+  stopifnot(length(dangling) == 0)
+}
 
 print(gt |> select(table_figure, claim, value_script, value_paper, match, value_rewrite, match_rewrite),
       n = nrow(gt), width = 250)

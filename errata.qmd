@@ -67,8 +67,14 @@ pv <- function(x) sprintf("%.3f", x)
 #
 # A published or corrected value that the pipeline computes stays computed: the field is
 # built with str_glue() so the number is produced when this document renders, not typed.
+#
+# claim_ids is the semicolon-separated list of ground-truth claim_id values the entry
+# corrects, and it is what makes "is this finding published?" a query rather than a reading
+# of every note. It is empty where an entry has no ground-truth row, which is normal for a
+# bibliographic or structural entry. ground_truth/build_ground_truth.R refuses to build if
+# any id here is absent from the ground truth.
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
 
   1, "float", "pipeline", "full",
   "Figure 1's panels are printed in the wrong order",
@@ -88,6 +94,7 @@ entries <- tribble(
     "that the indictment made them think it was 'less likely' Trump mishandled documents\" ",
     "and at \"We see this same basic pattern (reversed) among Democratic primary voters in ",
     "figure 1c.\""),
+  "figure_1_panel_b_shows_republican_primary_voters_1_yes;figure_1_panel_c_shows_democratic_primary_voters_1_yes",
 
   2, "quantity", "pipeline", "full",
   "The counterfactual estimates for respondents intending neither primary",
@@ -97,6 +104,10 @@ entries <- tribble(
   paste("Table 2 already prints all four corrected values. The two standard errors quoted in",
         "the sentence are right, so the estimates were not computed on a different sample; the",
         "four wrong figures appear only here."),
+  paste0("text_p_1222_neither_primary_effect_on_belief_pp;",
+         "text_p_1222_neither_primary_effect_on_belief_p_value;",
+         "text_p_1222_neither_primary_effect_on_general_election_vote_pp;",
+         "text_p_1222_neither_primary_effect_on_general_election_vote_p_value"),
 
   3, "quantity", "pipeline", "full",
   "The p-value for the effect on Republican primary vote",
@@ -107,6 +118,7 @@ entries <- tribble(
     "Table 2 prints {pv(cell('primary election', 'Republican', 'cf_p'))} for the same ",
     "estimate. The estimate and its standard error are stated correctly, and the finding is ",
     "significant at conventional levels on either figure."),
+  "text_p_1222_republican_primary_voters_effect_on_primary_vote_p_value",
 
   4, "quantity", "pipeline", "full",
   "Figure 1's caption reports the wrong group sizes",
@@ -117,11 +129,26 @@ entries <- tribble(
     "The three published figures are the counts of respondents by partisan identity, not by ",
     "intended primary: {group_n('n_party_id_independent')} respondents identify as ",
     "Independents, {group_n('n_party_id_republican')} as Republicans and ",
-    "{group_n('n_party_id_democrat')} as Democrats. They are the group sizes of figure A.1.")
+    "{group_n('n_party_id_democrat')} as Democrats. They are the group sizes of figure A.1."),
+  paste0("figure_1_caption_n_respondents_intending_neither_primary;",
+         "figure_1_caption_n_republican_primary_voters;",
+         "figure_1_caption_n_democratic_primary_voters")
 ) |>
   mutate(across(c(title, published, corrected, note), as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+# Every id an entry claims to correct must be a real ground-truth claim. The build gate in
+# ground_truth/build_ground_truth.R checks the same property from the other side; checking it
+# here too means a dangling id cannot survive a render.
+gt_ids <- read_csv(here("ground_truth", "barari_etal_2024_ground_truth.csv"),
+                   show_col_types = FALSE)$claim_id
+cited_ids <- entries$claim_ids |>
+  str_split(";") |>
+  unlist() |>
+  str_trim() |>
+  discard(\(x) is.na(x) | x == "")
+stopifnot(all(cited_ids %in% gt_ids))
 
 # The prose below counts the entries in words, as the note has always done.
 n_entries_word <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
