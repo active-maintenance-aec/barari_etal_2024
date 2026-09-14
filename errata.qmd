@@ -132,7 +132,43 @@ entries <- tribble(
     "{group_n('n_party_id_democrat')} as Democrats. They are the group sizes of figure A.1."),
   paste0("figure_1_caption_n_respondents_intending_neither_primary;",
          "figure_1_caption_n_republican_primary_voters;",
-         "figure_1_caption_n_democratic_primary_voters")
+         "figure_1_caption_n_democratic_primary_voters"),
+
+  # Entries 5-7 are decision 6's kind: no error is too small. All three were
+  # found by the remastered edition's R10, which renders the published page and
+  # this edition's beside each other, and none of them is a quantity, so none
+  # carries a claim_id.
+  5, "typography", "reading", "brief",
+  "A missing space after a colon",
+  "published p. 1217",
+  "the approach ameliorates the response substitution [[problem:rather]] than having",
+  "the approach ameliorates the response substitution [[problem: rather]] than having",
+  paste("The colon runs into the word after it. This could not be settled from the published",
+        "text layer, which returns the same string whether the page sets a space the extractor",
+        "drops or sets none: the RENDERED page prints no space, so it is what the page sets."),
+  "",
+
+  6, "bibliographic", "reading", "brief",
+  "The CBS News URL prints a space where a hyphen belongs",
+  "published p. 1232",
+  "see-security-risk-after-[[trump indictment/]]",
+  "see-security-risk-after-[[trump-indictment/]]",
+  paste("A space is not a character a URL can carry, so the address as printed is not an",
+        "address. Both halves are on one line of the published page, so the space is the",
+        "page's own and not a line break the extractor left behind. With the hyphen restored",
+        "the address resolves. Entry 7 is the same defect in the FiveThirtyEight entry on the",
+        "page after."),
+  "",
+
+  7, "bibliographic", "reading", "brief",
+  "The FiveThirtyEight (2023b) URL prints a space where a hyphen belongs",
+  "published p. 1233",
+  "say-after-trumps-[[second indictment/]]",
+  "say-after-trumps-[[second-indictment/]]",
+  paste("The same defect as entry 6, one page later and in the second of the article's two",
+        "FiveThirtyEight references. Both halves are on one line of the published page, and",
+        "with the hyphen restored the address resolves."),
+  ""
 ) |>
   mutate(across(c(title, published, corrected, note), as.character))
 
@@ -160,7 +196,7 @@ bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
 
 This note lists `r n_entries_word` errors in "Did Trump's Indictments Rally His Base? Evidence from the Counterfactual Format," published in *Public Opinion Quarterly* 88(4), doi [10.1093/poq/nfae061](https://doi.org/10.1093/poq/nfae061). **None of them changes a conclusion of the paper.** They are recorded because a reader who followed the text to a panel, or quoted one of the numbers, would be misled.
 
-Item 1 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 2 and 3 are sentences that disagree with the article's own table 2. Item 4 is a caption reporting the wrong group sizes. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
+Item 1 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 2 and 3 are sentences that disagree with the article's own table 2. Item 4 is a caption reporting the wrong group sizes. Items 5 to 7 are typographic: a colon run into the word after it, and two reference URLs printed with a space where a hyphen belongs, neither of which is an address a reader can follow. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
 
 ```{r entry-1, results="asis"}
 # A heading is only a heading when a blank line precedes it, so every emitted entry opens
