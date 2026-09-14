@@ -55,11 +55,12 @@ throwaway copy and records both whether they finish and what they
 compute. `maintained/in_text_claims.R` pairs each of those claims with
 the sentence that makes it and the number this pipeline produces.
 `errata.qmd` at the repository root builds
-`barari_etal_2024_errata.pdf`, a short note on the four places where the
-article states something its own tables and data do not support.
-`original/` is created by the download script and is deliberately absent
-from the repository. This README is the reproducibility report, also
-available as a PDF in `report/`.
+`barari_etal_2024_errata.pdf`, a short note on the seven errors the
+article carries: four places where it states something its own tables
+and data do not support, and three typographic. `original/` is created
+by the download script and is deliberately absent from the repository.
+This README is the reproducibility report, also available as a PDF in
+`report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this
 repository maintains, so nothing in the chain is more restrictive than
@@ -431,12 +432,12 @@ not.
 
 The ground truth is organised by published float, which leaves the
 article’s prose thinly covered, and the prose is where three of the four
-errors below live. `ground_truth/published_claims.csv` closes that gap.
-It lists every numeric token in the article and its appendix, 414 of
-them, each with its location and a hand-assigned type: 348 are
-quantities this pipeline computes or claims about their shape, 30 are
-copied from other people’s polls and from the American Community Survey,
-and the rest are question wordings, scale endpoints and dates.
+quantitative errors below live. `ground_truth/published_claims.csv`
+closes that gap. It lists every numeric token in the article and its
+appendix, 414 of them, each with its location and a hand-assigned type:
+348 are quantities this pipeline computes or claims about their shape,
+30 are copied from other people’s polls and from the American Community
+Survey, and the rest are question wordings, scale endpoints and dates.
 
 `maintained/in_text_claims.R` carries an entry for each claim the
 pipeline can reach, with the article’s sentence quoted verbatim above
@@ -452,16 +453,20 @@ satisfies a textual check completely.
 
 ### Errata
 
-`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records four
-places where the article states something its own tables and data do not
-support: Figure 1’s panels are printed in an order the caption and the
-body text do not describe, page 1222 gives two estimates and two
-p-values that its own Table 2 contradicts, page 1222 gives a third
-p-value as 0.02 where Table 2 prints 0.007, and Figure 1’s caption
-reports the counts of respondents by partisan identity rather than by
-intended primary. None of the four changes a conclusion. The corrected
-values are computed when the document is rendered, so the note cannot go
-stale the way the article did.
+`errata.qmd` builds `barari_etal_2024_errata.pdf`, which records seven
+errors. Four are places where the article states something its own
+tables and data do not support: Figure 1’s panels are printed in an
+order the caption and the body text do not describe, page 1222 gives two
+estimates and two p-values that its own Table 2 contradicts, page 1222
+gives a third p-value as 0.02 where Table 2 prints 0.007, and Figure 1’s
+caption reports the counts of respondents by partisan identity rather
+than by intended primary. Three are typographic, and all three were
+found by reading the remastered edition against the published pages:
+page 1217 runs a colon into the word after it, and two reference URLs
+print a space where a hyphen belongs, so neither is an address a reader
+can follow. None of the seven changes a conclusion. The corrected values
+are computed when the document is rendered, so the note cannot go stale
+the way the article did.
 
 The 173 respondents the deposit does not carry are deliberately absent
 from that note. A published sentence the archive cannot check is not an
@@ -577,7 +582,7 @@ corresponding to the article’s printed panel (b).
 | Package    | Version |
 |:-----------|:--------|
 | tidyverse  | 2.0.0   |
-| estimatr   | 1.0.6   |
+| estimatr   | 2.0.0   |
 | ggh4x      | 0.3.1   |
 | xtable     | 1.8.8   |
 | knitr      | 1.51    |
