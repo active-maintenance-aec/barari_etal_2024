@@ -582,7 +582,7 @@ corresponding to the article’s printed panel (b).
 | Package    | Version |
 |:-----------|:--------|
 | tidyverse  | 2.0.0   |
-| estimatr   | 2.0.0   |
+| estimatr   | 2.0.1   |
 | ggh4x      | 0.3.1   |
 | xtable     | 1.8.8   |
 | knitr      | 1.51    |
