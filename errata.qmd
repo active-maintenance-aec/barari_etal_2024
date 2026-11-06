@@ -195,6 +195,10 @@ entries <- tribble(
 ) |>
   mutate(across(c(title, published, corrected, note, claim_ids, corrected_values), as.character))
 
+# A count is stored as a plain number, without the sentence's thousands separators.
+entries <- entries |>
+  mutate(corrected_values = str_remove_all(corrected_values, "(?<=\\d),(?=\\d{3})"))
+
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
 
 # Gate: corrected_values agrees with the sentence it was glued into ----
@@ -204,7 +208,10 @@ stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
 # value. Each value has to be inside the span it belongs to, matched by position where the
 # counts line up, and inside SOME span where an entry marks a label as well as a number and
 # its spans outnumber its values.
-marked_spans <- function(x) str_match_all(x, "\\[\\[(.*?)\\]\\]")[[1]][, 2]
+# Thousands separators are dropped from a span, since the column stores plain numbers.
+marked_spans <- function(x) {
+  str_remove_all(str_match_all(x, "\\[\\[(.*?)\\]\\]")[[1]][, 2], "(?<=\\d),(?=\\d{3})")
+}
 
 quantified <- entries |>
   filter(!is.na(corrected_values)) |>
