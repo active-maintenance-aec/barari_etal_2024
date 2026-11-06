@@ -73,8 +73,24 @@ pv <- function(x) sprintf("%.3f", x)
 # of every note. It is empty where an entry has no ground-truth row, which is normal for a
 # bibliographic or structural entry. ground_truth/build_ground_truth.R refuses to build if
 # any id here is absent from the ground truth.
+#
+# corrected_values runs parallel to claim_ids, one value per id in the same order, carrying
+# the corrected quantity as a number rather than as a sentence. Each value is built from the
+# same expression that builds the marked span of the corrected sentence, so the two cannot be
+# written apart, and the gate below re-checks that each one is still inside its span. An
+# entry that changes no quantity carries NA. A value is the number without the sentence's
+# sign or label, so "+1.8" carries 1.8 and "p = 0.05" carries 0.05.
+cv_belief_pp <- pp(cell('Believe', 'Neither', 'cf_diff'))
+cv_belief_p  <- pv(cell('Believe', 'Neither', 'cf_p'))
+cv_vote_pp   <- pp(cell('general election', 'Neither', 'cf_diff'))
+cv_vote_p    <- pv(cell('general election', 'Neither', 'cf_p'))
+cv_rep_p     <- pv(cell('primary election', 'Republican', 'cf_p'))
+cv_n_neither <- group_n('n_primary_neither')
+cv_n_rep     <- group_n('n_primary_republican')
+cv_n_dem     <- group_n('n_primary_democratic')
+
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids, ~corrected_values,
 
   1, "float", "pipeline", "full",
   "Figure 1's panels are printed in the wrong order",
@@ -95,12 +111,13 @@ entries <- tribble(
     "and at \"We see this same basic pattern (reversed) among Democratic primary voters in ",
     "figure 1c.\""),
   "figure_1_panel_b_shows_republican_primary_voters_1_yes;figure_1_panel_c_shows_democratic_primary_voters_1_yes",
+  NA_character_,
 
   2, "quantity", "pipeline", "full",
   "The counterfactual estimates for respondents intending neither primary",
   "published p. 1222",
   "By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+1.8]] pp, s.e. = 0.9, [[p = 0.05]]), with no substantial effect on vote choice ([[+0.1]] pp, s.e. = 0.9, [[p = 0.89]]).",
-  str_glue("By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+{pp(cell('Believe', 'Neither', 'cf_diff'))}]] pp, s.e. = 0.9, [[p = {pv(cell('Believe', 'Neither', 'cf_p'))}]]), with no substantial effect on vote choice ([[+{pp(cell('general election', 'Neither', 'cf_diff'))}]] pp, s.e. = {pp(cell('general election', 'Neither', 'cf_se'))}, [[p = {pv(cell('general election', 'Neither', 'cf_p'))}]])."),
+  str_glue("By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+{cv_belief_pp}]] pp, s.e. = 0.9, [[p = {cv_belief_p}]]), with no substantial effect on vote choice ([[+{cv_vote_pp}]] pp, s.e. = {pp(cell('general election', 'Neither', 'cf_se'))}, [[p = {cv_vote_p}]])."),
   paste("Table 2 already prints all four corrected values. The two standard errors quoted in",
         "the sentence are right, so the estimates were not computed on a different sample; the",
         "four wrong figures appear only here."),
@@ -108,23 +125,25 @@ entries <- tribble(
          "text_p_1222_neither_primary_effect_on_belief_p_value;",
          "text_p_1222_neither_primary_effect_on_general_election_vote_pp;",
          "text_p_1222_neither_primary_effect_on_general_election_vote_p_value"),
+  str_c(cv_belief_pp, ";", cv_belief_p, ";", cv_vote_pp, ";", cv_vote_p),
 
   3, "quantity", "pipeline", "full",
   "The p-value for the effect on Republican primary vote",
   "published p. 1222",
   "Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = 0.02]]).",
-  str_glue("Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = {pv(cell('primary election', 'Republican', 'cf_p'))}]])."),
+  str_glue("Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = {cv_rep_p}]])."),
   str_glue(
     "Table 2 prints {pv(cell('primary election', 'Republican', 'cf_p'))} for the same ",
     "estimate. The estimate and its standard error are stated correctly, and the finding is ",
     "significant at conventional levels on either figure."),
   "text_p_1222_republican_primary_voters_effect_on_primary_vote_p_value",
+  cv_rep_p,
 
   4, "quantity", "pipeline", "full",
   "Figure 1's caption reports the wrong group sizes",
   "published figure 1 caption, p. 1224",
   "Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[754]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[2,026]]) and Democratic primary (N = [[1,953]]).",
-  str_glue("Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[{group_n('n_primary_neither')}]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[{group_n('n_primary_republican')}]]) and Democratic primary (N = [[{group_n('n_primary_democratic')}]])."),
+  str_glue("Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[{cv_n_neither}]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[{cv_n_rep}]]) and Democratic primary (N = [[{cv_n_dem}]])."),
   str_glue(
     "The three published figures are the counts of respondents by partisan identity, not by ",
     "intended primary: {group_n('n_party_id_independent')} respondents identify as ",
@@ -133,6 +152,7 @@ entries <- tribble(
   paste0("figure_1_caption_n_respondents_intending_neither_primary;",
          "figure_1_caption_n_republican_primary_voters;",
          "figure_1_caption_n_democratic_primary_voters"),
+  str_c(cv_n_neither, ";", cv_n_rep, ";", cv_n_dem),
 
   # Entries 5-7 are decision 6's kind: no error is too small. All three were
   # found by the remastered edition's R10, which renders the published page and
@@ -147,6 +167,7 @@ entries <- tribble(
         "text layer, which returns the same string whether the page sets a space the extractor",
         "drops or sets none: the RENDERED page prints no space, so it is what the page sets."),
   "",
+  NA_character_,
 
   6, "bibliographic", "reading", "brief",
   "The CBS News URL prints a space where a hyphen belongs",
@@ -159,6 +180,7 @@ entries <- tribble(
         "the address resolves. Entry 7 is the same defect in the FiveThirtyEight entry on the",
         "page after."),
   "",
+  NA_character_,
 
   7, "bibliographic", "reading", "brief",
   "The FiveThirtyEight (2023b) URL prints a space where a hyphen belongs",
@@ -168,11 +190,54 @@ entries <- tribble(
   paste("The same defect as entry 6, one page later and in the second of the article's two",
         "FiveThirtyEight references. Both halves are on one line of the published page, and",
         "with the hyphen restored the address resolves."),
-  ""
+  "",
+  NA_character_
 ) |>
-  mutate(across(c(title, published, corrected, note), as.character))
+  mutate(across(c(title, published, corrected, note, claim_ids, corrected_values), as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
+
+# Gate: corrected_values agrees with the sentence it was glued into ----
+# The column and the sentence are written from one expression, so they begin in agreement
+# and this gate exists for the edit that separates them: a value moved from one marked span
+# to another, a span reworded to carry a second number, a claim id appended without its
+# value. Each value has to be inside the span it belongs to, matched by position where the
+# counts line up, and inside SOME span where an entry marks a label as well as a number and
+# its spans outnumber its values.
+marked_spans <- function(x) str_match_all(x, "\\[\\[(.*?)\\]\\]")[[1]][, 2]
+
+quantified <- entries |>
+  filter(!is.na(corrected_values)) |>
+  mutate(ids = str_split(claim_ids, ";"), values = str_split(corrected_values, ";"),
+         spans = map(corrected, marked_spans))
+
+stopifnot(all(lengths(quantified$ids) == lengths(quantified$values)))
+
+value_placed <- pmap_lgl(quantified, function(...) {
+  e <- list(...)
+  if (length(e$values) == length(e$spans)) {
+    all(map2_lgl(e$values, e$spans, \(v, s) str_detect(s, fixed(v))))
+  } else {
+    all(map_lgl(e$values, \(v) any(map_lgl(e$spans, \(s) str_detect(s, fixed(v))))))
+  }
+})
+
+if (!all(value_placed)) {
+  print(quantified |> filter(!value_placed) |> select(entry, title, corrected_values, corrected))
+  stop("An entry's corrected_values are not in the spans of its corrected sentence.")
+}
+
+# A quantity entry that corrects something has to say which quantity, and an entry that
+# corrects none (any other class, or a note) may not carry a value. The class is the
+# declaration and this is where it binds. An empty claim_ids counts as missing.
+has_ids <- !is.na(entries$claim_ids) & nzchar(entries$claim_ids)
+no_value_ok <- integer()
+stopifnot(
+  all(!is.na(entries$corrected_values[entries$class == "quantity" & entries$form != "note" &
+                                        has_ids & !entries$entry %in% no_value_ok])),
+  all(is.na(entries$corrected_values[entries$class != "quantity" | entries$form == "note"])),
+  all(is.na(entries$corrected_values) | has_ids)
+)
 
 # Every id an entry claims to correct must be a real ground-truth claim. The build gate in
 # ground_truth/build_ground_truth.R checks the same property from the other side; checking it
