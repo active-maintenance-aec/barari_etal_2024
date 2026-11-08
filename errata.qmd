@@ -50,6 +50,40 @@ panel_share <- function(group, sign_value) {
 
 pp <- function(x) sprintf("%.1f", x)
 pv <- function(x) sprintf("%.3f", x)
+
+# Entry 8: the deposit's size, its weighted Biden approval, and how far Table A.1 sits from
+# the published profile, all read from the maintained output and the ground truth.
+gt <- read_csv(here("ground_truth", "barari_etal_2024_ground_truth.csv"), show_col_types = FALSE)
+a1_block <- gt |> filter(table_figure == "Table A.1")
+a1_gaps <- abs(a1_block$value_rewrite - a1_block$value_paper)
+a1_n_miss <- sum(a1_block$match_rewrite == 0, na.rm = TRUE)
+a1_n_cells <- sum(!is.na(a1_block$match_rewrite))
+a1_med_gap <- median(a1_gaps[a1_gaps > 0], na.rm = TRUE)
+a1_max_gap <- max(a1_gaps, na.rm = TRUE)
+n_deposit <- group_n("n_respondents_deposited")
+n_missing <- formatC(5011 - txt$value[txt$quantity == "n_respondents_deposited"], format = "d")
+approve_w <- pp(txt$value[txt$quantity == "approve_weighted_pct"])
+
+# Entry 9: the largest disagreement between the change-format shares Figure 1 plots
+# (unweighted) and the change rows of Table A.2 (weighted), the same comparison the README
+# makes.
+a2 <- read_csv(here("maintained", "output", "table_a2_magnitude_by_primary.csv"),
+               show_col_types = FALSE)
+a2_vs_fig1 <- a2 |>
+  filter(format == "Change") |>
+  pivot_longer(c(Republican, Democratic, Neither), names_to = "column", values_to = "table_pct") |>
+  inner_join(
+    fig1 |>
+      filter(str_trim(measure) == "Change", threshold == -0.01) |>
+      transmute(panel = if_else(topic == "docs", "Beliefs", "Vote choice"),
+                effect = recode(as.character(sign), `1` = "Positive", `-1` = "Negative",
+                                `0` = "No effect"),
+                column = as.character(primary_party), figure_pct = 100 * P),
+    by = c("panel", "effect", "column")) |>
+  mutate(gap = abs(table_pct - figure_pct)) |>
+  arrange(desc(gap))
+stopifnot(nrow(a2_vs_fig1) == 18)
+a2_worst <- a2_vs_fig1[1, ]
 ```
 
 ```{r entries}
@@ -194,6 +228,59 @@ entries <- tribble(
         "FiveThirtyEight references. Both halves are on one line of the published page, and",
         "with the hyphen restored the address resolves."),
   "",
+  NA_character_,
+
+  # Entries 8 and 9 are decision 15's kind. Entry 8 is a published sentence the deposit
+  # cannot check: nothing establishes that 5,011 is the wrong number, only that the deposited
+  # file holds fewer respondents, so there is no token to put in its place without writing
+  # the authors' account of their own sample for them. Entry 9 is a sentence
+  # that mischaracterises a table the page prints, and the repair would be a different
+  # sentence in the authors' voice. `form` is "note": each quotes the passage and
+  # proposes no change, and its `corrected` column is NA.
+  8, "quantity", "pipeline", "note",
+  "The article reports 5,011 completed surveys and the deposited data hold fewer respondents",
+  "p. 1219",
+  paste0("We surveyed 5,011 Americans between June 22 and 27, 2023, using SurveyMonkey's \"river sample,\" wherein a random sample of the platform's over two million daily respondents to customer-generated surveys are invited to take an additional, voluntary survey.",
+         "\n\n",
+         "Of the 6,877 respondents that began the survey, [[5,011]] completed it (73 percent)."),
+  NA_character_,
+  str_glue(
+    "The deposited file, data.csv, holds {n_deposit} rows, with ids running from 1 to ",
+    "{n_deposit} and no gaps, and neither the deposit's README.txt nor its codebook mentions an ",
+    "exclusion, so {n_missing} of the respondents the article counts are not in it. Tables 2, A.2, ",
+    "and A.3 reproduce cell for cell from the {n_deposit} rows, and the three group sizes in ",
+    "Figure 1's caption (see entry 3) are the deposit's own party identification counts ",
+    "exactly, so the analysis sample is the deposited one. The shortfall shows only in Table A.1, ",
+    "a profile of the sample and not an estimate from it: {a1_n_miss} of its {a1_n_cells} cells ",
+    "differ from the published figure, by {pp(a1_med_gap)} of a point at the median and by no more ",
+    "than {pp(a1_max_gap)}. The weighted Biden approval the article quotes at 40.4 percent comes ",
+    "out at {approve_w} percent on the deposited rows. Nothing here establishes that 5,011 is ",
+    "the wrong figure: respondents who began and did not finish are not in any respondent file, ",
+    "so the {n_missing} are absent from the file without that being evidence about the survey. The ",
+    "article's sentence is therefore reprinted as published, and what a reader needs to ",
+    "know is that the deposit cannot rebuild the sample the article describes. No conclusion of ",
+    "the paper changes: Tables 2, A.2, and A.3 reproduce from the deposit as ",
+    "printed, and the article's estimates rest on them."),
+  "text_p_1219_respondents_who_completed_the_survey",
+  NA_character_,
+
+  9, "description", "pipeline", "note",
+  "Appendix B calls Table A.2 a numerical version of Figure 1 and the two differ",
+  "p. 1228",
+  "[[Table A2 is a numerical version of figure 1.]]",
+  NA_character_,
+  str_glue(
+    "Figure 1 plots unweighted shares of respondents, and Table A.2 reports weighted ",
+    "percentages, so the table's change-format rows do not reproduce the figure's plotted ",
+    "shares. The largest of the 18 disagreements is {pp(a2_worst$gap)} points, in the ",
+    "{str_to_lower(a2_worst$panel)} block's {str_to_lower(a2_worst$effect)}-effect row for the ",
+    "{a2_worst$column} column: the figure plots {pp(a2_worst$figure_pct)} per cent and the table ",
+    "prints {pp(a2_worst$table_pct)}. Neither number is wrong, since each is the right value ",
+    "for its own weighting, and the repair would be a different sentence about how the two are ",
+    "related, which is the authors' to write. The sentence is reprinted as published. No ",
+    "conclusion of the paper changes: the table is a separate presentation of the same ",
+    "responses, and the text quotes its numbers, not the figure's."),
+  "",
   NA_character_
 ) |>
   mutate(across(c(title, published, corrected, note, claim_ids, corrected_values), as.character))
@@ -261,26 +348,39 @@ cited_ids <- entries$claim_ids |>
   discard(\(x) is.na(x) | x == "")
 stopifnot(all(cited_ids %in% gt_ids))
 
+# form == "note" declares that the entry quotes a passage and proposes no change to it, so it
+# has no corrected side. The two have to agree: a note carrying corrected text would print a
+# correction the entry says it does not make, and a correction without one would print
+# nothing.
+stopifnot(is.na(entries$corrected) == (entries$form == "note"))
+
 # The prose below counts the entries in words, as the note has always done.
-n_entries_word <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
-                    "ten", "eleven", "twelve")[nrow(entries)]
+number_word <- c("one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+                 "ten", "eleven", "twelve")
+n_entries_word <- number_word[sum(entries$form != "note")]
+n_notes_word <- number_word[sum(entries$form == "note")]
 
 # The spine's markup, resolved for this document.
 bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
 ```
 
-This note lists `r n_entries_word` errors in "Did Trump's Indictments Rally His Base? Evidence from the Counterfactual Format," published in *Public Opinion Quarterly* 88(4), doi [10.1093/poq/nfae061](https://doi.org/10.1093/poq/nfae061). **None of them changes a conclusion of the paper.** They are recorded because a reader who followed the text to a panel, or quoted one of the numbers, would be misled.
+This note lists `r n_entries_word` corrections to "Did Trump's Indictments Rally His Base? Evidence from the Counterfactual Format," published in *Public Opinion Quarterly* 88(4), doi [10.1093/poq/nfae061](https://doi.org/10.1093/poq/nfae061). It also carries `r n_notes_word` entries of a second kind, which quote a passage and propose no change to it: a sample size the article states and the deposited data cannot support, and a sentence that calls one appendix table a numerical version of a figure it does not reproduce. **No correction and no note here changes a conclusion of the paper.** The corrections are recorded because a reader who followed the text to a panel, or quoted one of the numbers, would be misled.
 
-Items 1 and 2 are sentences that disagree with the article's own table 2. Item 3 is a caption reporting the wrong group sizes. Item 4 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 5 to 7 are typographic: a colon run into the word after it, and two reference URLs printed with a space where a hyphen belongs, neither of which is an address a reader can follow. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
+Items 1 and 2 are sentences that disagree with the article's own table 2. Item 3 is a caption reporting the wrong group sizes. Item 4 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 5 to 7 are typographic: a colon run into the word after it, and two reference URLs printed with a space where a hyphen belongs, neither of which is an address a reader can follow. Entries 8 and 9 are the notes. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
 
 ```{r entries-1-3, results="asis"}
 # A heading is only a heading when a blank line precedes it, so every emitted entry opens
 # with one.
 emit <- function(i) {
   e <- entries[i, ]
+  # A note entry has no corrected side, and that absence is the whole of the form: an empty
+  # Corrected block would read as a correction to nothing. A published field holding two
+  # passages separates them with a blank line, which a blockquote needs carried with ">".
   cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
-      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
-      "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
+      str_remove(e$location, "^published "), ":\n\n> ",
+      str_replace_all(bold(e$published), "\n\n", "\n>\n> "), sep = "")
+  if (e$form != "note") cat("\n\nCorrected:\n\n> ", bold(e$corrected), sep = "")
+  cat("\n\n", e$note, "\n", sep = "")
 }
 walk(which(entries$entry <= 3), emit)
 ```
@@ -319,7 +419,19 @@ knitr::include_graphics("maintained/output/figure_1b_thresholds_democratic.pdf")
 \parbox{\linewidth}{\footnotesize\raggedright \textit{Note:} Figure 1 as published, with the panels reordered to match the caption and the body text. Every plotted proportion is unchanged. Drawn from the deposited replication archive by \texttt{maintained/figure\_1\_thresholds\_by\_primary.R}, whose file names carry the letters the article printed.}
 
 ```{r remaining-entries, results="asis"}
-walk(which(entries$entry >= 5), emit)
+walk(which(entries$entry >= 5 & entries$form != "note"), emit)
+```
+
+# Carried, and not corrected
+
+The `r n_notes_word` entries below are different in kind from the `r n_entries_word` corrections above. Each quotes a passage this edition reprints exactly as the paper published it, and proposes no change to it.
+
+The first is a count the article states and the deposit does not contain: the archive cannot show that 5,011 is wrong, only that it holds fewer respondents, so there is no token to set in its place. The second is a sentence whose repair would be a new sentence about how Table A.2 and Figure 1 relate, which is the authors' to write.
+
+Each is recorded here because an edition that silently reproduced them would leave a reader unable to tell a faithful reprint from an uncorrected error.
+
+```{r entries-carried, results="asis"}
+walk(which(entries$form == "note"), emit)
 ```
 
 ```{r emit-spine}

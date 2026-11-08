@@ -55,11 +55,12 @@ throwaway copy and records both whether they finish and what they
 compute. `maintained/in_text_claims.R` pairs each of those claims with
 the sentence that makes it and the number this pipeline produces.
 `errata.qmd` at the repository root builds
-`barari_etal_2024_errata.pdf`, a short note on the seven errors the
-article carries: four places where it states something its own tables
-and data do not support, and three typographic. `original/` is created
-by the download script and is deliberately absent from the repository.
-This README is the reproducibility report, also available as a PDF in
+`barari_etal_2024_errata.pdf`, a short note on the seven corrections the
+article needs: four places where it states something its own tables and
+data do not support, and three typographic. It also carries two notes,
+which quote a passage and correct nothing. `original/` is created by the
+download script and is deliberately absent from the repository. This
+README is the reproducibility report, also available as a PDF in
 `report/`.
 
 **License.** CC0 1.0 Universal, matching the terms of the deposit this
@@ -224,7 +225,10 @@ no more than 1.4. The article’s weighted Biden approval check, quoted at
 40.4 percent against a FiveThirtyEight average of 40.3, comes out at
 41.4 percent on the deposited data. Nothing here changes a conclusion;
 the point is that a reader who downloads the deposit cannot rebuild the
-sample the article describes.
+sample the article describes. The errata carries the 5,011 as entry 8, a
+note that corrects nothing: nothing establishes that 5,011 is the wrong
+figure, so the page is reprinted as published and the note records the
+shortfall.
 
 **Three passages in the article contradict the article.** All three are
 internal, in the sense that the deposit and the rewrite agree with each
@@ -368,7 +372,10 @@ wordings and no numbers, and the two figures print no numbers either, so
 what is checked about them is every proportion they plot. Table A.2,
 which the article calls a numerical version of Figure 1, is not one: the
 table reports weighted percentages and the figure plots unweighted
-shares of respondents, and the two differ by up to 3.6 points.
+shares of respondents, and the two differ by up to 3.6 points. The
+errata carries the sentence as entry 9, a note that corrects nothing,
+because the repair would be a different sentence about how the two
+relate and not a token to replace.
 
 | Table or figure | Claim | Paper | Rewrite | Locus |
 |:---|:---|---:|---:|:---|
@@ -454,7 +461,7 @@ satisfies a textual check completely.
 ### Errata
 
 `errata.qmd` builds `barari_etal_2024_errata.pdf`, which records seven
-errors. Four are places where the article states something its own
+corrections. Four are places where the article states something its own
 tables and data do not support: Figure 1’s panels are printed in an
 order the caption and the body text do not describe, page 1222 gives two
 estimates and two p-values that its own Table 2 contradicts, page 1222
@@ -468,10 +475,16 @@ can follow. None of the seven changes a conclusion. The corrected values
 are computed when the document is rendered, so the note cannot go stale
 the way the article did.
 
-The 173 respondents the deposit does not carry are deliberately absent
-from that note. A published sentence the archive cannot check is not an
-erratum: nothing here establishes that 5,011 is the wrong number, only
-that the deposited file holds 4,838.
+The note also carries two entries of a second kind, which quote a
+passage as published and propose no change to it. Entry 8 is the 173
+respondents the deposit does not carry: a published sentence the archive
+cannot check is not a correction, since nothing establishes that 5,011
+is the wrong number, only that the deposited file holds 4,838, so the
+note records the shortfall and the page is reprinted unchanged. Entry 9
+is the sentence on page 1228 calling Table A.2 a numerical version of
+Figure 1, which it is not (the largest disagreement is 3.6 points), and
+which no replacement token repairs. No note changes a conclusion of the
+paper.
 
 ------------------------------------------------------------------------
 
@@ -579,19 +592,19 @@ corresponding to the article’s printed panel (b).
 
 ## R Environment
 
-| Package    | Version |
-|:-----------|:--------|
-| tidyverse  | 2.0.0   |
-| estimatr   | 2.0.1   |
-| ggh4x      | 0.3.1   |
-| xtable     | 1.8.8   |
-| knitr      | 1.51    |
-| kableExtra | 1.4.0   |
-| here       | 1.0.2   |
+| Package    | Version    |
+|:-----------|:-----------|
+| tidyverse  | 2.0.0      |
+| estimatr   | 2.0.1.9000 |
+| ggh4x      | 0.3.1      |
+| xtable     | 1.8.8      |
+| knitr      | 1.51       |
+| kableExtra | 1.4.0      |
+| here       | 1.0.2      |
 
 Key package versions
 
-R version: R version 4.6.0 (2026-04-24)
+R version: R version 4.6.1 (2026-06-24)
 
 The deposit’s README records the environment it was built in: R 4.3.1 on
 Windows, tidyverse 2.0.0, estimatr 1.0.0, ggh4x 0.2.6, xtable 1.8-4,
