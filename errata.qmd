@@ -62,8 +62,11 @@ pv <- function(x) sprintf("%.3f", x)
 # [[...]] marks the span that changes. Each renderer supplies its own markup for it: bold
 # here. Nothing else in a field is markup, so the same string can be set by any of them.
 #
-# Numbering is the published note's and is APPEND-ONLY: entry 2 can already have been cited,
-# so a later finding is added at the end and never interleaved.
+# Numbering follows PROCEDURES.md Stage 4b: entries are ordered by severity block (quantity;
+# description, interpretation, definition; label, float, cross_reference; wording, spelling,
+# typography; bibliographic), discovery order inside a block, and a finding that lands in an
+# earlier block renumbers the entries after it. Renumbered 2026-11-07; the old-to-new map is
+# in that day's commit message.
 #
 # A published or corrected value that the pipeline computes stays computed: the field is
 # built with str_glue() so the number is produced when this document renders, not typed.
@@ -92,9 +95,50 @@ cv_n_dem     <- group_n('n_primary_democratic')
 entries <- tribble(
   ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids, ~corrected_values,
 
-  1, "float", "pipeline", "full",
+  1, "quantity", "pipeline", "full",
+  "The counterfactual estimates for respondents intending neither primary",
+  "p. 1222",
+  "By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+1.8]] pp, s.e. = 0.9, [[p = 0.05]]), with no substantial effect on vote choice ([[+0.1]] pp, s.e. = 0.9, [[p = 0.89]]).",
+  str_glue("By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+{cv_belief_pp}]] pp, s.e. = 0.9, [[p = {cv_belief_p}]]), with no substantial effect on vote choice ([[+{cv_vote_pp}]] pp, s.e. = {pp(cell('general election', 'Neither', 'cf_se'))}, [[p = {cv_vote_p}]])."),
+  paste("Table 2 already prints all four corrected values. The two standard errors quoted in",
+        "the sentence are right, so the estimates were not computed on a different sample; the",
+        "four wrong figures appear only here."),
+  paste0("text_p_1222_neither_primary_effect_on_belief_pp;",
+         "text_p_1222_neither_primary_effect_on_belief_p_value;",
+         "text_p_1222_neither_primary_effect_on_general_election_vote_pp;",
+         "text_p_1222_neither_primary_effect_on_general_election_vote_p_value"),
+  str_c(cv_belief_pp, ";", cv_belief_p, ";", cv_vote_pp, ";", cv_vote_p),
+
+  2, "quantity", "pipeline", "full",
+  "The p-value for the effect on Republican primary vote",
+  "p. 1222",
+  "Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = 0.02]]).",
+  str_glue("Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = {cv_rep_p}]])."),
+  str_glue(
+    "Table 2 prints {pv(cell('primary election', 'Republican', 'cf_p'))} for the same ",
+    "estimate. The estimate and its standard error are stated correctly, and the finding is ",
+    "significant at conventional levels on either figure."),
+  "text_p_1222_republican_primary_voters_effect_on_primary_vote_p_value",
+  cv_rep_p,
+
+  3, "quantity", "pipeline", "full",
+  "Figure 1's caption reports the wrong group sizes",
+  "p. 1224, Figure 1 caption",
+  "Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[754]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[2,026]]) and Democratic primary (N = [[1,953]]).",
+  str_glue("Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[{cv_n_neither}]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[{cv_n_rep}]]) and Democratic primary (N = [[{cv_n_dem}]])."),
+  str_glue(
+    "The three published figures are the counts of respondents by partisan identity, not by ",
+    "intended primary: {group_n('n_party_id_independent')} respondents identify as ",
+    "Independents, {group_n('n_party_id_republican')} as Republicans and ",
+    "{group_n('n_party_id_democrat')} as Democrats. They are the group sizes of figure A.1."),
+  paste0("figure_1_caption_n_respondents_intending_neither_primary;",
+         "figure_1_caption_n_republican_primary_voters;",
+         "figure_1_caption_n_democratic_primary_voters"),
+  str_c(cv_n_neither, ";", cv_n_rep, ";", cv_n_dem),
+
+  4, "float", "pipeline", "full",
   "Figure 1's panels are printed in the wrong order",
-  "published figure 1 caption, p. 1224",
+  "p. 1224, Figure 1 caption",
   "Figure 1a displays results for respondents who did not plan to vote in either primary (N = 754). [[Figure 1b]] and [[1c]] displays results for those who plan to vote in the Republican primary (N = 2,026) and Democratic primary (N = 1,953).",
   "[[figure 1 is reprinted below]] with its panels in the order the caption and the body text describe. Nothing plotted differs.",
   str_glue(
@@ -113,54 +157,13 @@ entries <- tribble(
   "figure_1_panel_b_shows_republican_primary_voters_1_yes;figure_1_panel_c_shows_democratic_primary_voters_1_yes",
   NA_character_,
 
-  2, "quantity", "pipeline", "full",
-  "The counterfactual estimates for respondents intending neither primary",
-  "published p. 1222",
-  "By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+1.8]] pp, s.e. = 0.9, [[p = 0.05]]), with no substantial effect on vote choice ([[+0.1]] pp, s.e. = 0.9, [[p = 0.89]]).",
-  str_glue("By contrast, the counterfactual format suggests indifference: these respondents report that the indictment slightly revised their beliefs in favor of the idea that Trump mishandled documents ([[+{cv_belief_pp}]] pp, s.e. = 0.9, [[p = {cv_belief_p}]]), with no substantial effect on vote choice ([[+{cv_vote_pp}]] pp, s.e. = {pp(cell('general election', 'Neither', 'cf_se'))}, [[p = {cv_vote_p}]])."),
-  paste("Table 2 already prints all four corrected values. The two standard errors quoted in",
-        "the sentence are right, so the estimates were not computed on a different sample; the",
-        "four wrong figures appear only here."),
-  paste0("text_p_1222_neither_primary_effect_on_belief_pp;",
-         "text_p_1222_neither_primary_effect_on_belief_p_value;",
-         "text_p_1222_neither_primary_effect_on_general_election_vote_pp;",
-         "text_p_1222_neither_primary_effect_on_general_election_vote_p_value"),
-  str_c(cv_belief_pp, ";", cv_belief_p, ";", cv_vote_pp, ";", cv_vote_p),
-
-  3, "quantity", "pipeline", "full",
-  "The p-value for the effect on Republican primary vote",
-  "published p. 1222",
-  "Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = 0.02]]).",
-  str_glue("Republican primary voters also thought that the indictment made them less likely to vote for Trump in the primary: on average, they reported a 64.1 percent chance of doing so, compared with 65.7 percent if the indictment had not been issued (difference = 1.6 pp, s.e. = 0.6, [[p = {cv_rep_p}]])."),
-  str_glue(
-    "Table 2 prints {pv(cell('primary election', 'Republican', 'cf_p'))} for the same ",
-    "estimate. The estimate and its standard error are stated correctly, and the finding is ",
-    "significant at conventional levels on either figure."),
-  "text_p_1222_republican_primary_voters_effect_on_primary_vote_p_value",
-  cv_rep_p,
-
-  4, "quantity", "pipeline", "full",
-  "Figure 1's caption reports the wrong group sizes",
-  "published figure 1 caption, p. 1224",
-  "Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[754]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[2,026]]) and Democratic primary (N = [[1,953]]).",
-  str_glue("Figure 1a displays results for respondents who did not plan to vote in either primary (N = [[{cv_n_neither}]]). Figure 1b and 1c displays results for those who plan to vote in the Republican primary (N = [[{cv_n_rep}]]) and Democratic primary (N = [[{cv_n_dem}]])."),
-  str_glue(
-    "The three published figures are the counts of respondents by partisan identity, not by ",
-    "intended primary: {group_n('n_party_id_independent')} respondents identify as ",
-    "Independents, {group_n('n_party_id_republican')} as Republicans and ",
-    "{group_n('n_party_id_democrat')} as Democrats. They are the group sizes of figure A.1."),
-  paste0("figure_1_caption_n_respondents_intending_neither_primary;",
-         "figure_1_caption_n_republican_primary_voters;",
-         "figure_1_caption_n_democratic_primary_voters"),
-  str_c(cv_n_neither, ";", cv_n_rep, ";", cv_n_dem),
-
   # Entries 5-7 are decision 6's kind: no error is too small. All three were
   # found by the remastered edition's R10, which renders the published page and
   # this edition's beside each other, and none of them is a quantity, so none
   # carries a claim_id.
   5, "typography", "reading", "brief",
   "A missing space after a colon",
-  "published p. 1217",
+  "p. 1217",
   "the approach ameliorates the response substitution [[problem:rather]] than having",
   "the approach ameliorates the response substitution [[problem: rather]] than having",
   paste("The colon runs into the word after it. This could not be settled from the published",
@@ -171,7 +174,7 @@ entries <- tribble(
 
   6, "bibliographic", "reading", "brief",
   "The CBS News URL prints a space where a hyphen belongs",
-  "published p. 1232",
+  "p. 1232",
   "see-security-risk-after-[[trump indictment/]]",
   "see-security-risk-after-[[trump-indictment/]]",
   paste("A space is not a character a URL can carry, so the address as printed is not an",
@@ -184,7 +187,7 @@ entries <- tribble(
 
   7, "bibliographic", "reading", "brief",
   "The FiveThirtyEight (2023b) URL prints a space where a hyphen belongs",
-  "published p. 1233",
+  "p. 1233",
   "say-after-trumps-[[second indictment/]]",
   "say-after-trumps-[[second-indictment/]]",
   paste("The same defect as entry 6, one page later and in the second of the article's two",
@@ -268,14 +271,26 @@ bold <- function(x) str_replace_all(x, "\\[\\[(.*?)\\]\\]", "**\\1**")
 
 This note lists `r n_entries_word` errors in "Did Trump's Indictments Rally His Base? Evidence from the Counterfactual Format," published in *Public Opinion Quarterly* 88(4), doi [10.1093/poq/nfae061](https://doi.org/10.1093/poq/nfae061). **None of them changes a conclusion of the paper.** They are recorded because a reader who followed the text to a panel, or quoted one of the numbers, would be misled.
 
-Item 1 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 2 and 3 are sentences that disagree with the article's own table 2. Item 4 is a caption reporting the wrong group sizes. Items 5 to 7 are typographic: a colon run into the word after it, and two reference URLs printed with a space where a hyphen belongs, neither of which is an address a reader can follow. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
+Items 1 and 2 are sentences that disagree with the article's own table 2. Item 3 is a caption reporting the wrong group sizes. Item 4 is a figure whose panels are printed in an order the caption and the body text do not describe. Items 5 to 7 are typographic: a colon run into the word after it, and two reference URLs printed with a space where a hyphen belongs, neither of which is an address a reader can follow. Every corrected value below is computed from the deposited replication archive ([10.7910/DVN/QDOBJF](https://doi.org/10.7910/DVN/QDOBJF)) at the time this document is rendered. The maintained code is at [github.com/active-maintenance-aec/barari_etal_2024](https://github.com/active-maintenance-aec/barari_etal_2024).
 
-```{r entry-1, results="asis"}
+```{r entries-1-3, results="asis"}
+# A heading is only a heading when a blank line precedes it, so every emitted entry opens
+# with one.
+emit <- function(i) {
+  e <- entries[i, ]
+  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
+      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
+      "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
+}
+walk(which(entries$entry <= 3), emit)
+```
+
+```{r entry-4, results="asis"}
 # A heading is only a heading when a blank line precedes it, so every emitted entry opens
 # with one. This entry's corrected artifact is the float printed beneath it rather than a
 # token, so its corrected field is set as a sentence and its markers are stripped.
-e <- entries |> filter(entry == 1)
-cat("\n\n## 1. ", e$title, "\n\nPublished, ", str_remove(e$location, "^published "), ":\n\n> ",
+e <- entries |> filter(entry == 4)
+cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ", str_remove(e$location, "^published "), ":\n\n> ",
     bold(e$published), "\n\n", e$note, "\n\nCorrected: ",
     str_remove_all(e$corrected, "\\[\\[|\\]\\]"), "\n", sep = "")
 ```
@@ -304,16 +319,18 @@ knitr::include_graphics("maintained/output/figure_1b_thresholds_democratic.pdf")
 \parbox{\linewidth}{\footnotesize\raggedright \textit{Note:} Figure 1 as published, with the panels reordered to match the caption and the body text. Every plotted proportion is unchanged. Drawn from the deposited replication archive by \texttt{maintained/figure\_1\_thresholds\_by\_primary.R}, whose file names carry the letters the article printed.}
 
 ```{r remaining-entries, results="asis"}
-walk(which(entries$entry >= 2), function(i) {
-  e <- entries[i, ]
-  cat("\n\n## ", e$entry, ". ", e$title, "\n\nPublished, ",
-      str_remove(e$location, "^published "), ":\n\n> ", bold(e$published),
-      "\n\nCorrected:\n\n> ", bold(e$corrected), "\n\n", e$note, "\n", sep = "")
-})
+walk(which(entries$entry >= 5), emit)
 ```
 
 ```{r emit-spine}
 # The machine-readable spine, written wherever this document is rendered. Anything else that
 # carries these corrections reads it rather than keeping its own copy, so the two cannot drift.
+# The spine's vocabularies are closed (cleanup of 2026-11-07): a value outside them is a
+# typo, and the edition builders read these columns to shape every entry.
+stopifnot(
+  all(entries$class %in% c("quantity", "description", "interpretation", "definition", "label", "float", "cross_reference", "wording", "spelling", "typography", "bibliographic")),
+  all(entries$form %in% c("full", "brief", "note")),
+  all(entries$source %in% c("pipeline", "reading", "reference_audit", "publisher_record", "authors_archive", "proof"))
+)
 write_csv(entries, here("errata_entries.csv"))
 ```
