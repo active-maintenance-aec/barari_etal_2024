@@ -12,6 +12,8 @@ format:
     keep-tex: false
 ---
 
+**Archived at Zenodo:** [doi:10.5281/zenodo.24168266](https://doi.org/10.5281/zenodo.24168266). This DOI always resolves to the latest release of the maintained version.
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(here)
