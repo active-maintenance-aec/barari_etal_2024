@@ -1,0 +1,8 @@
+float,published_numbers,covered,reproduced_by_rewrite,reproduced_by_archive,plotted,plotted_reproduced,note
+Table 1,0,0,0,0,NA,NA,Prints the two question wordings and no data; its scale endpoints and response options are definitional claims checked in maintained/in_text_claims.R.
+Table 2,60,60,60,48,NA,NA,NA
+Figure 1,0,0,0,0,1206,1206,Prints no numbers on its face. Panels (b) and (c) are printed in the opposite order to the caption and the text (errata entry 4); nothing plotted differs.
+Table A.1,57,38,3,NA,NA,NA,"The 19 benchmark cells transcribed from the American Community Survey and FiveThirtyEight are verified against those sources, not here. The deposit holds 4,838 of the 5,011 respondents the table profiles, and no deposited script builds it."
+Table A.2,84,84,84,84,NA,NA,NA
+Table A.3,90,90,90,72,NA,NA,NA
+Figure A.1,0,0,0,0,1717,1717,Prints no numbers on its face.

@@ -14,7 +14,10 @@
 - [Figure Verification](#figure-verification)
 - [R Environment](#r-environment)
 
-**Archived at Zenodo:** [doi:10.5281/zenodo.24168266](https://doi.org/10.5281/zenodo.24168266). This DOI always resolves to the latest release of the maintained version.
+**Archived at Zenodo:**
+[doi:10.5281/zenodo.24168266](https://doi.org/10.5281/zenodo.24168266).
+This DOI always resolves to the latest release of the maintained
+version.
 
 *Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
 
@@ -594,19 +597,19 @@ corresponding to the article’s printed panel (b).
 
 ## R Environment
 
-| Package    | Version    |
-|:-----------|:-----------|
-| tidyverse  | 2.0.0      |
-| estimatr   | 2.0.1.9000 |
-| ggh4x      | 0.3.1      |
-| xtable     | 1.8.8      |
-| knitr      | 1.51       |
-| kableExtra | 1.4.0      |
-| here       | 1.0.2      |
+| Package    | Version |
+|:-----------|:--------|
+| tidyverse  | 2.0.0   |
+| estimatr   | 2.0.1   |
+| ggh4x      | 0.3.1   |
+| xtable     | 1.8.8   |
+| knitr      | 1.52    |
+| kableExtra | 1.4.1   |
+| here       | 1.0.2   |
 
 Key package versions
 
-R version: R version 4.6.1 (2026-06-24)
+R version: R version 4.6.2 (2026-10-29)
 
 The deposit’s README records the environment it was built in: R 4.3.1 on
 Windows, tidyverse 2.0.0, estimatr 1.0.0, ggh4x 0.2.6, xtable 1.8-4,

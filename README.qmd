@@ -27,7 +27,11 @@ here::i_am("README.qmd")
 latex_out <- knitr::is_latex_output()
 
 gt <- read_csv(here("ground_truth", "barari_etal_2024_ground_truth.csv"), show_col_types = FALSE)
-status <- read_csv(here("ground_truth", "deposited_output", "script_status.csv"), show_col_types = FALSE)
+# One row per deposited script per pass, widened here to one row per script for the table
+# below.
+status <- read_csv(here("ground_truth", "archive_run_status.csv"), show_col_types = FALSE) |>
+  pivot_wider(id_cols = c(script, role), names_from = pass,
+              values_from = c(outcome, stopped_at))
 t2 <- read_csv(here("maintained", "output", "table_2_avg_effect_by_primary.csv"), show_col_types = FALSE)
 a1 <- read_csv(here("maintained", "output", "table_a1_demographics.csv"), show_col_types = FALSE)
 txt <- read_csv(here("maintained", "output", "text_sample_and_weighting.csv"), show_col_types = FALSE)
@@ -80,14 +84,14 @@ n_verifiable <- sum(!is.na(gt$match_rewrite))
 n_match <- sum(gt$match_rewrite == 1, na.rm = TRUE)
 n_miss <- sum(gt$match_rewrite == 0, na.rm = TRUE)
 
-table_block <- gt |> filter(table_figure %in% c("Table 2", "Table A.2", "Table A.3"))
+table_block <- gt |> filter(location %in% c("Table 2", "Table A.2", "Table A.3"))
 n_table_cells <- sum(!is.na(table_block$match_rewrite))
 n_table_match <- sum(table_block$match_rewrite == 1, na.rm = TRUE)
 n_table_script <- sum(table_block$match == 1, na.rm = TRUE)
 stopifnot(n_table_match == n_table_cells,
           n_table_script == sum(!is.na(table_block$match)))
 
-a1_block <- gt |> filter(table_figure == "Table A.1")
+a1_block <- gt |> filter(location == "Table A.1")
 n_a1_miss <- sum(a1_block$match_rewrite == 0, na.rm = TRUE)
 n_a1_cells <- sum(!is.na(a1_block$match_rewrite))
 a1_gaps <- abs(a1_block$value_rewrite - a1_block$value_paper)
@@ -95,7 +99,7 @@ a1_med_gap <- median(a1_gaps[a1_gaps > 0])
 a1_max_gap <- max(a1_gaps)
 
 verified_cells <- function(tf) {
-  b <- gt |> filter(table_figure == tf)
+  b <- gt |> filter(location == tf)
   c(match = sum(b$match_rewrite == 1, na.rm = TRUE), verifiable = sum(!is.na(b$match_rewrite)))
 }
 v_t2 <- verified_cells("Table 2")
@@ -186,11 +190,11 @@ Downloaded whole and run as it stands, four of its six scripts run clean and two
 k <- status |>
   transmute(
     Script = script,
-    `As deposited` = if_else(completes_as_deposited, "Runs", "FAILS"),
-    `Data plus code only` = if_else(completes_stripped, "Runs", "FAILS"),
+    `As deposited` = if_else(outcome_as_shipped == "clean", "Runs", "FAILS"),
+    `Data plus code only` = if_else(outcome_stripped == "clean", "Runs", "FAILS"),
     Issue = case_when(
-      !completes_as_deposited ~ "ggsave() to C:/Users/tuq69844/Dropbox/... , a path on an author's own machine",
-      !completes_stripped ~ "Reads an .rds the archive ships but no runnable line of it writes",
+      outcome_as_shipped != "clean" ~ "ggsave() to C:/Users/tuq69844/Dropbox/... , a path on an author's own machine",
+      outcome_stripped != "clean" ~ "Reads an .rds the archive ships but no runnable line of it writes",
       .default = "Clean"
     )
   ) |>
@@ -283,9 +287,9 @@ k <- gt |>
     `Match` = sum(match_rewrite == 1, na.rm = TRUE),
     `Miss` = sum(match_rewrite == 0, na.rm = TRUE),
     `Not verifiable` = sum(is.na(match_rewrite)),
-    .by = table_figure
+    .by = location
   ) |>
-  rename(`Table or figure` = table_figure) |>
+  rename(`Table or figure` = location) |>
   kable(booktabs = TRUE, caption = "Ground truth coverage by published float")
 styled(k)
 ```
@@ -296,7 +300,7 @@ The rows that cannot be verified are of three kinds and each is a statement abou
 k <- gt |>
   filter(match_rewrite == 0) |>
   transmute(
-    `Table or figure` = table_figure,
+    `Table or figure` = location,
     Claim = claim,
     Paper = value_paper,
     Rewrite = round(value_rewrite, 3),

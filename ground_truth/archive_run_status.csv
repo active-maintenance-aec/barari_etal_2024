@@ -1,0 +1,13 @@
+pass,script,role,exit_status,outcome,stopped_at
+as_shipped,prep_data.R,cleaning,0,clean,NA
+as_shipped,figure_1.R,analysis,1,error,"Error in ggsave(""C:/Users/tuq69844/Dropbox/indictment_counterfactual/submissions/POQ_final/Barari-23-0292.R1 Figure1a.eps"", :"
+as_shipped,figure_A1.R,analysis,1,error,"Error in ggsave(""C:/Users/tuq69844/Dropbox/indictment_counterfactual/submissions/POQ_final/Barari-23-0292.R1 FigureA1a.eps"", :"
+as_shipped,table_2.R,analysis,0,clean,NA
+as_shipped,table_A2.R,analysis,0,clean,NA
+as_shipped,table_A3.R,analysis,0,clean,NA
+stripped,prep_data.R,cleaning,0,clean,NA
+stripped,figure_1.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+stripped,figure_A1.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+stripped,table_2.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+stripped,table_A2.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+stripped,table_A3.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"

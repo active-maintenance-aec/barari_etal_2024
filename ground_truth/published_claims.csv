@@ -1,415 +1,415 @@
-claim_id,location,claim_type,value_paper
-abstract_belief_effect,Abstract,pipeline,2.5
-abstract_primary_effect,Abstract,pipeline,-1.6
-intro_indictment_year,"Introduction, p. 1216",structural,2023
-intro_cbs_better_pct,"Introduction, p. 1216",transcribed,14
-intro_cbs_worse_pct,"Introduction, p. 1216",transcribed,7
-intro_ipsos_election_year,"Introduction, p. 1217",structural,2024
-intro_ipsos_more_pct,"Introduction, p. 1217",transcribed,31
-intro_ipsos_less_pct,"Introduction, p. 1217",transcribed,23
-intro_random_half,"Introduction, p. 1217",descriptive,
-intro_change_rep_primary_more,"Introduction, p. 1217",pipeline,43
-intro_change_rep_primary_less,"Introduction, p. 1217",pipeline,16
-intro_cf_rep_primary_actual,"Introduction, p. 1217",pipeline,64.1
-intro_cf_rep_primary_predicted,"Introduction, p. 1218",pipeline,65.7
-intro_cf_rep_primary_diff,"Introduction, p. 1218",pipeline,-1.6
-motivation_indictments_year,"Motivation, p. 1218",structural,2023
-motivation_yougov_exposure,"Motivation, p. 1218",transcribed,93
-motivation_ipsos_exposure,"Motivation, p. 1218",transcribed,92
-motivation_538_support_before,"Motivation, p. 1218",transcribed,53.8
-motivation_538_support_after,"Motivation, p. 1218",transcribed,53.5
-design_n_surveyed,"Research Design, p. 1219",pipeline,"5,011"
-design_field_dates,"Research Design, p. 1219",structural,
-design_river_pool,"Research Design, p. 1219",transcribed,two million
-design_n_began,"Research Design, p. 1219",pipeline,"6,877"
-design_n_completed,"Research Design, p. 1219",pipeline,"5,011"
-design_completion_rate,"Research Design, p. 1219",pipeline,73
-design_acs_weighting_year,"Research Design, p. 1219",structural,2019
-design_acs_comparison_year,"Research Design, p. 1219",structural,2021
-design_biden_approval_weighted,"Research Design, p. 1219",pipeline,40.4
-design_538_biden_approval,"Research Design, p. 1219",transcribed,40.3
-design_538_approval_date,"Research Design, p. 1219",structural,
-design_n_formats,"Research Design, p. 1219",definitional,2
-design_counterfactual_n_questions,"Research Design, p. 1219",definitional,2
-table_1_election_year,Table 1,structural,2024
-table_1_scale_min,Table 1,definitional,0
-table_1_scale_max,Table 1,definitional,100
-table_1_change_response_options,Table 1,definitional,3
-results_rep_change_belief_more,"Results, p. 1220",pipeline,16
-table_2_belief_republican_actual,Table 2,pipeline,27.1
-table_2_belief_republican_predicted,Table 2,pipeline,24.6
-table_2_belief_republican_cf_diff,Table 2,pipeline,2.5
-table_2_belief_republican_cf_se,Table 2,pipeline,0.6
-table_2_belief_republican_cf_p,Table 2,pipeline,<0.001
-table_2_belief_republican_more_pct,Table 2,pipeline,16.2
-table_2_belief_republican_less_pct,Table 2,pipeline,39.6
-table_2_belief_republican_change_diff,Table 2,pipeline,-23.4
-table_2_belief_republican_change_se,Table 2,pipeline,2.8
-table_2_belief_republican_change_p,Table 2,pipeline,<0.001
-table_2_belief_democratic_actual,Table 2,pipeline,85.3
-table_2_belief_democratic_predicted,Table 2,pipeline,79.5
-table_2_belief_democratic_cf_diff,Table 2,pipeline,5.8
-table_2_belief_democratic_cf_se,Table 2,pipeline,0.6
-table_2_belief_democratic_cf_p,Table 2,pipeline,<0.001
-table_2_belief_democratic_more_pct,Table 2,pipeline,76.0
-table_2_belief_democratic_less_pct,Table 2,pipeline,5.0
-table_2_belief_democratic_change_diff,Table 2,pipeline,71.0
-table_2_belief_democratic_change_se,Table 2,pipeline,2.3
-table_2_belief_democratic_change_p,Table 2,pipeline,<0.001
-table_2_belief_neither_actual,Table 2,pipeline,55.7
-table_2_belief_neither_predicted,Table 2,pipeline,54.2
-table_2_belief_neither_cf_diff,Table 2,pipeline,1.5
-table_2_belief_neither_cf_se,Table 2,pipeline,0.9
-table_2_belief_neither_cf_p,Table 2,pipeline,0.124
-table_2_belief_neither_more_pct,Table 2,pipeline,37.4
-table_2_belief_neither_less_pct,Table 2,pipeline,15.7
-table_2_belief_neither_change_diff,Table 2,pipeline,21.6
-table_2_belief_neither_change_se,Table 2,pipeline,3.9
-table_2_belief_neither_change_p,Table 2,pipeline,<0.001
-table_2_vote_general_democratic_actual,Table 2,pipeline,11.1
-table_2_vote_general_democratic_predicted,Table 2,pipeline,10.1
-table_2_vote_general_democratic_cf_diff,Table 2,pipeline,0.9
-table_2_vote_general_democratic_cf_se,Table 2,pipeline,0.8
-table_2_vote_general_democratic_cf_p,Table 2,pipeline,0.217
-table_2_vote_general_democratic_more_pct,Table 2,pipeline,8.0
-table_2_vote_general_democratic_less_pct,Table 2,pipeline,60.2
-table_2_vote_general_democratic_change_diff,Table 2,pipeline,-52.1
-table_2_vote_general_democratic_change_se,Table 2,pipeline,2.7
-table_2_vote_general_democratic_change_p,Table 2,pipeline,<0.001
-table_2_vote_general_neither_actual,Table 2,pipeline,42.2
-table_2_vote_general_neither_predicted,Table 2,pipeline,41.9
-table_2_vote_general_neither_cf_diff,Table 2,pipeline,0.3
-table_2_vote_general_neither_cf_se,Table 2,pipeline,0.9
-table_2_vote_general_neither_cf_p,Table 2,pipeline,0.752
-table_2_vote_general_neither_more_pct,Table 2,pipeline,20.3
-table_2_vote_general_neither_less_pct,Table 2,pipeline,30.8
-table_2_vote_general_neither_change_diff,Table 2,pipeline,-10.5
-table_2_vote_general_neither_change_se,Table 2,pipeline,4.0
-table_2_vote_general_neither_change_p,Table 2,pipeline,0.009
-table_2_vote_primary_republican_actual,Table 2,pipeline,64.1
-table_2_vote_primary_republican_predicted,Table 2,pipeline,65.7
-table_2_vote_primary_republican_cf_diff,Table 2,pipeline,-1.6
-table_2_vote_primary_republican_cf_se,Table 2,pipeline,0.6
-table_2_vote_primary_republican_cf_p,Table 2,pipeline,0.007
-table_2_vote_primary_republican_more_pct,Table 2,pipeline,43.0
-table_2_vote_primary_republican_less_pct,Table 2,pipeline,16.3
-table_2_vote_primary_republican_change_diff,Table 2,pipeline,26.7
-table_2_vote_primary_republican_change_se,Table 2,pipeline,2.9
-table_2_vote_primary_republican_change_p,Table 2,pipeline,<0.001
-table_2_note_scale_points,Table 2 note,definitional,101
-table_2_note_change_scale_points,Table 2 note,definitional,3
-results_rep_change_belief_less,"Results, p. 1222",pipeline,40
-results_rep_change_primary_more,"Results, p. 1222",pipeline,43
-results_rep_change_primary_less,"Results, p. 1222",pipeline,16
-results_rep_cf_belief_actual,"Results, p. 1222",pipeline,27.1
-results_rep_cf_belief_predicted,"Results, p. 1222",pipeline,24.6
-results_rep_cf_belief_diff,"Results, p. 1222",pipeline,2.5
-results_rep_cf_belief_se,"Results, p. 1222",pipeline,0.6
-results_rep_cf_belief_p,"Results, p. 1222",pipeline,<0.01
-results_rep_cf_primary_actual,"Results, p. 1222",pipeline,64.1
-results_rep_cf_primary_predicted,"Results, p. 1222",pipeline,65.7
-results_rep_cf_primary_diff,"Results, p. 1222",pipeline,1.6
-results_rep_cf_primary_se,"Results, p. 1222",pipeline,0.6
-results_rep_cf_primary_p,"Results, p. 1222",pipeline,0.02
-results_dem_change_belief_more,"Results, p. 1222",pipeline,76
-results_dem_change_general_less,"Results, p. 1222",pipeline,60
-results_dem_opposite_single_digits,"Results, p. 1222",descriptive,
-results_dem_cf_belief_actual,"Results, p. 1222",pipeline,85.3
-results_dem_cf_belief_predicted,"Results, p. 1222",pipeline,79.5
-results_dem_cf_belief_diff,"Results, p. 1222",pipeline,5.8
-results_dem_cf_belief_se,"Results, p. 1222",pipeline,0.6
-results_dem_cf_belief_p,"Results, p. 1222",pipeline,<0.01
-results_dem_cf_general_range,"Results, p. 1222",descriptive,10 to 11
-results_dem_cf_general_diff,"Results, p. 1222",pipeline,0.9
-results_dem_cf_general_se,"Results, p. 1222",pipeline,0.8
-results_dem_cf_general_p,"Results, p. 1222",pipeline,0.22
-results_neither_change_no_effect_range,"Results, p. 1222",descriptive,45 to 50
-results_neither_change_belief_diff,"Results, p. 1222",pipeline,21.6
-results_neither_change_belief_se,"Results, p. 1222",pipeline,3.9
-results_neither_change_belief_p,"Results, p. 1222",pipeline,<0.01
-results_neither_change_general_diff,"Results, p. 1222",pipeline,-10.5
-results_neither_change_general_se,"Results, p. 1222",pipeline,4.0
-results_neither_change_general_p,"Results, p. 1222",pipeline,<0.01
-results_neither_cf_belief_diff,"Results, p. 1222",pipeline,1.8
-results_neither_cf_belief_se,"Results, p. 1222",pipeline,0.9
-results_neither_cf_belief_p,"Results, p. 1222",pipeline,0.05
-results_neither_cf_general_diff,"Results, p. 1222",pipeline,0.1
-results_neither_cf_general_se,"Results, p. 1222",pipeline,0.9
-results_neither_cf_general_p,"Results, p. 1222",pipeline,0.89
-why_prior_scales,"Why Do the Answers Differ?, p. 1223",transcribed,
-why_scale_points,"Why Do the Answers Differ?, p. 1223",definitional,101
-why_n_categories,"Why Do the Answers Differ?, p. 1223",definitional,3
-why_threshold_example,"Why Do the Answers Differ?, p. 1223",definitional,10
-why_threshold_zero,"Why Do the Answers Differ?, p. 1223",definitional,0
-why_fig1a_group,"Why Do the Answers Differ?, p. 1223",descriptive,
-why_fig1a_formats_similar,"Why Do the Answers Differ?, p. 1223",descriptive,
-why_fig1b_group,"Why Do the Answers Differ?, p. 1223",descriptive,
-why_congenial_reduced,"Why Do the Answers Differ?, p. 1223",descriptive,
-why_fig1c_group,"Why Do the Answers Differ?, p. 1223",descriptive,
-figure_1_axis_threshold_max,Figure 1,structural,50
-figure_1_panel_a_group,Figure 1 caption,descriptive,
-figure_1_caption_n_neither,Figure 1 caption,pipeline,754
-figure_1_panel_b_group,Figure 1 caption,descriptive,
-figure_1_caption_n_republican,Figure 1 caption,pipeline,"2,026"
-figure_1_panel_c_group,Figure 1 caption,descriptive,
-figure_1_caption_n_democratic,Figure 1 caption,pipeline,"1,953"
-discussion_two_conditions,"Discussion, p. 1225",structural,2
-discussion_scale_points,"Discussion, p. 1226",definitional,101
-table_a1_gender_male_unweighted,Table A.1,pipeline,48.1
-table_a1_gender_female_unweighted,Table A.1,pipeline,49.9
-table_a1_age_18_24_unweighted,Table A.1,pipeline,5.5
-table_a1_age_25_34_unweighted,Table A.1,pipeline,10.3
-table_a1_age_35_44_unweighted,Table A.1,pipeline,13.1
-table_a1_age_45_54_unweighted,Table A.1,pipeline,17.0
-table_a1_age_55_64_unweighted,Table A.1,pipeline,21.0
-table_a1_age_65_unweighted,Table A.1,pipeline,33.0
-table_a1_race_and_ethnicity_white_non_hispanic_unweighted,Table A.1,pipeline,68.2
-table_a1_race_and_ethnicity_black_non_hispanic_unweighted,Table A.1,pipeline,11.5
-table_a1_race_and_ethnicity_hispanic_unweighted,Table A.1,pipeline,12.5
-table_a1_race_and_ethnicity_asian_non_hispanic_unweighted,Table A.1,pipeline,2.7
-table_a1_race_and_ethnicity_other_non_hispanic_unweighted,Table A.1,pipeline,5.0
-table_a1_educational_attainment_high_school_or_less_unweighted,Table A.1,pipeline,17.9
-table_a1_educational_attainment_some_college_associate_s_unweighted,Table A.1,pipeline,31.1
-table_a1_educational_attainment_bachelor_s_unweighted,Table A.1,pipeline,28.5
-table_a1_educational_attainment_graduate_degree_unweighted,Table A.1,pipeline,22.5
-table_a1_biden_approval_approve_unweighted,Table A.1,pipeline,43.3
-table_a1_biden_approval_disapprove_unweighted,Table A.1,pipeline,54.0
-table_a1_gender_male_weighted,Table A.1,pipeline,47.5
-table_a1_gender_female_weighted,Table A.1,pipeline,50.2
-table_a1_age_18_24_weighted,Table A.1,pipeline,12.1
-table_a1_age_25_34_weighted,Table A.1,pipeline,17.5
-table_a1_age_35_44_weighted,Table A.1,pipeline,16.7
-table_a1_age_45_54_weighted,Table A.1,pipeline,16.0
-table_a1_age_55_64_weighted,Table A.1,pipeline,16.6
-table_a1_age_65_weighted,Table A.1,pipeline,21.0
-table_a1_race_and_ethnicity_white_non_hispanic_weighted,Table A.1,pipeline,63.9
-table_a1_race_and_ethnicity_black_non_hispanic_weighted,Table A.1,pipeline,12.7
-table_a1_race_and_ethnicity_hispanic_weighted,Table A.1,pipeline,16.4
-table_a1_race_and_ethnicity_asian_non_hispanic_weighted,Table A.1,pipeline,5.4
-table_a1_race_and_ethnicity_other_non_hispanic_weighted,Table A.1,pipeline,1.6
-table_a1_educational_attainment_high_school_or_less_weighted,Table A.1,pipeline,38.5
-table_a1_educational_attainment_some_college_associate_s_weighted,Table A.1,pipeline,30.5
-table_a1_educational_attainment_bachelor_s_weighted,Table A.1,pipeline,19.5
-table_a1_educational_attainment_graduate_degree_weighted,Table A.1,pipeline,11.5
-table_a1_biden_approval_approve_weighted,Table A.1,pipeline,40.4
-table_a1_biden_approval_disapprove_weighted,Table A.1,pipeline,56.3
-table_a1_gender_male_acs,Table A.1,transcribed,49.0
-table_a1_gender_female_acs,Table A.1,transcribed,51.0
-table_a1_age_18_24_acs,Table A.1,transcribed,11.7
-table_a1_age_25_34_acs,Table A.1,transcribed,17.4
-table_a1_age_35_44_acs,Table A.1,transcribed,17.0
-table_a1_age_45_54_acs,Table A.1,transcribed,15.7
-table_a1_age_55_64_acs,Table A.1,transcribed,16.6
-table_a1_age_65_acs,Table A.1,transcribed,21.6
-table_a1_race_and_ethnicity_white_non_hispanic_acs,Table A.1,transcribed,63.6
-table_a1_race_and_ethnicity_black_non_hispanic_acs,Table A.1,transcribed,11.8
-table_a1_race_and_ethnicity_hispanic_acs,Table A.1,transcribed,16.9
-table_a1_race_and_ethnicity_asian_non_hispanic_acs,Table A.1,transcribed,6.0
-table_a1_race_and_ethnicity_other_non_hispanic_acs,Table A.1,transcribed,1.7
-table_a1_educational_attainment_high_school_or_less_acs,Table A.1,transcribed,38.0
-table_a1_educational_attainment_some_college_associate_s_acs,Table A.1,transcribed,29.5
-table_a1_educational_attainment_bachelor_s_acs,Table A.1,transcribed,20.2
-table_a1_educational_attainment_graduate_degree_acs,Table A.1,transcribed,12.3
-table_a1_biden_approval_approve_fivethirtyeight,Table A.1,transcribed,40.3
-table_a1_biden_approval_disapprove_fivethirtyeight,Table A.1,transcribed,55.2
-table_a1_age_bin_18_24,Table A.1,definitional,18-24
-table_a1_age_bin_25_34,Table A.1,definitional,25-34
-table_a1_age_bin_35_44,Table A.1,definitional,35-44
-table_a1_age_bin_45_54,Table A.1,definitional,45-54
-table_a1_age_bin_55_64,Table A.1,definitional,55-64
-table_a1_age_bin_65_plus,Table A.1,definitional,65+
-table_a1_note_acs_weighting_year,Table A.1 note,structural,2019
-table_a1_note_acs_year,Table A.1 note,structural,2021
-table_a1_note_acs_estimate_span,Table A.1 note,structural,1
-table_a1_note_538_date,Table A.1 note,structural,
-appendix_b_table_a2_matches_figure_1,"Appendix B, p. 1228",descriptive,
-table_a2_beliefs_positive_change_republican,Table A.2,pipeline,16.2
-table_a2_beliefs_positive_change_democratic,Table A.2,pipeline,76.0
-table_a2_beliefs_positive_change_neither,Table A.2,pipeline,37.4
-table_a2_beliefs_positive_counterfactual_republican,Table A.2,pipeline,33.3
-table_a2_beliefs_positive_counterfactual_democratic,Table A.2,pipeline,36.5
-table_a2_beliefs_positive_counterfactual_neither,Table A.2,pipeline,29.5
-table_a2_beliefs_positive_1_5_republican,Table A.2,pipeline,13.1
-table_a2_beliefs_positive_1_5_democratic,Table A.2,pipeline,9.7
-table_a2_beliefs_positive_1_5_neither,Table A.2,pipeline,11.3
-table_a2_beliefs_positive_6_10_republican,Table A.2,pipeline,6.1
-table_a2_beliefs_positive_6_10_democratic,Table A.2,pipeline,4.9
-table_a2_beliefs_positive_6_10_neither,Table A.2,pipeline,4.8
-table_a2_beliefs_positive_11_20_republican,Table A.2,pipeline,6.6
-table_a2_beliefs_positive_11_20_democratic,Table A.2,pipeline,8.4
-table_a2_beliefs_positive_11_20_neither,Table A.2,pipeline,6.2
-table_a2_beliefs_positive_20_or_more_republican,Table A.2,pipeline,7.5
-table_a2_beliefs_positive_20_or_more_democratic,Table A.2,pipeline,13.4
-table_a2_beliefs_positive_20_or_more_neither,Table A.2,pipeline,7.3
-table_a2_beliefs_negative_change_republican,Table A.2,pipeline,39.6
-table_a2_beliefs_negative_change_democratic,Table A.2,pipeline,5.0
-table_a2_beliefs_negative_change_neither,Table A.2,pipeline,15.7
-table_a2_beliefs_negative_counterfactual_republican,Table A.2,pipeline,15.0
-table_a2_beliefs_negative_counterfactual_democratic,Table A.2,pipeline,11.9
-table_a2_beliefs_negative_counterfactual_neither,Table A.2,pipeline,20.5
-table_a2_beliefs_negative_1_5_republican,Table A.2,pipeline,7.9
-table_a2_beliefs_negative_1_5_democratic,Table A.2,pipeline,6.5
-table_a2_beliefs_negative_1_5_neither,Table A.2,pipeline,9.2
-table_a2_beliefs_negative_6_10_republican,Table A.2,pipeline,2.6
-table_a2_beliefs_negative_6_10_democratic,Table A.2,pipeline,3.1
-table_a2_beliefs_negative_6_10_neither,Table A.2,pipeline,4.8
-table_a2_beliefs_negative_11_20_republican,Table A.2,pipeline,1.5
-table_a2_beliefs_negative_11_20_democratic,Table A.2,pipeline,1.3
-table_a2_beliefs_negative_11_20_neither,Table A.2,pipeline,2.1
-table_a2_beliefs_negative_20_or_more_republican,Table A.2,pipeline,3.0
-table_a2_beliefs_negative_20_or_more_democratic,Table A.2,pipeline,1.0
-table_a2_beliefs_negative_20_or_more_neither,Table A.2,pipeline,4.3
-table_a2_beliefs_no_effect_change_republican,Table A.2,pipeline,44.3
-table_a2_beliefs_no_effect_change_democratic,Table A.2,pipeline,19.0
-table_a2_beliefs_no_effect_change_neither,Table A.2,pipeline,46.9
-table_a2_beliefs_no_effect_counterfactual_republican,Table A.2,pipeline,51.8
-table_a2_beliefs_no_effect_counterfactual_democratic,Table A.2,pipeline,51.6
-table_a2_beliefs_no_effect_counterfactual_neither,Table A.2,pipeline,50.0
-table_a2_vote_choice_positive_change_republican,Table A.2,pipeline,43.0
-table_a2_vote_choice_positive_change_democratic,Table A.2,pipeline,8.0
-table_a2_vote_choice_positive_change_neither,Table A.2,pipeline,20.3
-table_a2_vote_choice_positive_counterfactual_republican,Table A.2,pipeline,13.0
-table_a2_vote_choice_positive_counterfactual_democratic,Table A.2,pipeline,13.3
-table_a2_vote_choice_positive_counterfactual_neither,Table A.2,pipeline,22.6
-table_a2_vote_choice_positive_1_5_republican,Table A.2,pipeline,7.8
-table_a2_vote_choice_positive_1_5_democratic,Table A.2,pipeline,7.4
-table_a2_vote_choice_positive_1_5_neither,Table A.2,pipeline,11.1
-table_a2_vote_choice_positive_6_10_republican,Table A.2,pipeline,1.4
-table_a2_vote_choice_positive_6_10_democratic,Table A.2,pipeline,1.5
-table_a2_vote_choice_positive_6_10_neither,Table A.2,pipeline,2.7
-table_a2_vote_choice_positive_11_20_republican,Table A.2,pipeline,2.2
-table_a2_vote_choice_positive_11_20_democratic,Table A.2,pipeline,1.0
-table_a2_vote_choice_positive_11_20_neither,Table A.2,pipeline,4.1
-table_a2_vote_choice_positive_20_or_more_republican,Table A.2,pipeline,1.5
-table_a2_vote_choice_positive_20_or_more_democratic,Table A.2,pipeline,3.4
-table_a2_vote_choice_positive_20_or_more_neither,Table A.2,pipeline,4.6
-table_a2_vote_choice_negative_change_republican,Table A.2,pipeline,16.3
-table_a2_vote_choice_negative_change_democratic,Table A.2,pipeline,60.2
-table_a2_vote_choice_negative_change_neither,Table A.2,pipeline,30.8
-table_a2_vote_choice_negative_counterfactual_republican,Table A.2,pipeline,17.7
-table_a2_vote_choice_negative_counterfactual_democratic,Table A.2,pipeline,14.1
-table_a2_vote_choice_negative_counterfactual_neither,Table A.2,pipeline,19.9
-table_a2_vote_choice_negative_1_5_republican,Table A.2,pipeline,9.4
-table_a2_vote_choice_negative_1_5_democratic,Table A.2,pipeline,8.8
-table_a2_vote_choice_negative_1_5_neither,Table A.2,pipeline,8.3
-table_a2_vote_choice_negative_6_10_republican,Table A.2,pipeline,2.2
-table_a2_vote_choice_negative_6_10_democratic,Table A.2,pipeline,1.2
-table_a2_vote_choice_negative_6_10_neither,Table A.2,pipeline,4.1
-table_a2_vote_choice_negative_11_20_republican,Table A.2,pipeline,2.0
-table_a2_vote_choice_negative_11_20_democratic,Table A.2,pipeline,3.3
-table_a2_vote_choice_negative_11_20_neither,Table A.2,pipeline,3.5
-table_a2_vote_choice_negative_20_or_more_republican,Table A.2,pipeline,4.1
-table_a2_vote_choice_negative_20_or_more_democratic,Table A.2,pipeline,0.9
-table_a2_vote_choice_negative_20_or_more_neither,Table A.2,pipeline,3.9
-table_a2_vote_choice_no_effect_change_republican,Table A.2,pipeline,40.7
-table_a2_vote_choice_no_effect_change_democratic,Table A.2,pipeline,31.8
-table_a2_vote_choice_no_effect_change_neither,Table A.2,pipeline,48.8
-table_a2_vote_choice_no_effect_counterfactual_republican,Table A.2,pipeline,69.3
-table_a2_vote_choice_no_effect_counterfactual_democratic,Table A.2,pipeline,72.5
-table_a2_vote_choice_no_effect_counterfactual_neither,Table A.2,pipeline,57.5
-table_a2_bin_1_5,Table A.2,definitional,1-5%
-table_a2_bin_6_10,Table A.2,definitional,6-10%
-table_a2_bin_11_20,Table A.2,definitional,11-20%
-table_a2_bin_20_plus,Table A.2,definitional,20% or more
-table_a3_belief_republican_actual,Table A.3,pipeline,25.0
-table_a3_belief_republican_predicted,Table A.3,pipeline,22.5
-table_a3_belief_republican_cf_diff,Table A.3,pipeline,2.5
-table_a3_belief_republican_cf_se,Table A.3,pipeline,0.6
-table_a3_belief_republican_cf_p,Table A.3,pipeline,<0.001
-table_a3_belief_republican_more_pct,Table A.3,pipeline,16.7
-table_a3_belief_republican_less_pct,Table A.3,pipeline,38.5
-table_a3_belief_republican_change_diff,Table A.3,pipeline,-21.8
-table_a3_belief_republican_change_se,Table A.3,pipeline,2.8
-table_a3_belief_republican_change_p,Table A.3,pipeline,<0.001
-table_a3_belief_democrat_actual,Table A.3,pipeline,85.4
-table_a3_belief_democrat_predicted,Table A.3,pipeline,80.3
-table_a3_belief_democrat_cf_diff,Table A.3,pipeline,5.2
-table_a3_belief_democrat_cf_se,Table A.3,pipeline,0.6
-table_a3_belief_democrat_cf_p,Table A.3,pipeline,<0.001
-table_a3_belief_democrat_more_pct,Table A.3,pipeline,73.9
-table_a3_belief_democrat_less_pct,Table A.3,pipeline,6.1
-table_a3_belief_democrat_change_diff,Table A.3,pipeline,67.8
-table_a3_belief_democrat_change_se,Table A.3,pipeline,2.5
-table_a3_belief_democrat_change_p,Table A.3,pipeline,<0.001
-table_a3_belief_independent_actual,Table A.3,pipeline,59.2
-table_a3_belief_independent_predicted,Table A.3,pipeline,56.7
-table_a3_belief_independent_cf_diff,Table A.3,pipeline,2.5
-table_a3_belief_independent_cf_se,Table A.3,pipeline,1.0
-table_a3_belief_independent_cf_p,Table A.3,pipeline,0.017
-table_a3_belief_independent_more_pct,Table A.3,pipeline,39.6
-table_a3_belief_independent_less_pct,Table A.3,pipeline,15.3
-table_a3_belief_independent_change_diff,Table A.3,pipeline,24.2
-table_a3_belief_independent_change_se,Table A.3,pipeline,4.4
-table_a3_belief_independent_change_p,Table A.3,pipeline,<0.001
-table_a3_vote_general_republican_actual,Table A.3,pipeline,64.8
-table_a3_vote_general_republican_predicted,Table A.3,pipeline,61.4
-table_a3_vote_general_republican_cf_diff,Table A.3,pipeline,3.4
-table_a3_vote_general_republican_cf_se,Table A.3,pipeline,3.1
-table_a3_vote_general_republican_cf_p,Table A.3,pipeline,0.277
-table_a3_vote_general_republican_more_pct,Table A.3,pipeline,33.8
-table_a3_vote_general_republican_less_pct,Table A.3,pipeline,15.3
-table_a3_vote_general_republican_change_diff,Table A.3,pipeline,18.5
-table_a3_vote_general_republican_change_se,Table A.3,pipeline,7.4
-table_a3_vote_general_republican_change_p,Table A.3,pipeline,0.013
-table_a3_vote_general_democrat_actual,Table A.3,pipeline,8.5
-table_a3_vote_general_democrat_predicted,Table A.3,pipeline,7.9
-table_a3_vote_general_democrat_cf_diff,Table A.3,pipeline,0.5
-table_a3_vote_general_democrat_cf_se,Table A.3,pipeline,0.7
-table_a3_vote_general_democrat_cf_p,Table A.3,pipeline,0.451
-table_a3_vote_general_democrat_more_pct,Table A.3,pipeline,7.1
-table_a3_vote_general_democrat_less_pct,Table A.3,pipeline,61.8
-table_a3_vote_general_democrat_change_diff,Table A.3,pipeline,-54.7
-table_a3_vote_general_democrat_change_se,Table A.3,pipeline,2.6
-table_a3_vote_general_democrat_change_p,Table A.3,pipeline,<0.001
-table_a3_vote_general_independent_actual,Table A.3,pipeline,37.5
-table_a3_vote_general_independent_predicted,Table A.3,pipeline,37.0
-table_a3_vote_general_independent_cf_diff,Table A.3,pipeline,0.6
-table_a3_vote_general_independent_cf_se,Table A.3,pipeline,1.0
-table_a3_vote_general_independent_cf_p,Table A.3,pipeline,0.585
-table_a3_vote_general_independent_more_pct,Table A.3,pipeline,19.0
-table_a3_vote_general_independent_less_pct,Table A.3,pipeline,32.6
-table_a3_vote_general_independent_change_diff,Table A.3,pipeline,-13.6
-table_a3_vote_general_independent_change_se,Table A.3,pipeline,4.8
-table_a3_vote_general_independent_change_p,Table A.3,pipeline,0.005
-table_a3_vote_primary_republican_actual,Table A.3,pipeline,67.4
-table_a3_vote_primary_republican_predicted,Table A.3,pipeline,69.1
-table_a3_vote_primary_republican_cf_diff,Table A.3,pipeline,-1.6
-table_a3_vote_primary_republican_cf_se,Table A.3,pipeline,0.6
-table_a3_vote_primary_republican_cf_p,Table A.3,pipeline,0.010
-table_a3_vote_primary_republican_more_pct,Table A.3,pipeline,45.8
-table_a3_vote_primary_republican_less_pct,Table A.3,pipeline,14.1
-table_a3_vote_primary_republican_change_diff,Table A.3,pipeline,31.7
-table_a3_vote_primary_republican_change_se,Table A.3,pipeline,3.0
-table_a3_vote_primary_republican_change_p,Table A.3,pipeline,<0.001
-table_a3_vote_primary_democrat_actual,Table A.3,pipeline,35.3
-table_a3_vote_primary_democrat_predicted,Table A.3,pipeline,33.7
-table_a3_vote_primary_democrat_cf_diff,Table A.3,pipeline,1.6
-table_a3_vote_primary_democrat_cf_se,Table A.3,pipeline,1.1
-table_a3_vote_primary_democrat_cf_p,Table A.3,pipeline,0.182
-table_a3_vote_primary_democrat_more_pct,Table A.3,pipeline,21.0
-table_a3_vote_primary_democrat_less_pct,Table A.3,pipeline,39.9
-table_a3_vote_primary_democrat_change_diff,Table A.3,pipeline,-18.9
-table_a3_vote_primary_democrat_change_se,Table A.3,pipeline,15.7
-table_a3_vote_primary_democrat_change_p,Table A.3,pipeline,0.235
-table_a3_vote_primary_independent_actual,Table A.3,pipeline,42.5
-table_a3_vote_primary_independent_predicted,Table A.3,pipeline,44.9
-table_a3_vote_primary_independent_cf_diff,Table A.3,pipeline,-2.3
-table_a3_vote_primary_independent_cf_se,Table A.3,pipeline,2.6
-table_a3_vote_primary_independent_cf_p,Table A.3,pipeline,0.373
-table_a3_vote_primary_independent_more_pct,Table A.3,pipeline,23.4
-table_a3_vote_primary_independent_less_pct,Table A.3,pipeline,27.4
-table_a3_vote_primary_independent_change_diff,Table A.3,pipeline,-4.0
-table_a3_vote_primary_independent_change_se,Table A.3,pipeline,12.2
-table_a3_vote_primary_independent_change_p,Table A.3,pipeline,0.742
-appendix_b_a3_within_few_pp,"Appendix B, p. 1231",descriptive,
-appendix_b_fig_a1_resembles_fig_1,"Appendix B, p. 1231",descriptive,
-appendix_b_rep_pid_primary_actual,"Appendix B, p. 1231",pipeline,67.4
-appendix_b_rep_primary_actual,"Appendix B, p. 1231",pipeline,64.1
-appendix_b_rep_pid_primary_predicted,"Appendix B, p. 1231",pipeline,69.1
-appendix_b_rep_primary_predicted,"Appendix B, p. 1231",pipeline,65.7
-appendix_b_estimates_identical,"Appendix B, p. 1231",descriptive,
-appendix_b_identical_estimate,"Appendix B, p. 1231",pipeline,-1.6
-appendix_b_identical_se,"Appendix B, p. 1231",pipeline,0.6
-appendix_b_more_rows,"Appendix B, p. 1231",descriptive,
-appendix_b_se_too_large,"Appendix B, p. 1232",descriptive,
-appendix_b_center_right_similar,"Appendix B, p. 1232",descriptive,
+claim_id,location,claim_type,claim,value_paper,digits,comparison,expect,needs_block,notes
+abstract_belief_effect,Abstract,pipeline,"Effect of the indictment on Republican primary voters' belief that Trump mishandled documents, counterfactual format (pp)",2.5,1,==,NA,TRUE,NA
+abstract_primary_effect,Abstract,pipeline,"Effect of the indictment on Republican primary voters' intention to vote for Trump in the primary, counterfactual format (pp)",-1.6,1,==,NA,TRUE,NA
+intro_indictment_year,"Introduction, p. 1216",structural,Year Trump was indicted for mishandling classified documents,2023,0,==,NA,FALSE,NA
+intro_cbs_better_pct,"Introduction, p. 1216",transcribed,CBS poll: likely Republican primary voters saying the indictment changed their view of Trump for the better (%),14,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+intro_cbs_worse_pct,"Introduction, p. 1216",transcribed,CBS poll: likely Republican primary voters saying the indictment changed their view of Trump for the worse (%),7,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+intro_ipsos_election_year,"Introduction, p. 1217",structural,Election year the Ipsos question asks about,2024,0,==,NA,FALSE,NA
+intro_ipsos_more_pct,"Introduction, p. 1217",transcribed,Ipsos poll: Republicans saying the indictments made them more likely to support Trump (%),31,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+intro_ipsos_less_pct,"Introduction, p. 1217",transcribed,Ipsos poll: Republicans saying the indictments made them less likely to support Trump (%),23,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+intro_random_half,"Introduction, p. 1217",descriptive,Half the respondents were randomly assigned to each question format,NA,NA,NA,NA,TRUE,NA
+intro_change_rep_primary_more,"Introduction, p. 1217",pipeline,Change format: Republican primary voters saying the indictment made them more likely to support Trump in the primary (%),43,0,==,NA,TRUE,NA
+intro_change_rep_primary_less,"Introduction, p. 1217",pipeline,Change format: Republican primary voters saying the indictment made them less likely to support Trump in the primary (%),16,0,==,NA,TRUE,NA
+intro_cf_rep_primary_actual,"Introduction, p. 1217",pipeline,Counterfactual format: Republican primary voters' chance of supporting Trump in the primary (%),64.1,1,==,NA,TRUE,NA
+intro_cf_rep_primary_predicted,"Introduction, p. 1218",pipeline,Counterfactual format: the same chance had they not known about the indictment (%),65.7,1,==,NA,TRUE,NA
+intro_cf_rep_primary_diff,"Introduction, p. 1218",pipeline,Counterfactual format: estimated effect on Republican primary voters' support for Trump in the primary (pp),-1.6,1,==,NA,TRUE,NA
+motivation_indictments_year,"Motivation, p. 1218",structural,Year of Trump's indictments,2023,0,==,NA,FALSE,NA
+motivation_yougov_exposure,"Motivation, p. 1218",transcribed,YouGov poll: Americans who had heard about the indictment (%),93,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+motivation_ipsos_exposure,"Motivation, p. 1218",transcribed,Ipsos poll: Americans who had heard about the indictment (%),92,0,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+motivation_538_support_before,"Motivation, p. 1218",transcribed,FiveThirtyEight average of Trump's Republican primary support before the indictment (%),53.8,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+motivation_538_support_after,"Motivation, p. 1218",transcribed,FiveThirtyEight average of Trump's Republican primary support after the indictment (%),53.5,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+design_n_surveyed,"Research Design, p. 1219",pipeline,Americans surveyed,"5,011",0,==,derived,TRUE,"The deposit holds 4,838 of the 5,011 respondents the article describes; the block prints what the deposit gives, declared derived (defect_locus archive in the ground truth, errata entry 8)"
+design_field_dates,"Research Design, p. 1219",structural,"Field period, June 22 to 27, 2023",NA,NA,NA,NA,TRUE,NA
+design_river_pool,"Research Design, p. 1219",transcribed,Daily respondents to SurveyMonkey customer surveys from whom the river sample is drawn,two million,0,>,NA,FALSE,"Quoted from another source and verified against it, not here"
+design_n_began,"Research Design, p. 1219",pipeline,Respondents who began the survey,"6,877",0,==,absent,TRUE,"Respondents who did not complete are not in the deposit, so the block declares no counterpart"
+design_n_completed,"Research Design, p. 1219",pipeline,Respondents who completed the survey,"5,011",0,==,derived,TRUE,"The deposit holds 4,838 of the 5,011 respondents the article describes; the block prints what the deposit gives, declared derived (defect_locus archive in the ground truth, errata entry 8)"
+design_completion_rate,"Research Design, p. 1219",pipeline,Completion rate (%),73,0,==,absent,TRUE,"Respondents who did not complete are not in the deposit, so the block declares no counterpart"
+design_acs_weighting_year,"Research Design, p. 1219",structural,American Community Survey year of the weighting targets,2019,0,==,NA,FALSE,NA
+design_acs_comparison_year,"Research Design, p. 1219",structural,American Community Survey year of the comparison benchmarks,2021,0,==,NA,FALSE,NA
+design_biden_approval_weighted,"Research Design, p. 1219",pipeline,Weighted Biden approval in the survey (%),40.4,1,==,derived,TRUE,"The deposit holds 4,838 of the 5,011 respondents the article describes; the block prints what the deposit gives, declared derived (defect_locus archive in the ground truth, errata entry 8)"
+design_538_biden_approval,"Research Design, p. 1219",transcribed,"FiveThirtyEight average Biden approval, June 26, 2023 (%)",40.3,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+design_538_approval_date,"Research Design, p. 1219",structural,"Date of the FiveThirtyEight Biden approval average, June 26",NA,NA,NA,NA,FALSE,NA
+design_n_formats,"Research Design, p. 1219",definitional,Question formats respondents were randomly assigned to,2,0,==,NA,TRUE,NA
+design_counterfactual_n_questions,"Research Design, p. 1219",definitional,Questions the counterfactual format asks per opinion,2,0,==,NA,TRUE,NA
+table_1_election_year,Table 1,structural,Election year the vote choice questions ask about,2024,0,==,NA,FALSE,NA
+table_1_scale_min,Table 1,definitional,Lower end of the counterfactual format's response scale,0,0,==,NA,TRUE,NA
+table_1_scale_max,Table 1,definitional,Upper end of the counterfactual format's response scale,100,0,==,NA,TRUE,NA
+table_1_change_response_options,Table 1,definitional,Response options in the change format,3,0,==,NA,TRUE,NA
+results_rep_change_belief_more,"Results, p. 1220",pipeline,Change format: Republican primary voters saying the indictment increased their belief that Trump mishandled documents (%),16,0,==,NA,TRUE,NA
+table_2_belief_republican_actual,Table 2,pipeline,"Believe Trump mishandled docs, Republican, actual (%)",27.1,1,==,NA,TRUE,NA
+table_2_belief_republican_predicted,Table 2,pipeline,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",24.6,1,==,NA,TRUE,NA
+table_2_belief_republican_cf_diff,Table 2,pipeline,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,1,==,NA,TRUE,NA
+table_2_belief_republican_cf_se,Table 2,pipeline,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_2_belief_republican_cf_p,Table 2,pipeline,"Believe Trump mishandled docs, Republican, counterfactual p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_belief_republican_more_pct,Table 2,pipeline,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.2,1,==,NA,TRUE,NA
+table_2_belief_republican_less_pct,Table 2,pipeline,"Believe Trump mishandled docs, Republican, change format, less likely (%)",39.6,1,==,NA,TRUE,NA
+table_2_belief_republican_change_diff,Table 2,pipeline,"Believe Trump mishandled docs, Republican, change format difference (pp)",-23.4,1,==,NA,TRUE,NA
+table_2_belief_republican_change_se,Table 2,pipeline,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,1,==,NA,TRUE,NA
+table_2_belief_republican_change_p,Table 2,pipeline,"Believe Trump mishandled docs, Republican, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_belief_democratic_actual,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, actual (%)",85.3,1,==,NA,TRUE,NA
+table_2_belief_democratic_predicted,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, predicted if not for indictment (%)",79.5,1,==,NA,TRUE,NA
+table_2_belief_democratic_cf_diff,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, counterfactual difference (pp)",5.8,1,==,NA,TRUE,NA
+table_2_belief_democratic_cf_se,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_2_belief_democratic_cf_p,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, counterfactual p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_belief_democratic_more_pct,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, change format, more likely (%)",76.0,1,==,NA,TRUE,NA
+table_2_belief_democratic_less_pct,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, change format, less likely (%)",5.0,1,==,NA,TRUE,NA
+table_2_belief_democratic_change_diff,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, change format difference (pp)",71.0,1,==,NA,TRUE,NA
+table_2_belief_democratic_change_se,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, change format standard error (pp)",2.3,1,==,NA,TRUE,NA
+table_2_belief_democratic_change_p,Table 2,pipeline,"Believe Trump mishandled docs, Democratic, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_belief_neither_actual,Table 2,pipeline,"Believe Trump mishandled docs, Neither, actual (%)",55.7,1,==,NA,TRUE,NA
+table_2_belief_neither_predicted,Table 2,pipeline,"Believe Trump mishandled docs, Neither, predicted if not for indictment (%)",54.2,1,==,NA,TRUE,NA
+table_2_belief_neither_cf_diff,Table 2,pipeline,"Believe Trump mishandled docs, Neither, counterfactual difference (pp)",1.5,1,==,NA,TRUE,NA
+table_2_belief_neither_cf_se,Table 2,pipeline,"Believe Trump mishandled docs, Neither, counterfactual standard error (pp)",0.9,1,==,NA,TRUE,NA
+table_2_belief_neither_cf_p,Table 2,pipeline,"Believe Trump mishandled docs, Neither, counterfactual p-value",0.124,3,==,NA,TRUE,NA
+table_2_belief_neither_more_pct,Table 2,pipeline,"Believe Trump mishandled docs, Neither, change format, more likely (%)",37.4,1,==,NA,TRUE,NA
+table_2_belief_neither_less_pct,Table 2,pipeline,"Believe Trump mishandled docs, Neither, change format, less likely (%)",15.7,1,==,NA,TRUE,NA
+table_2_belief_neither_change_diff,Table 2,pipeline,"Believe Trump mishandled docs, Neither, change format difference (pp)",21.6,1,==,NA,TRUE,NA
+table_2_belief_neither_change_se,Table 2,pipeline,"Believe Trump mishandled docs, Neither, change format standard error (pp)",3.9,1,==,NA,TRUE,NA
+table_2_belief_neither_change_p,Table 2,pipeline,"Believe Trump mishandled docs, Neither, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_vote_general_democratic_actual,Table 2,pipeline,"Vote for Trump (general election), Democratic, actual (%)",11.1,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_predicted,Table 2,pipeline,"Vote for Trump (general election), Democratic, predicted if not for indictment (%)",10.1,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_cf_diff,Table 2,pipeline,"Vote for Trump (general election), Democratic, counterfactual difference (pp)",0.9,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_cf_se,Table 2,pipeline,"Vote for Trump (general election), Democratic, counterfactual standard error (pp)",0.8,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_cf_p,Table 2,pipeline,"Vote for Trump (general election), Democratic, counterfactual p-value",0.217,3,==,NA,TRUE,NA
+table_2_vote_general_democratic_more_pct,Table 2,pipeline,"Vote for Trump (general election), Democratic, change format, more likely (%)",8.0,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_less_pct,Table 2,pipeline,"Vote for Trump (general election), Democratic, change format, less likely (%)",60.2,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_change_diff,Table 2,pipeline,"Vote for Trump (general election), Democratic, change format difference (pp)",-52.1,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_change_se,Table 2,pipeline,"Vote for Trump (general election), Democratic, change format standard error (pp)",2.7,1,==,NA,TRUE,NA
+table_2_vote_general_democratic_change_p,Table 2,pipeline,"Vote for Trump (general election), Democratic, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_vote_general_neither_actual,Table 2,pipeline,"Vote for Trump (general election), Neither, actual (%)",42.2,1,==,NA,TRUE,NA
+table_2_vote_general_neither_predicted,Table 2,pipeline,"Vote for Trump (general election), Neither, predicted if not for indictment (%)",41.9,1,==,NA,TRUE,NA
+table_2_vote_general_neither_cf_diff,Table 2,pipeline,"Vote for Trump (general election), Neither, counterfactual difference (pp)",0.3,1,==,NA,TRUE,NA
+table_2_vote_general_neither_cf_se,Table 2,pipeline,"Vote for Trump (general election), Neither, counterfactual standard error (pp)",0.9,1,==,NA,TRUE,NA
+table_2_vote_general_neither_cf_p,Table 2,pipeline,"Vote for Trump (general election), Neither, counterfactual p-value",0.752,3,==,NA,TRUE,NA
+table_2_vote_general_neither_more_pct,Table 2,pipeline,"Vote for Trump (general election), Neither, change format, more likely (%)",20.3,1,==,NA,TRUE,NA
+table_2_vote_general_neither_less_pct,Table 2,pipeline,"Vote for Trump (general election), Neither, change format, less likely (%)",30.8,1,==,NA,TRUE,NA
+table_2_vote_general_neither_change_diff,Table 2,pipeline,"Vote for Trump (general election), Neither, change format difference (pp)",-10.5,1,==,NA,TRUE,NA
+table_2_vote_general_neither_change_se,Table 2,pipeline,"Vote for Trump (general election), Neither, change format standard error (pp)",4.0,1,==,NA,TRUE,NA
+table_2_vote_general_neither_change_p,Table 2,pipeline,"Vote for Trump (general election), Neither, change format p-value",0.009,3,==,NA,TRUE,NA
+table_2_vote_primary_republican_actual,Table 2,pipeline,"Vote for Trump (primary election), Republican, actual (%)",64.1,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_predicted,Table 2,pipeline,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",65.7,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_cf_diff,Table 2,pipeline,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_cf_se,Table 2,pipeline,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_cf_p,Table 2,pipeline,"Vote for Trump (primary election), Republican, counterfactual p-value",0.007,3,==,NA,TRUE,NA
+table_2_vote_primary_republican_more_pct,Table 2,pipeline,"Vote for Trump (primary election), Republican, change format, more likely (%)",43.0,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_less_pct,Table 2,pipeline,"Vote for Trump (primary election), Republican, change format, less likely (%)",16.3,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_change_diff,Table 2,pipeline,"Vote for Trump (primary election), Republican, change format difference (pp)",26.7,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_change_se,Table 2,pipeline,"Vote for Trump (primary election), Republican, change format standard error (pp)",2.9,1,==,NA,TRUE,NA
+table_2_vote_primary_republican_change_p,Table 2,pipeline,"Vote for Trump (primary election), Republican, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_2_note_scale_points,Table 2 note,definitional,Table 2 note: points on the counterfactual format's scale,101,0,==,NA,TRUE,NA
+table_2_note_change_scale_points,Table 2 note,definitional,Table 2 note: points on the change format's scale,3,0,==,NA,TRUE,NA
+results_rep_change_belief_less,"Results, p. 1222",pipeline,Change format: Republican primary voters saying the indictment made them less likely to believe he mishandled documents (%),40,0,==,NA,TRUE,NA
+results_rep_change_primary_more,"Results, p. 1222",pipeline,Change format: Republican primary voters saying the indictment made them more likely to support Trump (%),43,0,==,NA,TRUE,NA
+results_rep_change_primary_less,"Results, p. 1222",pipeline,Change format: Republican primary voters saying the indictment made them less likely to support Trump (%),16,0,==,NA,TRUE,NA
+results_rep_cf_belief_actual,"Results, p. 1222",pipeline,Counterfactual format: Republican primary voters' chance that Trump mishandled documents (%),27.1,1,==,NA,TRUE,NA
+results_rep_cf_belief_predicted,"Results, p. 1222",pipeline,Counterfactual format: the same chance had they not known about the indictment (%),24.6,1,==,NA,TRUE,NA
+results_rep_cf_belief_diff,"Results, p. 1222",pipeline,Counterfactual format: effect on Republican primary voters' belief (pp),2.5,1,==,NA,TRUE,NA
+results_rep_cf_belief_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.6,1,==,NA,TRUE,NA
+results_rep_cf_belief_p,"Results, p. 1222",pipeline,"p-value of that effect, stated as a bound",<0.01,2,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+results_rep_cf_primary_actual,"Results, p. 1222",pipeline,Counterfactual format: Republican primary voters' chance of voting for Trump in the primary (%),64.1,1,==,NA,TRUE,NA
+results_rep_cf_primary_predicted,"Results, p. 1222",pipeline,Counterfactual format: the same chance had the indictment not been issued (%),65.7,1,==,NA,TRUE,NA
+results_rep_cf_primary_diff,"Results, p. 1222",pipeline,"Magnitude of the effect on Republican primary vote, direction given in words (pp)",1.6,1,==,NA,TRUE,NA
+results_rep_cf_primary_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.6,1,==,NA,TRUE,NA
+results_rep_cf_primary_p,"Results, p. 1222",pipeline,p-value of that effect,0.02,2,==,NA,TRUE,NA
+results_dem_change_belief_more,"Results, p. 1222",pipeline,Change format: Democratic primary voters saying the indictment made them more likely to believe Trump mishandled documents (%),76,0,==,NA,TRUE,NA
+results_dem_change_general_less,"Results, p. 1222",pipeline,Change format: Democratic primary voters saying the indictment made them less likely to vote for Trump (%),60,0,==,NA,TRUE,NA
+results_dem_opposite_single_digits,"Results, p. 1222",descriptive,Change format: the opposite sentiments among Democratic primary voters stood in the single digits,NA,NA,NA,NA,TRUE,NA
+results_dem_cf_belief_actual,"Results, p. 1222",pipeline,Counterfactual format: Democratic primary voters' chance that Trump mishandled documents (%),85.3,1,==,NA,TRUE,NA
+results_dem_cf_belief_predicted,"Results, p. 1222",pipeline,Counterfactual format: the same chance had the indictment not been issued (%),79.5,1,==,NA,TRUE,NA
+results_dem_cf_belief_diff,"Results, p. 1222",pipeline,Counterfactual format: effect on Democratic primary voters' belief (pp),5.8,1,==,NA,TRUE,NA
+results_dem_cf_belief_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.6,1,==,NA,TRUE,NA
+results_dem_cf_belief_p,"Results, p. 1222",pipeline,"p-value of that effect, stated as a bound",<0.01,2,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+results_dem_cf_general_range,"Results, p. 1222",descriptive,"Democratic primary voters' chance of voting for Trump, actual and counterfactual, a range (%)",10 to 11,0,==,NA,TRUE,A bare range; both the actual and the counterfactual value must round into it
+results_dem_cf_general_diff,"Results, p. 1222",pipeline,Counterfactual format: effect on Democratic primary voters' general election vote (pp),0.9,1,==,NA,TRUE,NA
+results_dem_cf_general_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.8,1,==,NA,TRUE,NA
+results_dem_cf_general_p,"Results, p. 1222",pipeline,p-value of that effect,0.22,2,==,NA,TRUE,NA
+results_neither_change_no_effect_range,"Results, p. 1222",descriptive,"Change format: respondents intending neither primary saying the indictment had no effect, a range (%)",45 to 50,0,approx,NA,TRUE,Hedged as about 45 to 50
+results_neither_change_belief_diff,"Results, p. 1222",pipeline,Change format: effect on belief among respondents intending neither primary (pp),21.6,1,==,NA,TRUE,NA
+results_neither_change_belief_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),3.9,1,==,NA,TRUE,NA
+results_neither_change_belief_p,"Results, p. 1222",pipeline,"p-value of that effect, stated as a bound",<0.01,2,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+results_neither_change_general_diff,"Results, p. 1222",pipeline,Change format: effect on general election vote among respondents intending neither primary (pp),-10.5,1,==,NA,TRUE,NA
+results_neither_change_general_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),4.0,1,==,NA,TRUE,NA
+results_neither_change_general_p,"Results, p. 1222",pipeline,"p-value of that effect, stated as a bound",<0.01,2,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+results_neither_cf_belief_diff,"Results, p. 1222",pipeline,Counterfactual format: effect on belief among respondents intending neither primary (pp),1.8,1,==,NA,TRUE,NA
+results_neither_cf_belief_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.9,1,==,NA,TRUE,NA
+results_neither_cf_belief_p,"Results, p. 1222",pipeline,p-value of that effect,0.05,2,==,NA,TRUE,NA
+results_neither_cf_general_diff,"Results, p. 1222",pipeline,Counterfactual format: effect on general election vote among respondents intending neither primary (pp),0.1,1,==,NA,TRUE,NA
+results_neither_cf_general_se,"Results, p. 1222",pipeline,Standard error of that effect (pp),0.9,1,==,NA,TRUE,NA
+results_neither_cf_general_p,"Results, p. 1222",pipeline,p-value of that effect,0.89,2,==,NA,TRUE,NA
+why_prior_scales,"Why Do the Answers Differ?, p. 1223",transcribed,Response scales used by earlier change-format studies,NA,NA,NA,NA,FALSE,"Quoted from another source and verified against it, not here"
+why_scale_points,"Why Do the Answers Differ?, p. 1223",definitional,Points on the counterfactual format's response scale,101,0,==,NA,TRUE,NA
+why_n_categories,"Why Do the Answers Differ?, p. 1223",definitional,Categories of the change format,3,0,==,NA,TRUE,NA
+why_threshold_example,"Why Do the Answers Differ?, p. 1223",definitional,Example threshold on the horizontal axis below which a difference counts as no change,10,0,==,NA,TRUE,NA
+why_threshold_zero,"Why Do the Answers Differ?, p. 1223",definitional,Threshold at which any difference counts as change,0,0,==,NA,TRUE,NA
+why_fig1a_group,"Why Do the Answers Differ?, p. 1223",descriptive,Figure 1a shows respondents intending neither primary,NA,NA,NA,NA,TRUE,NA
+why_fig1a_formats_similar,"Why Do the Answers Differ?, p. 1223",descriptive,"Where the two formats meet in Figure 1a, the proportions in each category are similar",NA,NA,NA,NA,TRUE,NA
+why_fig1b_group,"Why Do the Answers Differ?, p. 1223",descriptive,Figure 1b shows Republican primary voters,NA,NA,NA,NA,TRUE,NA
+why_congenial_reduced,"Why Do the Answers Differ?, p. 1223",descriptive,"The counterfactual format reduces the shares reporting changes in the congenial direction, even at the smallest threshold",NA,NA,NA,NA,TRUE,NA
+why_fig1c_group,"Why Do the Answers Differ?, p. 1223",descriptive,Figure 1c shows Democratic primary voters,NA,NA,NA,NA,TRUE,NA
+figure_1_axis_threshold_max,Figure 1,structural,Largest threshold on Figure 1's horizontal axis,50,0,==,NA,TRUE,NA
+figure_1_panel_a_group,Figure 1 caption,descriptive,Caption: panel (a) shows respondents intending neither primary,NA,NA,NA,NA,TRUE,NA
+figure_1_caption_n_neither,Figure 1 caption,pipeline,"Caption: N, respondents intending neither primary",754,0,==,NA,TRUE,NA
+figure_1_panel_b_group,Figure 1 caption,descriptive,Caption: panel (b) shows Republican primary voters,NA,NA,NA,NA,TRUE,NA
+figure_1_caption_n_republican,Figure 1 caption,pipeline,"Caption: N, Republican primary voters","2,026",0,==,NA,TRUE,NA
+figure_1_panel_c_group,Figure 1 caption,descriptive,Caption: panel (c) shows Democratic primary voters,NA,NA,NA,NA,TRUE,NA
+figure_1_caption_n_democratic,Figure 1 caption,pipeline,"Caption: N, Democratic primary voters","1,953",0,==,NA,TRUE,NA
+discussion_two_conditions,"Discussion, p. 1225",structural,Conditions compared in the experiment,2,0,==,NA,FALSE,NA
+discussion_scale_points,"Discussion, p. 1226",definitional,Points on the counterfactual format's response scale,101,0,==,NA,TRUE,NA
+table_a1_gender_male_unweighted,Table A.1,pipeline,"Gender, Male, survey, unweighted (%)",48.1,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_gender_female_unweighted,Table A.1,pipeline,"Gender, Female, survey, unweighted (%)",49.9,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_18_24_unweighted,Table A.1,pipeline,"Age, 18-24, survey, unweighted (%)",5.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_25_34_unweighted,Table A.1,pipeline,"Age, 25-34, survey, unweighted (%)",10.3,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_35_44_unweighted,Table A.1,pipeline,"Age, 35-44, survey, unweighted (%)",13.1,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_45_54_unweighted,Table A.1,pipeline,"Age, 45-54, survey, unweighted (%)",17.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_55_64_unweighted,Table A.1,pipeline,"Age, 55-64, survey, unweighted (%)",21.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_65_unweighted,Table A.1,pipeline,"Age, 65+, survey, unweighted (%)",33.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_white_non_hispanic_unweighted,Table A.1,pipeline,"Race and ethnicity, White, non-Hispanic, survey, unweighted (%)",68.2,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_black_non_hispanic_unweighted,Table A.1,pipeline,"Race and ethnicity, Black, non-Hispanic, survey, unweighted (%)",11.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_hispanic_unweighted,Table A.1,pipeline,"Race and ethnicity, Hispanic, survey, unweighted (%)",12.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_asian_non_hispanic_unweighted,Table A.1,pipeline,"Race and ethnicity, Asian, non-Hispanic, survey, unweighted (%)",2.7,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_other_non_hispanic_unweighted,Table A.1,pipeline,"Race and ethnicity, Other, non-Hispanic, survey, unweighted (%)",5.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_high_school_or_less_unweighted,Table A.1,pipeline,"Educational attainment, High school or less, survey, unweighted (%)",17.9,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_some_college_associate_s_unweighted,Table A.1,pipeline,"Educational attainment, Some college/associate's, survey, unweighted (%)",31.1,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_bachelor_s_unweighted,Table A.1,pipeline,"Educational attainment, Bachelor's, survey, unweighted (%)",28.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_graduate_degree_unweighted,Table A.1,pipeline,"Educational attainment, Graduate degree, survey, unweighted (%)",22.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_biden_approval_approve_unweighted,Table A.1,pipeline,"Biden approval, Approve, survey, unweighted (%)",43.3,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_biden_approval_disapprove_unweighted,Table A.1,pipeline,"Biden approval, Disapprove, survey, unweighted (%)",54.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_gender_male_weighted,Table A.1,pipeline,"Gender, Male, survey, weighted (%)",47.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_gender_female_weighted,Table A.1,pipeline,"Gender, Female, survey, weighted (%)",50.2,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_18_24_weighted,Table A.1,pipeline,"Age, 18-24, survey, weighted (%)",12.1,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_25_34_weighted,Table A.1,pipeline,"Age, 25-34, survey, weighted (%)",17.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_35_44_weighted,Table A.1,pipeline,"Age, 35-44, survey, weighted (%)",16.7,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_45_54_weighted,Table A.1,pipeline,"Age, 45-54, survey, weighted (%)",16.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_55_64_weighted,Table A.1,pipeline,"Age, 55-64, survey, weighted (%)",16.6,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_age_65_weighted,Table A.1,pipeline,"Age, 65+, survey, weighted (%)",21.0,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_white_non_hispanic_weighted,Table A.1,pipeline,"Race and ethnicity, White, non-Hispanic, survey, weighted (%)",63.9,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_black_non_hispanic_weighted,Table A.1,pipeline,"Race and ethnicity, Black, non-Hispanic, survey, weighted (%)",12.7,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_hispanic_weighted,Table A.1,pipeline,"Race and ethnicity, Hispanic, survey, weighted (%)",16.4,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_asian_non_hispanic_weighted,Table A.1,pipeline,"Race and ethnicity, Asian, non-Hispanic, survey, weighted (%)",5.4,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_race_and_ethnicity_other_non_hispanic_weighted,Table A.1,pipeline,"Race and ethnicity, Other, non-Hispanic, survey, weighted (%)",1.6,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_high_school_or_less_weighted,Table A.1,pipeline,"Educational attainment, High school or less, survey, weighted (%)",38.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_some_college_associate_s_weighted,Table A.1,pipeline,"Educational attainment, Some college/associate's, survey, weighted (%)",30.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_bachelor_s_weighted,Table A.1,pipeline,"Educational attainment, Bachelor's, survey, weighted (%)",19.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_educational_attainment_graduate_degree_weighted,Table A.1,pipeline,"Educational attainment, Graduate degree, survey, weighted (%)",11.5,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_biden_approval_approve_weighted,Table A.1,pipeline,"Biden approval, Approve, survey, weighted (%)",40.4,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_biden_approval_disapprove_weighted,Table A.1,pipeline,"Biden approval, Disapprove, survey, weighted (%)",56.3,1,==,derived,TRUE,"Computed on the 4,838 deposited respondents rather than the 5,011 the table profiles; the block prints what the deposit gives, declared derived"
+table_a1_gender_male_acs,Table A.1,transcribed,"Gender, Male, American Community Survey benchmark (%)",49.0,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_gender_female_acs,Table A.1,transcribed,"Gender, Female, American Community Survey benchmark (%)",51.0,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_18_24_acs,Table A.1,transcribed,"Age, 18-24, American Community Survey benchmark (%)",11.7,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_25_34_acs,Table A.1,transcribed,"Age, 25-34, American Community Survey benchmark (%)",17.4,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_35_44_acs,Table A.1,transcribed,"Age, 35-44, American Community Survey benchmark (%)",17.0,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_45_54_acs,Table A.1,transcribed,"Age, 45-54, American Community Survey benchmark (%)",15.7,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_55_64_acs,Table A.1,transcribed,"Age, 55-64, American Community Survey benchmark (%)",16.6,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_65_acs,Table A.1,transcribed,"Age, 65+, American Community Survey benchmark (%)",21.6,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_race_and_ethnicity_white_non_hispanic_acs,Table A.1,transcribed,"Race and ethnicity, White, non-Hispanic, American Community Survey benchmark (%)",63.6,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_race_and_ethnicity_black_non_hispanic_acs,Table A.1,transcribed,"Race and ethnicity, Black, non-Hispanic, American Community Survey benchmark (%)",11.8,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_race_and_ethnicity_hispanic_acs,Table A.1,transcribed,"Race and ethnicity, Hispanic, American Community Survey benchmark (%)",16.9,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_race_and_ethnicity_asian_non_hispanic_acs,Table A.1,transcribed,"Race and ethnicity, Asian, non-Hispanic, American Community Survey benchmark (%)",6.0,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_race_and_ethnicity_other_non_hispanic_acs,Table A.1,transcribed,"Race and ethnicity, Other, non-Hispanic, American Community Survey benchmark (%)",1.7,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_educational_attainment_high_school_or_less_acs,Table A.1,transcribed,"Educational attainment, High school or less, American Community Survey benchmark (%)",38.0,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_educational_attainment_some_college_associate_s_acs,Table A.1,transcribed,"Educational attainment, Some college/associate's, American Community Survey benchmark (%)",29.5,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_educational_attainment_bachelor_s_acs,Table A.1,transcribed,"Educational attainment, Bachelor's, American Community Survey benchmark (%)",20.2,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_educational_attainment_graduate_degree_acs,Table A.1,transcribed,"Educational attainment, Graduate degree, American Community Survey benchmark (%)",12.3,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_biden_approval_approve_fivethirtyeight,Table A.1,transcribed,"Biden approval, Approve, FiveThirtyEight benchmark (%)",40.3,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_biden_approval_disapprove_fivethirtyeight,Table A.1,transcribed,"Biden approval, Disapprove, FiveThirtyEight benchmark (%)",55.2,1,==,NA,FALSE,"Quoted from another source and verified against it, not here"
+table_a1_age_bin_18_24,Table A.1,definitional,Table A.1 age band,18-24,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_age_bin_25_34,Table A.1,definitional,Table A.1 age band,25-34,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_age_bin_35_44,Table A.1,definitional,Table A.1 age band,35-44,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_age_bin_45_54,Table A.1,definitional,Table A.1 age band,45-54,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_age_bin_55_64,Table A.1,definitional,Table A.1 age band,55-64,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_age_bin_65_plus,Table A.1,definitional,"Table A.1 age band, open-ended",65+,0,>=,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a1_note_acs_weighting_year,Table A.1 note,structural,Table A.1 note: American Community Survey year of the weighting targets,2019,0,==,NA,FALSE,NA
+table_a1_note_acs_year,Table A.1 note,structural,Table A.1 note: American Community Survey year of the benchmark columns,2021,0,==,NA,FALSE,NA
+table_a1_note_acs_estimate_span,Table A.1 note,structural,Table A.1 note: years spanned by the American Community Survey estimates,1,0,==,NA,FALSE,NA
+table_a1_note_538_date,Table A.1 note,structural,Table A.1 note: date of the FiveThirtyEight Biden approval average,NA,NA,NA,NA,FALSE,NA
+appendix_b_table_a2_matches_figure_1,"Appendix B, p. 1228",descriptive,Table A.2 is a numerical version of Figure 1,NA,NA,NA,NA,TRUE,NA
+table_a2_beliefs_positive_change_republican,Table A.2,pipeline,"Beliefs, Positive, Change, Republican primary (%)",16.2,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_change_democratic,Table A.2,pipeline,"Beliefs, Positive, Change, Democratic primary (%)",76.0,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_change_neither,Table A.2,pipeline,"Beliefs, Positive, Change, Neither primary (%)",37.4,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_counterfactual_republican,Table A.2,pipeline,"Beliefs, Positive, Counterfactual, Republican primary (%)",33.3,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_counterfactual_democratic,Table A.2,pipeline,"Beliefs, Positive, Counterfactual, Democratic primary (%)",36.5,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_counterfactual_neither,Table A.2,pipeline,"Beliefs, Positive, Counterfactual, Neither primary (%)",29.5,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_1_5_republican,Table A.2,pipeline,"Beliefs, Positive, 1-5%, Republican primary (%)",13.1,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_1_5_democratic,Table A.2,pipeline,"Beliefs, Positive, 1-5%, Democratic primary (%)",9.7,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_1_5_neither,Table A.2,pipeline,"Beliefs, Positive, 1-5%, Neither primary (%)",11.3,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_6_10_republican,Table A.2,pipeline,"Beliefs, Positive, 6-10%, Republican primary (%)",6.1,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_6_10_democratic,Table A.2,pipeline,"Beliefs, Positive, 6-10%, Democratic primary (%)",4.9,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_6_10_neither,Table A.2,pipeline,"Beliefs, Positive, 6-10%, Neither primary (%)",4.8,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_11_20_republican,Table A.2,pipeline,"Beliefs, Positive, 11-20%, Republican primary (%)",6.6,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_11_20_democratic,Table A.2,pipeline,"Beliefs, Positive, 11-20%, Democratic primary (%)",8.4,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_11_20_neither,Table A.2,pipeline,"Beliefs, Positive, 11-20%, Neither primary (%)",6.2,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_20_or_more_republican,Table A.2,pipeline,"Beliefs, Positive, 20% or more, Republican primary (%)",7.5,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_20_or_more_democratic,Table A.2,pipeline,"Beliefs, Positive, 20% or more, Democratic primary (%)",13.4,1,==,NA,TRUE,NA
+table_a2_beliefs_positive_20_or_more_neither,Table A.2,pipeline,"Beliefs, Positive, 20% or more, Neither primary (%)",7.3,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_change_republican,Table A.2,pipeline,"Beliefs, Negative, Change, Republican primary (%)",39.6,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_change_democratic,Table A.2,pipeline,"Beliefs, Negative, Change, Democratic primary (%)",5.0,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_change_neither,Table A.2,pipeline,"Beliefs, Negative, Change, Neither primary (%)",15.7,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_counterfactual_republican,Table A.2,pipeline,"Beliefs, Negative, Counterfactual, Republican primary (%)",15.0,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_counterfactual_democratic,Table A.2,pipeline,"Beliefs, Negative, Counterfactual, Democratic primary (%)",11.9,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_counterfactual_neither,Table A.2,pipeline,"Beliefs, Negative, Counterfactual, Neither primary (%)",20.5,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_1_5_republican,Table A.2,pipeline,"Beliefs, Negative, 1-5%, Republican primary (%)",7.9,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_1_5_democratic,Table A.2,pipeline,"Beliefs, Negative, 1-5%, Democratic primary (%)",6.5,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_1_5_neither,Table A.2,pipeline,"Beliefs, Negative, 1-5%, Neither primary (%)",9.2,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_6_10_republican,Table A.2,pipeline,"Beliefs, Negative, 6-10%, Republican primary (%)",2.6,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_6_10_democratic,Table A.2,pipeline,"Beliefs, Negative, 6-10%, Democratic primary (%)",3.1,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_6_10_neither,Table A.2,pipeline,"Beliefs, Negative, 6-10%, Neither primary (%)",4.8,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_11_20_republican,Table A.2,pipeline,"Beliefs, Negative, 11-20%, Republican primary (%)",1.5,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_11_20_democratic,Table A.2,pipeline,"Beliefs, Negative, 11-20%, Democratic primary (%)",1.3,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_11_20_neither,Table A.2,pipeline,"Beliefs, Negative, 11-20%, Neither primary (%)",2.1,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_20_or_more_republican,Table A.2,pipeline,"Beliefs, Negative, 20% or more, Republican primary (%)",3.0,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_20_or_more_democratic,Table A.2,pipeline,"Beliefs, Negative, 20% or more, Democratic primary (%)",1.0,1,==,NA,TRUE,NA
+table_a2_beliefs_negative_20_or_more_neither,Table A.2,pipeline,"Beliefs, Negative, 20% or more, Neither primary (%)",4.3,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_change_republican,Table A.2,pipeline,"Beliefs, No effect, Change, Republican primary (%)",44.3,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_change_democratic,Table A.2,pipeline,"Beliefs, No effect, Change, Democratic primary (%)",19.0,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_change_neither,Table A.2,pipeline,"Beliefs, No effect, Change, Neither primary (%)",46.9,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_counterfactual_republican,Table A.2,pipeline,"Beliefs, No effect, Counterfactual, Republican primary (%)",51.8,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_counterfactual_democratic,Table A.2,pipeline,"Beliefs, No effect, Counterfactual, Democratic primary (%)",51.6,1,==,NA,TRUE,NA
+table_a2_beliefs_no_effect_counterfactual_neither,Table A.2,pipeline,"Beliefs, No effect, Counterfactual, Neither primary (%)",50.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_change_republican,Table A.2,pipeline,"Vote choice, Positive, Change, Republican primary (%)",43.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_change_democratic,Table A.2,pipeline,"Vote choice, Positive, Change, Democratic primary (%)",8.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_change_neither,Table A.2,pipeline,"Vote choice, Positive, Change, Neither primary (%)",20.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_counterfactual_republican,Table A.2,pipeline,"Vote choice, Positive, Counterfactual, Republican primary (%)",13.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_counterfactual_democratic,Table A.2,pipeline,"Vote choice, Positive, Counterfactual, Democratic primary (%)",13.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_counterfactual_neither,Table A.2,pipeline,"Vote choice, Positive, Counterfactual, Neither primary (%)",22.6,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_1_5_republican,Table A.2,pipeline,"Vote choice, Positive, 1-5%, Republican primary (%)",7.8,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_1_5_democratic,Table A.2,pipeline,"Vote choice, Positive, 1-5%, Democratic primary (%)",7.4,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_1_5_neither,Table A.2,pipeline,"Vote choice, Positive, 1-5%, Neither primary (%)",11.1,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_6_10_republican,Table A.2,pipeline,"Vote choice, Positive, 6-10%, Republican primary (%)",1.4,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_6_10_democratic,Table A.2,pipeline,"Vote choice, Positive, 6-10%, Democratic primary (%)",1.5,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_6_10_neither,Table A.2,pipeline,"Vote choice, Positive, 6-10%, Neither primary (%)",2.7,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_11_20_republican,Table A.2,pipeline,"Vote choice, Positive, 11-20%, Republican primary (%)",2.2,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_11_20_democratic,Table A.2,pipeline,"Vote choice, Positive, 11-20%, Democratic primary (%)",1.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_11_20_neither,Table A.2,pipeline,"Vote choice, Positive, 11-20%, Neither primary (%)",4.1,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_20_or_more_republican,Table A.2,pipeline,"Vote choice, Positive, 20% or more, Republican primary (%)",1.5,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_20_or_more_democratic,Table A.2,pipeline,"Vote choice, Positive, 20% or more, Democratic primary (%)",3.4,1,==,NA,TRUE,NA
+table_a2_vote_choice_positive_20_or_more_neither,Table A.2,pipeline,"Vote choice, Positive, 20% or more, Neither primary (%)",4.6,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_change_republican,Table A.2,pipeline,"Vote choice, Negative, Change, Republican primary (%)",16.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_change_democratic,Table A.2,pipeline,"Vote choice, Negative, Change, Democratic primary (%)",60.2,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_change_neither,Table A.2,pipeline,"Vote choice, Negative, Change, Neither primary (%)",30.8,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_counterfactual_republican,Table A.2,pipeline,"Vote choice, Negative, Counterfactual, Republican primary (%)",17.7,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_counterfactual_democratic,Table A.2,pipeline,"Vote choice, Negative, Counterfactual, Democratic primary (%)",14.1,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_counterfactual_neither,Table A.2,pipeline,"Vote choice, Negative, Counterfactual, Neither primary (%)",19.9,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_1_5_republican,Table A.2,pipeline,"Vote choice, Negative, 1-5%, Republican primary (%)",9.4,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_1_5_democratic,Table A.2,pipeline,"Vote choice, Negative, 1-5%, Democratic primary (%)",8.8,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_1_5_neither,Table A.2,pipeline,"Vote choice, Negative, 1-5%, Neither primary (%)",8.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_6_10_republican,Table A.2,pipeline,"Vote choice, Negative, 6-10%, Republican primary (%)",2.2,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_6_10_democratic,Table A.2,pipeline,"Vote choice, Negative, 6-10%, Democratic primary (%)",1.2,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_6_10_neither,Table A.2,pipeline,"Vote choice, Negative, 6-10%, Neither primary (%)",4.1,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_11_20_republican,Table A.2,pipeline,"Vote choice, Negative, 11-20%, Republican primary (%)",2.0,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_11_20_democratic,Table A.2,pipeline,"Vote choice, Negative, 11-20%, Democratic primary (%)",3.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_11_20_neither,Table A.2,pipeline,"Vote choice, Negative, 11-20%, Neither primary (%)",3.5,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_20_or_more_republican,Table A.2,pipeline,"Vote choice, Negative, 20% or more, Republican primary (%)",4.1,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_20_or_more_democratic,Table A.2,pipeline,"Vote choice, Negative, 20% or more, Democratic primary (%)",0.9,1,==,NA,TRUE,NA
+table_a2_vote_choice_negative_20_or_more_neither,Table A.2,pipeline,"Vote choice, Negative, 20% or more, Neither primary (%)",3.9,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_change_republican,Table A.2,pipeline,"Vote choice, No effect, Change, Republican primary (%)",40.7,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_change_democratic,Table A.2,pipeline,"Vote choice, No effect, Change, Democratic primary (%)",31.8,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_change_neither,Table A.2,pipeline,"Vote choice, No effect, Change, Neither primary (%)",48.8,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_counterfactual_republican,Table A.2,pipeline,"Vote choice, No effect, Counterfactual, Republican primary (%)",69.3,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_counterfactual_democratic,Table A.2,pipeline,"Vote choice, No effect, Counterfactual, Democratic primary (%)",72.5,1,==,NA,TRUE,NA
+table_a2_vote_choice_no_effect_counterfactual_neither,Table A.2,pipeline,"Vote choice, No effect, Counterfactual, Neither primary (%)",57.5,1,==,NA,TRUE,NA
+table_a2_bin_1_5,Table A.2,definitional,Table A.2 effect size band (%),1-5%,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a2_bin_6_10,Table A.2,definitional,Table A.2 effect size band (%),6-10%,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a2_bin_11_20,Table A.2,definitional,Table A.2 effect size band (%),11-20%,0,==,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a2_bin_20_plus,Table A.2,definitional,"Table A.2 effect size band, open-ended (%)",20% or more,0,>=,NA,TRUE,A label; the block compares the band's lower bound with the deposit's own label
+table_a3_belief_republican_actual,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, actual (%)",25.0,1,==,NA,TRUE,NA
+table_a3_belief_republican_predicted,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, predicted if not for indictment (%)",22.5,1,==,NA,TRUE,NA
+table_a3_belief_republican_cf_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, counterfactual difference (pp)",2.5,1,==,NA,TRUE,NA
+table_a3_belief_republican_cf_se,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_a3_belief_republican_cf_p,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, counterfactual p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_belief_republican_more_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, change format, more likely (%)",16.7,1,==,NA,TRUE,NA
+table_a3_belief_republican_less_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, change format, less likely (%)",38.5,1,==,NA,TRUE,NA
+table_a3_belief_republican_change_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, change format difference (pp)",-21.8,1,==,NA,TRUE,NA
+table_a3_belief_republican_change_se,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, change format standard error (pp)",2.8,1,==,NA,TRUE,NA
+table_a3_belief_republican_change_p,Table A.3,pipeline,"Believe Trump mishandled docs, Republican, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_belief_democrat_actual,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, actual (%)",85.4,1,==,NA,TRUE,NA
+table_a3_belief_democrat_predicted,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, predicted if not for indictment (%)",80.3,1,==,NA,TRUE,NA
+table_a3_belief_democrat_cf_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, counterfactual difference (pp)",5.2,1,==,NA,TRUE,NA
+table_a3_belief_democrat_cf_se,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_a3_belief_democrat_cf_p,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, counterfactual p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_belief_democrat_more_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, change format, more likely (%)",73.9,1,==,NA,TRUE,NA
+table_a3_belief_democrat_less_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, change format, less likely (%)",6.1,1,==,NA,TRUE,NA
+table_a3_belief_democrat_change_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, change format difference (pp)",67.8,1,==,NA,TRUE,NA
+table_a3_belief_democrat_change_se,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, change format standard error (pp)",2.5,1,==,NA,TRUE,NA
+table_a3_belief_democrat_change_p,Table A.3,pipeline,"Believe Trump mishandled docs, Democrat, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_belief_independent_actual,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, actual (%)",59.2,1,==,NA,TRUE,NA
+table_a3_belief_independent_predicted,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, predicted if not for indictment (%)",56.7,1,==,NA,TRUE,NA
+table_a3_belief_independent_cf_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, counterfactual difference (pp)",2.5,1,==,NA,TRUE,NA
+table_a3_belief_independent_cf_se,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, counterfactual standard error (pp)",1.0,1,==,NA,TRUE,NA
+table_a3_belief_independent_cf_p,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, counterfactual p-value",0.017,3,==,NA,TRUE,NA
+table_a3_belief_independent_more_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, change format, more likely (%)",39.6,1,==,NA,TRUE,NA
+table_a3_belief_independent_less_pct,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, change format, less likely (%)",15.3,1,==,NA,TRUE,NA
+table_a3_belief_independent_change_diff,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, change format difference (pp)",24.2,1,==,NA,TRUE,NA
+table_a3_belief_independent_change_se,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, change format standard error (pp)",4.4,1,==,NA,TRUE,NA
+table_a3_belief_independent_change_p,Table A.3,pipeline,"Believe Trump mishandled docs, Independent, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_vote_general_republican_actual,Table A.3,pipeline,"Vote for Trump (general election), Republican, actual (%)",64.8,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_predicted,Table A.3,pipeline,"Vote for Trump (general election), Republican, predicted if not for indictment (%)",61.4,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_cf_diff,Table A.3,pipeline,"Vote for Trump (general election), Republican, counterfactual difference (pp)",3.4,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_cf_se,Table A.3,pipeline,"Vote for Trump (general election), Republican, counterfactual standard error (pp)",3.1,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_cf_p,Table A.3,pipeline,"Vote for Trump (general election), Republican, counterfactual p-value",0.277,3,==,NA,TRUE,NA
+table_a3_vote_general_republican_more_pct,Table A.3,pipeline,"Vote for Trump (general election), Republican, change format, more likely (%)",33.8,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_less_pct,Table A.3,pipeline,"Vote for Trump (general election), Republican, change format, less likely (%)",15.3,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_change_diff,Table A.3,pipeline,"Vote for Trump (general election), Republican, change format difference (pp)",18.5,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_change_se,Table A.3,pipeline,"Vote for Trump (general election), Republican, change format standard error (pp)",7.4,1,==,NA,TRUE,NA
+table_a3_vote_general_republican_change_p,Table A.3,pipeline,"Vote for Trump (general election), Republican, change format p-value",0.013,3,==,NA,TRUE,NA
+table_a3_vote_general_democrat_actual,Table A.3,pipeline,"Vote for Trump (general election), Democrat, actual (%)",8.5,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_predicted,Table A.3,pipeline,"Vote for Trump (general election), Democrat, predicted if not for indictment (%)",7.9,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_cf_diff,Table A.3,pipeline,"Vote for Trump (general election), Democrat, counterfactual difference (pp)",0.5,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_cf_se,Table A.3,pipeline,"Vote for Trump (general election), Democrat, counterfactual standard error (pp)",0.7,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_cf_p,Table A.3,pipeline,"Vote for Trump (general election), Democrat, counterfactual p-value",0.451,3,==,NA,TRUE,NA
+table_a3_vote_general_democrat_more_pct,Table A.3,pipeline,"Vote for Trump (general election), Democrat, change format, more likely (%)",7.1,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_less_pct,Table A.3,pipeline,"Vote for Trump (general election), Democrat, change format, less likely (%)",61.8,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_change_diff,Table A.3,pipeline,"Vote for Trump (general election), Democrat, change format difference (pp)",-54.7,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_change_se,Table A.3,pipeline,"Vote for Trump (general election), Democrat, change format standard error (pp)",2.6,1,==,NA,TRUE,NA
+table_a3_vote_general_democrat_change_p,Table A.3,pipeline,"Vote for Trump (general election), Democrat, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_vote_general_independent_actual,Table A.3,pipeline,"Vote for Trump (general election), Independent, actual (%)",37.5,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_predicted,Table A.3,pipeline,"Vote for Trump (general election), Independent, predicted if not for indictment (%)",37.0,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_cf_diff,Table A.3,pipeline,"Vote for Trump (general election), Independent, counterfactual difference (pp)",0.6,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_cf_se,Table A.3,pipeline,"Vote for Trump (general election), Independent, counterfactual standard error (pp)",1.0,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_cf_p,Table A.3,pipeline,"Vote for Trump (general election), Independent, counterfactual p-value",0.585,3,==,NA,TRUE,NA
+table_a3_vote_general_independent_more_pct,Table A.3,pipeline,"Vote for Trump (general election), Independent, change format, more likely (%)",19.0,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_less_pct,Table A.3,pipeline,"Vote for Trump (general election), Independent, change format, less likely (%)",32.6,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_change_diff,Table A.3,pipeline,"Vote for Trump (general election), Independent, change format difference (pp)",-13.6,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_change_se,Table A.3,pipeline,"Vote for Trump (general election), Independent, change format standard error (pp)",4.8,1,==,NA,TRUE,NA
+table_a3_vote_general_independent_change_p,Table A.3,pipeline,"Vote for Trump (general election), Independent, change format p-value",0.005,3,==,NA,TRUE,NA
+table_a3_vote_primary_republican_actual,Table A.3,pipeline,"Vote for Trump (primary election), Republican, actual (%)",67.4,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_predicted,Table A.3,pipeline,"Vote for Trump (primary election), Republican, predicted if not for indictment (%)",69.1,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_cf_diff,Table A.3,pipeline,"Vote for Trump (primary election), Republican, counterfactual difference (pp)",-1.6,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_cf_se,Table A.3,pipeline,"Vote for Trump (primary election), Republican, counterfactual standard error (pp)",0.6,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_cf_p,Table A.3,pipeline,"Vote for Trump (primary election), Republican, counterfactual p-value",0.010,3,==,NA,TRUE,NA
+table_a3_vote_primary_republican_more_pct,Table A.3,pipeline,"Vote for Trump (primary election), Republican, change format, more likely (%)",45.8,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_less_pct,Table A.3,pipeline,"Vote for Trump (primary election), Republican, change format, less likely (%)",14.1,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_change_diff,Table A.3,pipeline,"Vote for Trump (primary election), Republican, change format difference (pp)",31.7,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_change_se,Table A.3,pipeline,"Vote for Trump (primary election), Republican, change format standard error (pp)",3.0,1,==,NA,TRUE,NA
+table_a3_vote_primary_republican_change_p,Table A.3,pipeline,"Vote for Trump (primary election), Republican, change format p-value",<0.001,3,<,derived,TRUE,"The article states a bound rather than a value; the block prints the p-value, declared derived"
+table_a3_vote_primary_democrat_actual,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, actual (%)",35.3,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_predicted,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, predicted if not for indictment (%)",33.7,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_cf_diff,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, counterfactual difference (pp)",1.6,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_cf_se,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, counterfactual standard error (pp)",1.1,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_cf_p,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, counterfactual p-value",0.182,3,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_more_pct,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, change format, more likely (%)",21.0,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_less_pct,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, change format, less likely (%)",39.9,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_change_diff,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, change format difference (pp)",-18.9,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_change_se,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, change format standard error (pp)",15.7,1,==,NA,TRUE,NA
+table_a3_vote_primary_democrat_change_p,Table A.3,pipeline,"Vote for Trump (primary election), Democrat, change format p-value",0.235,3,==,NA,TRUE,NA
+table_a3_vote_primary_independent_actual,Table A.3,pipeline,"Vote for Trump (primary election), Independent, actual (%)",42.5,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_predicted,Table A.3,pipeline,"Vote for Trump (primary election), Independent, predicted if not for indictment (%)",44.9,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_cf_diff,Table A.3,pipeline,"Vote for Trump (primary election), Independent, counterfactual difference (pp)",-2.3,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_cf_se,Table A.3,pipeline,"Vote for Trump (primary election), Independent, counterfactual standard error (pp)",2.6,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_cf_p,Table A.3,pipeline,"Vote for Trump (primary election), Independent, counterfactual p-value",0.373,3,==,NA,TRUE,NA
+table_a3_vote_primary_independent_more_pct,Table A.3,pipeline,"Vote for Trump (primary election), Independent, change format, more likely (%)",23.4,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_less_pct,Table A.3,pipeline,"Vote for Trump (primary election), Independent, change format, less likely (%)",27.4,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_change_diff,Table A.3,pipeline,"Vote for Trump (primary election), Independent, change format difference (pp)",-4.0,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_change_se,Table A.3,pipeline,"Vote for Trump (primary election), Independent, change format standard error (pp)",12.2,1,==,NA,TRUE,NA
+table_a3_vote_primary_independent_change_p,Table A.3,pipeline,"Vote for Trump (primary election), Independent, change format p-value",0.742,3,==,NA,TRUE,NA
+appendix_b_a3_within_few_pp,"Appendix B, p. 1231",descriptive,The belief estimates in Table A.3 are within a few percentage points of Table 2's,NA,NA,NA,NA,TRUE,NA
+appendix_b_fig_a1_resembles_fig_1,"Appendix B, p. 1231",descriptive,The first column of Figure A.1 resembles the first column of Figure 1,NA,NA,NA,NA,TRUE,NA
+appendix_b_rep_pid_primary_actual,"Appendix B, p. 1231",pipeline,Republicans in the Republican primary: chance of supporting Trump (%),67.4,1,==,NA,TRUE,NA
+appendix_b_rep_primary_actual,"Appendix B, p. 1231",pipeline,Republican primary voters overall: chance of supporting Trump (%),64.1,1,==,NA,TRUE,NA
+appendix_b_rep_pid_primary_predicted,"Appendix B, p. 1231",pipeline,Republicans in the Republican primary: chance had the indictment not been issued (%),69.1,1,==,NA,TRUE,NA
+appendix_b_rep_primary_predicted,"Appendix B, p. 1231",pipeline,Republican primary voters overall: chance had the indictment not been issued (%),65.7,1,==,NA,TRUE,NA
+appendix_b_estimates_identical,"Appendix B, p. 1231",descriptive,The two groups' estimated effects on primary vote are identical,NA,NA,NA,NA,TRUE,NA
+appendix_b_identical_estimate,"Appendix B, p. 1231",pipeline,The identical estimate of the effect on primary vote (pp),-1.6,1,==,NA,TRUE,NA
+appendix_b_identical_se,"Appendix B, p. 1231",pipeline,Standard error of that estimate (pp),0.6,1,==,NA,TRUE,NA
+appendix_b_more_rows,"Appendix B, p. 1231",descriptive,Table A.3 has more rows than Table 2 and Figure A.1 more columns than Figure 1,NA,NA,NA,NA,TRUE,NA
+appendix_b_se_too_large,"Appendix B, p. 1232",descriptive,Table A.3's standard errors on vote choice are usually too large for inference,NA,NA,NA,NA,TRUE,NA
+appendix_b_center_right_similar,"Appendix B, p. 1232",descriptive,Figure A.1's center and right columns are similar,NA,NA,NA,NA,TRUE,NA

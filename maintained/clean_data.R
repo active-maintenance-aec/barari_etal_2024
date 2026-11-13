@@ -46,6 +46,8 @@ dat_long <-
     Sign = recode_factor(sign, `1` = "Positive", `-1` = "Negative", `0` = "No effect")
   )
 
+# clean_data/ is gitignored, so a fresh clone does not have it.
+dir.create(here::here("maintained", "clean_data"), showWarnings = FALSE)
 write_rds(dat, here::here("maintained", "clean_data", "dat_clean.rds"))
 write_rds(dat_long, here::here("maintained", "clean_data", "dat_long_clean.rds"))
 write_rds(long_topic, here::here("maintained", "clean_data", "long_topic_clean.rds"))

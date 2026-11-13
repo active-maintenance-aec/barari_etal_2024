@@ -1,5 +1,5 @@
 # barari_etal_2024/ground_truth/run_deposited_scripts.R
-# Output: ground_truth/deposited_output/script_status.csv,
+# Output: ground_truth/archive_run_status.csv, ground_truth/archive_overwrites.csv,
 #   ground_truth/deposited_output/deposited_panel_order.csv,
 #   ground_truth/deposited_output/deposited_table_cells.csv,
 #   ground_truth/deposited_output/deposited_figure_1_plot_data.csv,
@@ -12,7 +12,9 @@
 #   console transcript. The copy matters because a script run inside original/ can overwrite
 #   deposited files. The stripped run matters because this deposit ships the intermediate
 #   objects its own first script is supposed to write, so a script can appear to pass on
-#   files that nothing in the archive actually produced.
+#   files that nothing in the archive actually produced. The two runs are recorded one row
+#   per script per pass, as_shipped and stripped, and every file either pass's code wrote or
+#   failed to rebuild is recorded in archive_overwrites.csv.
 
 library(here)
 library(tidyverse)
@@ -27,6 +29,16 @@ work_dir <- file.path(tempdir(), "deposited_archive")
 unlink(work_dir, recursive = TRUE)
 dir.create(work_dir, recursive = TRUE)
 invisible(file.copy(list.files(here::here("original"), full.names = TRUE), work_dir))
+
+# What each copy holds before anything runs, so that what the deposit's own code writes can
+# be told apart afterwards from what the drivers below write to read its results out.
+snapshot <- function(dir) {
+  files <- list.files(dir)
+  tibble(file = files, md5 = unname(tools::md5sum(file.path(dir, files))),
+         mtime = file.mtime(file.path(dir, files)))
+}
+driver_artefact <- "^driver_|_plot_data\\.csv$|_rows\\.txt$"
+work_before <- snapshot(work_dir)
 
 # One driver per deposited script ----
 # Each driver sources the deposited file unmodified and then writes out the objects that
@@ -83,23 +95,65 @@ unlink(strip_dir, recursive = TRUE)
 dir.create(strip_dir, recursive = TRUE)
 keep <- c("data.csv", str_subset(list.files(here::here("original")), "\\.R$"))
 invisible(file.copy(file.path(here::here("original"), keep), strip_dir))
+strip_before <- snapshot(strip_dir)
 
 stripped_status <-
   imap(drivers, \(driver, name) run_one(name, str_glue('source("{name}.R")'), strip_dir, "strip")) |>
-  list_rbind() |>
-  transmute(script, completes_stripped = completes, message_stripped = message)
+  list_rbind()
 
-script_status <-
-  script_status |>
-  rename(exit_status_as_deposited = exit_status,
-         completes_as_deposited = completes,
-         message_as_deposited = message) |>
-  left_join(stripped_status, by = "script") |>
-  select(script, exit_status_as_deposited, completes_as_deposited, completes_stripped,
-         message_as_deposited, message_stripped)
+# The two archive tables, in the canonical long form ----
+# prep_data.R is the cleaning script; the other five are analysis scripts. A script's
+# stopped_at is the first error line its run printed.
+run_status <-
+  bind_rows(as_shipped = script_status, stripped = stripped_status, .id = "pass") |>
+  transmute(
+    pass, script,
+    role = if_else(script == "prep_data.R", "cleaning", "analysis"),
+    exit_status,
+    outcome = if_else(exit_status == 0, "clean", "error"),
+    stopped_at = na_if(message, "")
+  )
 
-write_csv(script_status, file.path(out_dir, "script_status.csv"))
-print(script_status, width = 200)
+stopifnot(nrow(run_status) == 2 * length(drivers))
+
+# A deposited file the run wrote over, or a file the deposit's code added, is recorded under
+# its pass. The stripped copy withholds the three .rds intermediates the deposit ships, and
+# each gets a row under that pass: rebuilt if the deposit's own code wrote it again, withheld
+# if it did not.
+written <- function(dir, before) {
+  after <- snapshot(dir) |> filter(!str_detect(file, driver_artefact))
+  after |>
+    left_join(before, by = "file", suffix = c("", "_before")) |>
+    filter(is.na(mtime_before) | mtime != mtime_before) |>
+    transmute(file, effect = if_else(is.na(md5_before), "added", "overwritten"),
+              matches_deposit = if_else(is.na(md5_before), NA, md5 == md5_before))
+}
+
+intermediates <- str_subset(setdiff(list.files(here::here("original")), keep), "\\.rds$")
+stripped_written <- written(strip_dir, strip_before)
+
+overwrites <- bind_rows(
+  written(work_dir, work_before) |> mutate(pass = "as_shipped"),
+  tibble(pass = "stripped", file = intermediates) |>
+    mutate(
+      rebuilt = file %in% stripped_written$file,
+      effect = if_else(rebuilt, "rebuilt", "withheld"),
+      matches_deposit = if_else(
+        rebuilt,
+        unname(tools::md5sum(file.path(strip_dir, file))) ==
+          unname(tools::md5sum(file.path(here::here("original"), file))),
+        NA
+      )
+    ) |>
+    select(-rebuilt),
+  stripped_written |> filter(!file %in% intermediates) |> mutate(pass = "stripped")
+) |>
+  select(pass, file, effect, matches_deposit)
+
+write_csv(run_status, here::here("ground_truth", "archive_run_status.csv"))
+write_csv(overwrites, here::here("ground_truth", "archive_overwrites.csv"))
+print(run_status, n = nrow(run_status), width = 200)
+print(overwrites)
 
 # Which group each deposited figure script plots into which panel ----
 # The article letters Figure 1's panels and assigns groups to those letters in its caption.

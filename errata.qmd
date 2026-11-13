@@ -56,7 +56,7 @@ pv <- function(x) sprintf("%.3f", x)
 # Entry 8: the deposit's size, its weighted Biden approval, and how far Table A.1 sits from
 # the published profile, all read from the maintained output and the ground truth.
 gt <- read_csv(here("ground_truth", "barari_etal_2024_ground_truth.csv"), show_col_types = FALSE)
-a1_block <- gt |> filter(table_figure == "Table A.1")
+a1_block <- gt |> filter(location == "Table A.1")
 a1_gaps <- abs(a1_block$value_rewrite - a1_block$value_paper)
 a1_n_miss <- sum(a1_block$match_rewrite == 0, na.rm = TRUE)
 a1_n_cells <- sum(!is.na(a1_block$match_rewrite))
@@ -325,6 +325,13 @@ if (!all(value_placed)) {
   print(quantified |> filter(!value_placed) |> select(entry, title, corrected_values, corrected))
   stop("An entry's corrected_values are not in the spans of its corrected sentence.")
 }
+
+# The placement is written to the spine as values_in_spans, one logical per entry: TRUE
+# when every corrected value is the token its sentence prints, NA for an entry with no
+# values. The gate above stops on FALSE, because no entry here stores a value on the
+# claim's scale rather than the sentence's.
+entries <- entries |>
+  left_join(transmute(quantified, entry, values_in_spans = value_placed), by = "entry")
 
 # A quantity entry that corrects something has to say which quantity, and an entry that
 # corrects none (any other class, or a note) may not carry a value. The class is the
